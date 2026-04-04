@@ -27,6 +27,7 @@ interface Question {
 
 export const Activities: React.FC = () => {
   const [activeActivity, setActiveActivity] = useState<'selection' | 'quiz' | 'fill-blank'>('selection');
+  const [selectedUnit, setSelectedUnit] = useState<string | 'All'>('All');
 
   if (activeActivity === 'selection') {
     return (
@@ -54,15 +55,42 @@ export const Activities: React.FC = () => {
             onClick={() => setActiveActivity('fill-blank')}
           />
         </div>
+
+        <GlassCard className="p-8">
+          <header className="mb-6">
+            <h2 className="text-xl font-bold flex items-center gap-2">
+              <Zap className="text-primary" />
+              Targeted Training
+            </h2>
+            <p className="text-muted text-xs">Filter activities by a specific curriculum unit.</p>
+          </header>
+          
+          <div className="flex flex-wrap gap-3">
+            {['All', 'Unit 1', 'Unit 2', 'Unit 3', 'Unit 4', 'Unit 5', 'Unit 6', 'Unit 7', 'Unit 8'].map(unit => (
+              <button
+                key={unit}
+                onClick={() => setSelectedUnit(unit)}
+                className={clsx(
+                  "px-6 py-2 rounded-DEFAULT text-xs font-bold transition-all border",
+                  selectedUnit === unit 
+                    ? "bg-primary text-bg border-primary shadow-[0_0_15px_rgba(195,192,255,0.3)]" 
+                    : "bg-white/5 border-white/10 text-muted hover:text-on-surface hover:border-white/20"
+                )}
+              >
+                {unit}
+              </button>
+            ))}
+          </div>
+        </GlassCard>
       </div>
     );
   }
 
   if (activeActivity === 'quiz') {
-    return <QuizEngine onExit={() => setActiveActivity('selection')} />;
+    return <QuizEngine onExit={() => setActiveActivity('selection')} unit={selectedUnit} />;
   }
 
-  return <FillBlankEngine onExit={() => setActiveActivity('selection')} />;
+  return <FillBlankEngine onExit={() => setActiveActivity('selection')} unit={selectedUnit} />;
 };
 
 const ActivityCard: React.FC<{ 
@@ -92,7 +120,7 @@ const ActivityCard: React.FC<{
   </GlassCard>
 );
 
-const QuizEngine: React.FC<{ onExit: () => void }> = ({ onExit }) => {
+const QuizEngine: React.FC<{ onExit: () => void, unit: string }> = ({ onExit, unit }) => {
   const { words } = useWordStore();
   const { addXP, updateStreak } = useProgressStore();
   
@@ -113,10 +141,15 @@ const QuizEngine: React.FC<{ onExit: () => void }> = ({ onExit }) => {
   }, [words]);
 
   const generateQuestions = useCallback(() => {
-    if (words.length < 5) return;
+    // Filter by unit if not 'All'
+    const filteredWords = unit === 'All' 
+      ? words 
+      : words.filter(w => w.tags.includes(unit));
+
+    if (filteredWords.length < 2) return;
     
-    // Pick 10 random words
-    const quizWords = [...words]
+    // Pick 10 random words (or fewer if not enough)
+    const quizWords = [...filteredWords]
       .sort(() => Math.random() - 0.5)
       .slice(0, 10);
     
@@ -149,7 +182,7 @@ const QuizEngine: React.FC<{ onExit: () => void }> = ({ onExit }) => {
     setCurrentIndex(0);
     setScore(0);
     setIsFinished(false);
-  }, [words, getRandomDistractors]);
+  }, [words, unit, getRandomDistractors]);
 
   useEffect(() => {
     generateQuestions();
@@ -209,7 +242,15 @@ const QuizEngine: React.FC<{ onExit: () => void }> = ({ onExit }) => {
   const q = questions[currentIndex];
 
   return (
-    <div className="max-w-3xl mx-auto space-y-12">
+    <div className="max-w-3xl mx-auto space-y-12 relative">
+      <button 
+        onClick={onExit}
+        className="absolute -top-12 right-0 p-3 hover:bg-white/5 rounded-full transition-colors group"
+        title="Exit Activity"
+      >
+        <XCircle className="text-muted group-hover:text-danger transition-colors" size={24} />
+      </button>
+
       <div className="space-y-4">
         <div className="flex justify-between items-center text-xs font-bold uppercase tracking-widest text-muted">
           <span>Neural Quiz Session</span>
@@ -294,7 +335,7 @@ const QuizEngine: React.FC<{ onExit: () => void }> = ({ onExit }) => {
   );
 };
 
-const FillBlankEngine: React.FC<{ onExit: () => void }> = ({ onExit }) => {
+const FillBlankEngine: React.FC<{ onExit: () => void, unit: string }> = ({ onExit, unit }) => {
   const { words } = useWordStore();
   const { addXP, updateStreak } = useProgressStore();
   
@@ -307,10 +348,14 @@ const FillBlankEngine: React.FC<{ onExit: () => void }> = ({ onExit }) => {
   const [isFinished, setIsFinished] = useState(false);
 
   useEffect(() => {
-    if (words.length > 5) {
-      setExercises([...words].sort(() => Math.random() - 0.5).slice(0, 5));
+    const filteredWords = unit === 'All' 
+      ? words 
+      : words.filter(w => w.tags.includes(unit));
+
+    if (filteredWords.length > 0) {
+      setExercises([...filteredWords].sort(() => Math.random() - 0.5).slice(0, 5));
     }
-  }, [words]);
+  }, [words, unit]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -360,8 +405,16 @@ const FillBlankEngine: React.FC<{ onExit: () => void }> = ({ onExit }) => {
   const current = exercises[currentIndex];
 
   return (
-    <div className="max-w-3xl mx-auto space-y-12">
-       <div className="space-y-4">
+    <div className="max-w-3xl mx-auto space-y-12 relative">
+      <button 
+        onClick={onExit}
+        className="absolute -top-12 right-0 p-3 hover:bg-white/5 rounded-full transition-colors group"
+        title="Exit Activity"
+      >
+        <XCircle className="text-muted group-hover:text-danger transition-colors" size={24} />
+      </button>
+
+      <div className="space-y-4">
         <div className="flex justify-between items-center text-xs font-bold uppercase tracking-widest text-muted">
           <span>Syntax Terminal Session</span>
           <span>{currentIndex + 1} / {exercises.length}</span>
