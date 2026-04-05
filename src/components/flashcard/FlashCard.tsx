@@ -26,7 +26,19 @@ export const FlashCard: React.FC<FlashCardProps> = ({ word, isFlipped, onFlip })
           <div className="w-full flex justify-between items-start">
              <div className="p-2 bg-primary/10 rounded-full text-primary hover:bg-primary/20 transition-colors" onClick={(e) => {
                e.stopPropagation();
-               window.speechSynthesis.speak(new SpeechSynthesisUtterance(word.english));
+               const utterance = new SpeechSynthesisUtterance(word.english);
+               utterance.lang = 'en-US';
+               utterance.rate = 0.85; // Slightly slower for better clarity and learning
+               
+               // Try to find a high quality English voice if available
+               const voices = window.speechSynthesis.getVoices();
+               const englishVoice = voices.find(v => 
+                 v.lang.startsWith('en') && 
+                 (v.name.includes('Google') || v.name.includes('Natural') || v.name.includes('Enhanced'))
+               );
+               if (englishVoice) utterance.voice = englishVoice;
+               
+               window.speechSynthesis.speak(utterance);
              }}>
                <Volume2 size={20} />
              </div>
