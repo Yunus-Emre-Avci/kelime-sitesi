@@ -27,18 +27,21 @@ export const FlashCard: React.FC<FlashCardProps> = ({ word, isFlipped, onFlip })
              <div className="p-2 bg-primary/10 rounded-full text-primary hover:bg-primary/20 transition-colors" onClick={(e) => {
                e.stopPropagation();
                const utterance = new SpeechSynthesisUtterance(word.english);
-               utterance.lang = 'en-US';
-               utterance.rate = 0.85; // Slightly slower for better clarity and learning
-               
-               // Try to find a high quality English voice if available
-               const voices = window.speechSynthesis.getVoices();
-               const englishVoice = voices.find(v => 
-                 v.lang.startsWith('en') && 
-                 (v.name.includes('Google') || v.name.includes('Natural') || v.name.includes('Enhanced'))
-               );
-               if (englishVoice) utterance.voice = englishVoice;
-               
-               window.speechSynthesis.speak(utterance);
+                utterance.lang = 'en-US';
+                utterance.rate = 0.85; // Slightly slower for better clarity and learning
+                
+                // Try to find a high quality English voice if available
+                const voices = window.speechSynthesis.getVoices();
+                const englishVoice = voices.find(v => 
+                  (v.lang.startsWith('en-US') || v.lang.startsWith('en-GB')) && 
+                  (v.name.includes('Google') || v.name.includes('Natural') || v.name.includes('Premium') || v.name.includes('Microsoft'))
+                ) || voices.find(v => v.lang.startsWith('en-US')) || voices.find(v => v.lang.startsWith('en-GB')) || voices.find(v => v.lang.startsWith('en'));
+                
+                if (englishVoice) {
+                  utterance.voice = englishVoice;
+                }
+                
+                window.speechSynthesis.speak(utterance);
              }}>
                <Volume2 size={20} />
              </div>
