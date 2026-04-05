@@ -1385,6 +1385,17 @@ export const seedWords: SeedWord[] = [
     ]
   },
   {
+    "english": "complex",
+    "phonetic": "/ˈkɒmpleks/",
+    "turkishMeaning": "",
+    "dictionaryDefinition": "(adj) difficult to understand or find an answer to because of having many different parts",
+    "exampleSentence": "",
+    "level": "B1",
+    "tags": [
+      "Unit 3"
+    ]
+  },
+  {
     "english": "consultation",
     "phonetic": "/ˌkɒnsəl'teɪʃən/",
     "turkishMeaning": "",
@@ -1628,7 +1639,7 @@ export const seedWords: SeedWord[] = [
   },
   {
     "english": "safety net",
-    "phonetic": "/'selftret net/",
+    "phonetic": "/ˈseɪfti net/",
     "turkishMeaning": "",
     "dictionaryDefinition": "(n phr) something used to protect a person against possible hardship or difficulty",
     "exampleSentence": "",
