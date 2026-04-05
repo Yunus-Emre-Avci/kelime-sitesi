@@ -97,10 +97,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "import",
     "phonetic": "/ɪm'pɔ:t/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "ithalat",
+    "turkishDefinition": "Başka bir ülkeden satmak veya kullanmak amacıyla mal getirmek.",
     "dictionaryDefinition": "(v) to bring products in from another country to sell or use",
-    "exampleSentence": "",
+    "exampleSentence": "The country needs to import more energy to meet demand.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -109,10 +109,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "investigate",
     "phonetic": "/ɪn'vestɪɡeɪt/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "araştırmak, incelemek",
+    "turkishDefinition": "Gerçeği ortaya çıkarmak için bir şeyi dikkatle muayene etmek.",
     "dictionaryDefinition": "(v) \"to carefully examine something, especially to discover the truth about it\"",
-    "exampleSentence": "",
+    "exampleSentence": "The police are investigating the cause of the accident.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -121,10 +121,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "labour",
     "phonetic": "/ˈleɪbə/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "iş gücü, emek",
+    "turkishDefinition": "Özellikle el ile yapılan fiziksel çalışma veya işçiler.",
     "dictionaryDefinition": "(n) work",
-    "exampleSentence": "",
+    "exampleSentence": "Manual labour is still important in some industries.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -133,10 +133,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "multinational",
     "phonetic": "/ˌmʌltiˈnæʃənəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "çok uluslu",
+    "turkishDefinition": "Birden fazla ülkede aktif olarak faaliyet gösteren şirket.",
     "dictionaryDefinition": "(adj) active in several countries",
-    "exampleSentence": "",
+    "exampleSentence": "Coca-Cola is a successful multinational company.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -145,10 +145,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "outsourcing",
     "phonetic": "/ˈaʊtˌsɔːsɪŋ/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "dış kaynak kullanımı",
+    "turkishDefinition": "Bir şirketin işinin bir kısmını başka bir şirkete yaptırması.",
     "dictionaryDefinition": "(n) a situation in which a company pays to have part of its work done by another company",
-    "exampleSentence": "",
+    "exampleSentence": "Outsourcing IT services can save the company money.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -157,10 +157,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "overseas",
     "phonetic": "/ˌəʊvə'si:z/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "yurt dışı, deniz aşırı",
+    "turkishDefinition": "Kendi ülkesinin dışındaki ülkelerde veya ülkelere.",
     "dictionaryDefinition": "(adv) \"in, from, or to other countries\"",
-    "exampleSentence": "",
+    "exampleSentence": "Many students want to study overseas for a year.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -193,10 +193,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "production costs",
     "phonetic": "/prə'dʌkʃən kɒsts/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "üretim maliyetleri",
+    "turkishDefinition": "Bir şeyi üretmek için harcanan toplam para miktarı.",
     "dictionaryDefinition": "(n) the money spent to make something",
-    "exampleSentence": "",
+    "exampleSentence": "High energy prices have increased production costs.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -205,10 +205,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "profit",
     "phonetic": "/ˈprɒfɪt/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "kâr",
+    "turkishDefinition": "Gelir ile gider arasındaki olumlu fark; kazanç.",
     "dictionaryDefinition": "(n) financial gain",
-    "exampleSentence": "",
+    "exampleSentence": "The company made a huge profit this year.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -217,10 +217,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "prosperity",
     "phonetic": "/prɒs'perəti/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "refah, zenginlik",
+    "turkishDefinition": "Başarılı olma ve çok paraya sahip olma durumu.",
     "dictionaryDefinition": "(n) the state of being successful and having a lot of money",
-    "exampleSentence": "",
+    "exampleSentence": "Economic prosperity is the goal of every nation.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -229,10 +229,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "purchase",
     "phonetic": "/ˈpɜːtʃəs/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "satın almak",
+    "turkishDefinition": "Bir mülkü veya malı para karşılığı edinmek.",
     "dictionaryDefinition": "(v) to buy something",
-    "exampleSentence": "",
+    "exampleSentence": "You can purchase the tickets online or at the station.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -241,10 +241,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "supply chain",
     "phonetic": "/sə'plaɪ tʃeɪn/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "tedarik zinciri",
+    "turkishDefinition": "Bir ürünün üretimden tüketiciye ulaşana kadarki süreci.",
     "dictionaryDefinition": "(n) the system of people and things that are involved in getting a product from the place where it is made to the person who buys it",
-    "exampleSentence": "",
+    "exampleSentence": "Any break in the supply chain can cause delays.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -253,10 +253,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "transport",
     "phonetic": "/ˈtrænspɔːt/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "nakliyat, ulaşım",
+    "turkishDefinition": "İnsanların veya malların bir yerden başka yere taşınması.",
     "dictionaryDefinition": "(n) the movement of people or goods from one place to another",
-    "exampleSentence": "",
+    "exampleSentence": "Public transport is a great way to reduce traffic.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -265,10 +265,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "confuse",
     "phonetic": "/kən'fju:z/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "kafasını karıştırmak",
+    "turkishDefinition": "Birinin zihnini karıştırmak veya bir şeyi zorlaştırmak.",
     "dictionaryDefinition": "(v) \"to mix up someone's mind or ideas, or to make something difficult to understand\"",
-    "exampleSentence": "",
+    "exampleSentence": "Too many options can confuse the customers.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -277,10 +277,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "consumption",
     "phonetic": "/kən'sʌmpʃən/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "tüketim",
+    "turkishDefinition": "Birinin aşındırdığı, yediği veya kullandığı miktar.",
     "dictionaryDefinition": "(n) the amount of something that someone uses, eats or drinks",
-    "exampleSentence": "",
+    "exampleSentence": "The consumption of electricity increases in winter.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -289,10 +289,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "continue",
     "phonetic": "/kən'tɪnju:/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "devam etmek",
+    "turkishDefinition": "Bir şeyin olmaya, var olmaya veya yapılmaya sürmesi.",
     "dictionaryDefinition": "(v) \"to keep happening, existing or doing something, or to cause something or someone to do this\"",
-    "exampleSentence": "",
+    "exampleSentence": "We will continue our discussion after the break.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -301,10 +301,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "convenience",
     "phonetic": "/kən'vi:niəns/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "kolaylık, uygunluk",
+    "turkishDefinition": "Bir şeyin amaçlarınıza uygun ve en az zorluktaki durumu.",
     "dictionaryDefinition": "(n) the state of being suitable for your purposes and causing the least difficulty",
-    "exampleSentence": "",
+    "exampleSentence": "Online banking offers a lot of convenience to users.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -313,10 +313,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "dominant",
     "phonetic": "/'dɒmɪnənt/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "baskın, egemen",
+    "turkishDefinition": "Kendi türündeki her şeyden daha önemli veya güçlü olan.",
     "dictionaryDefinition": "(adj) more important, stronger or more noticeable than anything else of the same type",
-    "exampleSentence": "",
+    "exampleSentence": "English is the dominant language in international business.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -325,10 +325,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "ensure",
     "phonetic": "/ɪn'ʃɔ:/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "garantiye almak",
+    "turkishDefinition": "Bir şeyin yapıldığından veya olduğundan emin olmak.",
     "dictionaryDefinition": "(v) to make certain that something is done or happens",
-    "exampleSentence": "",
+    "exampleSentence": "Please ensure that all windows are closed before leaving.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -337,10 +337,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "exclude",
     "phonetic": "/ɪk'sklu:d/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "hariç tutmak",
+    "turkishDefinition": "Birinin bir yer girmesini veya aktiviteye katılmasını önlemek.",
     "dictionaryDefinition": "(v) to prevent someone or something from entering a place or taking part in an activity",
-    "exampleSentence": "",
+    "exampleSentence": "The price excludes breakfast and other extra costs.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -349,10 +349,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "exhaust",
     "phonetic": "/ɪɡ'zɔ:st/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "tüketmek, bitirmek",
+    "turkishDefinition": "Bir şeyi tamamen kullanmak veya bitirmek.",
     "dictionaryDefinition": "(v) to use something completely",
-    "exampleSentence": "",
+    "exampleSentence": "We have exhausted all our options for this problem.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -361,10 +361,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "experiment",
     "phonetic": "/ɪk'sperɪmənt/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "deney, deneme",
+    "turkishDefinition": "Yeni bir yolu test etmek veya denemek için yapılan işlem.",
     "dictionaryDefinition": "(v) to test or to try a new way of doing something",
-    "exampleSentence": "",
+    "exampleSentence": "Scientists are conducting an experiment on new fuels.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -373,10 +373,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "increase",
     "phonetic": "/ɪn'kri:s/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "artırmak, çoğalmak",
+    "turkishDefinition": "Bir şeyin daha büyük veya daha fazla hale gelmesi.",
     "dictionaryDefinition": "(v) to become larger or greater",
-    "exampleSentence": "",
+    "exampleSentence": "The population of the city continues to increase.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -385,10 +385,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "inflation",
     "phonetic": "/ɪn'fleɪʃən/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "enflasyon",
+    "turkishDefinition": "Bir ekonomideki fiyatların sürekli olarak yükselmesi.",
     "dictionaryDefinition": "(n) a continuing rise in prices in an economy",
-    "exampleSentence": "",
+    "exampleSentence": "High inflation reduces the purchasing power of people.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -397,10 +397,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "influence",
     "phonetic": "/'ɪnfluəns/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "etki",
+    "turkishDefinition": "İnsanlar veya şeyler üzerinde etkili olma gücü.",
     "dictionaryDefinition": "(n) the power to have an effect on people or things or someone or something which is able to do this",
-    "exampleSentence": "",
+    "exampleSentence": "Social media has a big influence on young people.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -409,10 +409,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "monopoly",
     "phonetic": "/mə'nɒpəli/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "tekel",
+    "turkishDefinition": "Bir iş alanının tamamına sahip olup başkasına yer bırakmamak.",
     "dictionaryDefinition": "(n) \"complete control of something, especially an area of business, so that others have no share\"",
-    "exampleSentence": "",
+    "exampleSentence": "The state had a monopoly on the postal service.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -421,10 +421,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "outlet",
     "phonetic": "/'aʊtlet/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "satış noktası",
+    "turkishDefinition": "Bir şirketin ürünlerini satan perakende mağazası.",
     "dictionaryDefinition": "(n) a shop that is one of many owned by a particular company selling the goods produced by the company",
-    "exampleSentence": "",
+    "exampleSentence": "Apple has many retail outlets all around the world.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -433,10 +433,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "refuse",
     "phonetic": "/rɪ'fju:z/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "reddetmek",
+    "turkishDefinition": "Bir şeyi yapmayı veya kabul etmeyi istemediğini söylemek.",
     "dictionaryDefinition": "(v) to say that you will not do or accept something",
-    "exampleSentence": "",
+    "exampleSentence": "I had to refuse the invitation because I was busy.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -445,10 +445,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "relatively",
     "phonetic": "/'relətɪvli/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "nispeten, oldukça",
+    "turkishDefinition": "Diğer benzer şeylerle karşılaştırıldığında oldukça iyi/kötü.",
     "dictionaryDefinition": "(adv) \"quite good, bad, etc. in comparison with other similar things or with what you expect\"",
-    "exampleSentence": "",
+    "exampleSentence": "The test was relatively easy compared to the last one.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -457,10 +457,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "remove",
     "phonetic": "/rɪ'mu:v/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "çıkarmak, kaldırmak",
+    "turkishDefinition": "Bir şeyi veya birini bir yerden alıp başka yere götürmek.",
     "dictionaryDefinition": "(v) to take something or someone away from somewhere, or off something",
-    "exampleSentence": "",
+    "exampleSentence": "You must remove your shoes before entering the house.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -469,10 +469,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "reputation",
     "phonetic": "/ˌrepjə'teɪʃən/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "itibar, ün",
+    "turkishDefinition": "Birinin karakteri hakkında insanların sahip olduğu genel görüş.",
     "dictionaryDefinition": "(n) the general opinion that people have about someone or something based on their character in the past",
-    "exampleSentence": "",
+    "exampleSentence": "The hotel has a very good reputation for its service.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -481,10 +481,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "selling point",
     "phonetic": "/'selɪŋ pɔɪnt/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "satış noktası, cazip özellik",
+    "turkishDefinition": "İnsanları bir ürünü satın almaya ikna eden özellik.",
     "dictionaryDefinition": "(n) a feature that persuades people to buy a product",
-    "exampleSentence": "",
+    "exampleSentence": "The long battery life is a big selling point for this phone.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -493,10 +493,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "specialty",
     "phonetic": "/'speʃəlti/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "uzmanlık alanı, özel ürün",
+    "turkishDefinition": "Bir yerin veya kişinin özellikle tanındığı ürün veya konu.",
     "dictionaryDefinition": "(n) a product that a place is especially known for",
-    "exampleSentence": "",
+    "exampleSentence": "Seafood is the specialty of this local restaurant.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -505,10 +505,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "study",
     "phonetic": "/'stʌdi/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "incelemek, çalışmak",
+    "turkishDefinition": "Bir şeyi yeni bilgiler keşfetmek için dikkatle incelemek.",
     "dictionaryDefinition": "(v) to examine something very carefully",
-    "exampleSentence": "",
+    "exampleSentence": "Researchers are studying the effects of the new drug.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -517,10 +517,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "supplier",
     "phonetic": "/ə'plaɪə/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "tedarikçi",
+    "turkishDefinition": "Belirli bir tür mal sağlayan kişi veya şirket.",
     "dictionaryDefinition": "(n) a person or company that provides goods of a particular kind",
-    "exampleSentence": "",
+    "exampleSentence": "We need to find a new supplier for office materials.",
     "level": "B1",
     "tags": [
       "Unit 1"
@@ -529,10 +529,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "adviser",
     "phonetic": "/əd'vaɪzə/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "danışman",
+    "turkishDefinition": "Belirli bir konuda tavsiye veya bilgi veren uzman kişi.",
     "dictionaryDefinition": "(n) somebody whose job is to give advice about a subject",
-    "exampleSentence": "",
+    "exampleSentence": "The student met with her academic adviser to plan her courses.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -541,10 +541,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "campus",
     "phonetic": "/ˈkæm.pəs/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "kampüs, yerleşke",
+    "turkishDefinition": "Bir üniversitenin veya kolejin binalarının ve arazisinin tamamı.",
     "dictionaryDefinition": "(n) the buildings and land of a college or university",
-    "exampleSentence": "",
+    "exampleSentence": "Living on campus makes it easier to attend early morning lectures.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -553,10 +553,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "complex",
     "phonetic": "/ˈkɒmpleks/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "karmaşık",
+    "turkishDefinition": "Birçok farklı ama birbiriyle ilişkili parçadan oluşan, anlaşılması güç.",
     "dictionaryDefinition": "(adj) involving a lot of different but related parts",
-    "exampleSentence": "",
+    "exampleSentence": "The human brain is an incredibly complex organ.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -565,10 +565,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "emphasis",
     "phonetic": "/ˈem.fə.sɪs/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "vurgu, önem",
+    "turkishDefinition": "Bir şeye verilen özel önem veya dikkat.",
     "dictionaryDefinition": "(n) the particular importance or attention that is given to something",
-    "exampleSentence": "",
+    "exampleSentence": "The course puts a strong emphasis on practical skills.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -577,10 +577,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "innovation",
     "phonetic": "/ˌɪn.əˈveɪ.ʃən/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "yenilik, inovasyon",
+    "turkishDefinition": "Yeni bir fikir, yöntem veya icadın uygulanması.",
     "dictionaryDefinition": "(n) a new idea or method",
-    "exampleSentence": "",
+    "exampleSentence": "Technological innovation is key to any country's economic growth.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -589,10 +589,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "institution",
     "phonetic": "/ˌɪn.stɪˈtʃuː.ʃən/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "kuruluş, kurum",
+    "turkishDefinition": "Üniversite veya banka gibi büyük ve önemli bir organizasyon.",
     "dictionaryDefinition": "(n) a large and important organization such as a university or bank",
-    "exampleSentence": "",
+    "exampleSentence": "Harvard is one of the oldest educational institutions in the US.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -601,10 +601,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "manual",
     "phonetic": "/ˈmænjuəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "el ile yapılan",
+    "turkishDefinition": "Ellerin kullanıldığı, fiziksel güç gerektiren iş.",
     "dictionaryDefinition": "(adj) involving the use of the hands",
-    "exampleSentence": "",
+    "exampleSentence": "Some people find manual jobs more satisfying than office work.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -613,10 +613,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "medical",
     "phonetic": "/ˈmedɪkəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "tıbbi",
+    "turkishDefinition": "Hastalık ve yaralanmaların tedavisi ile ilgili olan.",
     "dictionaryDefinition": "(adj) relating to the treatment of disease and injury",
-    "exampleSentence": "",
+    "exampleSentence": "She decided to go to medical school to become a doctor.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -625,10 +625,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "physical",
     "phonetic": "/ˈfɪzɪkəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "fiziksel, bedensel",
+    "turkishDefinition": "Zihin yerine vücut ile ilgili olan her şey.",
     "dictionaryDefinition": "(adj) relating to the body",
-    "exampleSentence": "",
+    "exampleSentence": "Regular physical exercise is essential for a healthy life.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -637,10 +637,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "practical",
     "phonetic": "/ˈpræktɪkəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "pratik, uygulamalı",
+    "turkishDefinition": "Düşünceler veya hayaller yerine gerçek durumlar ve deneyimlerle ilgili.",
     "dictionaryDefinition": "(adj) relating to experience and real situations not ideas or imagination",
-    "exampleSentence": "",
+    "exampleSentence": "The workshop provided practical training for young engineers.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -649,10 +649,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "professional",
     "phonetic": "/prə'feʃənəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "profesyonel, mesleki",
+    "turkishDefinition": "Özel eğitim veya eğitim gerektiren bir işle ilgili.",
     "dictionaryDefinition": "(adj) relating to a job that needs special education or training",
-    "exampleSentence": "",
+    "exampleSentence": "It is important to maintain professional behavior at the workplace.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -661,10 +661,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "reference",
     "phonetic": "/ˈref.ər.əns/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "referans",
+    "turkishDefinition": "Birinin bir işe uygun olup olmadığını söyleyen tavsiye mektubu.",
     "dictionaryDefinition": "(n) \"a letter that is written by somebody who knows you, to say if you are suitable for a job, course, etc.\"",
-    "exampleSentence": "",
+    "exampleSentence": "He asked his former professor for a character reference.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -673,10 +673,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "requirements",
     "phonetic": "/rɪˈkwaɪə.mənt/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "gereksinimler, şartlar",
+    "turkishDefinition": "İhtiyaç duyulan veya yapılması zorunlu olan şeyler.",
     "dictionaryDefinition": "(n) things which are needed or necessary",
-    "exampleSentence": "",
+    "exampleSentence": "Applicants must meet all the entry requirements.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -685,10 +685,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "secure",
     "phonetic": "/sɪˈkjʊə/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "güvenli, sağlam",
+    "turkishDefinition": "Güvenilir olan ve değişmesi muhtemel olmayan durum.",
     "dictionaryDefinition": "(adj) dependable; not likely to change",
-    "exampleSentence": "",
+    "exampleSentence": "A secure job provides peace of mind for the future.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -697,10 +697,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "statement",
     "phonetic": "/ˈsteɪt.mənt/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "açıklama, ifade",
+    "turkishDefinition": "Resmi olarak söylenen veya yazılan bir görüş veya bilgi.",
     "dictionaryDefinition": "(n) \"something that somebody says or writes officially, or an action done to express an opinion\"",
-    "exampleSentence": "",
+    "exampleSentence": "The company issued an official statement regarding the new policy.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -709,10 +709,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "technical",
     "phonetic": "/ˈteknɪkəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "teknik",
+    "turkishDefinition": "Bilim ve sanayide kullanılan yöntemler veya makinelerle ilgili.",
     "dictionaryDefinition": "(adj) relating to the knowledge machines or methods used in science and industry",
-    "exampleSentence": "",
+    "exampleSentence": "The report was full of technical terms that were hard to understand.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -721,10 +721,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "alternative",
     "phonetic": "/ɒl'tɜ:nətɪv/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "alternatif, seçenek",
+    "turkishDefinition": "Alışılmış olandan farklı olan bir başka seçenek.",
     "dictionaryDefinition": "(n) \"something that is different, especially from what is usual; a choice\"",
-    "exampleSentence": "",
+    "exampleSentence": "Solar energy is a clean alternative to fossil fuels.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -733,10 +733,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "aspect",
     "phonetic": "/'æspekt/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "yön, taraf, boyut",
+    "turkishDefinition": "Bir şeyin belirli bir özelliği veya parçası.",
     "dictionaryDefinition": "(n) a feature of something",
-    "exampleSentence": "",
+    "exampleSentence": "Safety is the most important aspect of car design.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -745,10 +745,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "assignment",
     "phonetic": "/ə'saɪnmənt/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "ödev, görev",
+    "turkishDefinition": "Üniversitede yazılan bir makale veya verilen bir görev.",
     "dictionaryDefinition": "(n) a written essay at university",
-    "exampleSentence": "",
+    "exampleSentence": "The students have to submit their history assignment by Friday.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -757,10 +757,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "community",
     "phonetic": "/kə'mju:nəti/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "topluluk, cemiyet",
+    "turkishDefinition": "Aynı bölgede yaşayan veya aynı ilgileri paylaşan insanlar.",
     "dictionaryDefinition": "(n) the people living in the same area",
-    "exampleSentence": "",
+    "exampleSentence": "The local community worked together to clean the park.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -769,10 +769,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "concrete",
     "phonetic": "/'kɒŋkri:t/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "somut",
+    "turkishDefinition": "Fikirler yerine gerçek şeylere ve örneklere dayanan.",
     "dictionaryDefinition": "(adj) based on actual things and particular examples",
-    "exampleSentence": "",
+    "exampleSentence": "There is no concrete evidence to prove his theory yet.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -781,10 +781,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "core",
     "phonetic": "/kɔ:/, (adj)",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "çekirdek, temel",
+    "turkishDefinition": "Bir şeyin en merkezi ve en temel olan kısmı.",
     "dictionaryDefinition": "\"central, basic\"",
-    "exampleSentence": "",
+    "exampleSentence": "The core subjects in primary school are maths and language.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -793,10 +793,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "core principles",
     "phonetic": "/kɔ: prɪnsəpəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "temel ilkeler",
+    "turkishDefinition": "Bir şeyin temelini oluşturan en önemli değerler.",
     "dictionaryDefinition": "(n phr) key values",
-    "exampleSentence": "",
+    "exampleSentence": "Freedom and equality are the core principles of democracy.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -805,10 +805,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "credible alternative",
     "phonetic": "/'kredəbəl ɒl'tɜ:nətɪv/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "güvenilir alternatif",
+    "turkishDefinition": "İnanılabilir ve sağlam bir yedek seçenek.",
     "dictionaryDefinition": "(n phr) a reliable substitute",
-    "exampleSentence": "",
+    "exampleSentence": "The new bus route is a credible alternative to driving to work.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -817,10 +817,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "deadline",
     "phonetic": "/'ded.laɪn/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "son teslim tarihi",
+    "turkishDefinition": "Bir şeyin yapılması gereken en son zaman veya gün.",
     "dictionaryDefinition": "(n) a time or day by which something must be done",
-    "exampleSentence": "",
+    "exampleSentence": "The deadline for the project is the end of the month.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -829,10 +829,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "degree",
     "phonetic": "/dɪ'ɡri/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "derece, üniversite diploması",
+    "turkishDefinition": "Üniversiteyi bitiren öğrencilere verilen yeterlilik belgesi.",
     "dictionaryDefinition": "(n) \"a course of study at a college or university, or the qualification given to a student after he or she has completed his or her studies\"",
-    "exampleSentence": "",
+    "exampleSentence": "She is going to university to get a degree in biology.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -841,10 +841,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "discipline",
     "phonetic": "/'dɪsəplɪn/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "disiplin, bilim dalı",
+    "turkishDefinition": "Üniversitede çalışılan belirli bir akademik alan.",
     "dictionaryDefinition": "(n) a particular area of study",
-    "exampleSentence": "",
+    "exampleSentence": "Sociology is a fascinating academic discipline.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -853,10 +853,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "dissertation",
     "phonetic": "/ˌdisə'teɪʃən/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "tez, bitirme ödevi",
+    "turkishDefinition": "Üniversite derecesi için yazılan çok uzun bilimsel yazı.",
     "dictionaryDefinition": "(n) a long essay usually for a university degree",
-    "exampleSentence": "",
+    "exampleSentence": "He is writing his dissertation on renewable energy sources.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -865,10 +865,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "distance learning",
     "phonetic": "/'distəns 'lɜːniŋ/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "uzaktan eğitim",
+    "turkishDefinition": "Genellikle internet üzerinden yapılan eğitim türü.",
     "dictionaryDefinition": "(n phr) general education from online teaching",
-    "exampleSentence": "",
+    "exampleSentence": "Distance learning is ideal for people who work full-time.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -877,10 +877,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "employability",
     "phonetic": "/ɪmˌplɔɪə'bɪləti/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "istihdam edilebilirlik",
+    "turkishDefinition": "Birinin iş bulmasını sağlayan beceri ve yetenekleri.",
     "dictionaryDefinition": "(n) the skills and abilities that allow you to be employed",
-    "exampleSentence": "",
+    "exampleSentence": "Internships are great for improving your employability.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -889,10 +889,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "establishment",
     "phonetic": "/ɪ'stæblɪʃmənt/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "kuruluş, tesis etme",
+    "turkishDefinition": "Uzun süre kalıcı olacak bir şeyi başlatma veya kurma eylemi.",
     "dictionaryDefinition": "(n) the act of starting or creating something that will last a long time",
-    "exampleSentence": "",
+    "exampleSentence": "The establishment of the new university took five years.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -901,10 +901,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "examination",
     "phonetic": "/ɪɡˌzæmɪ'neɪʃən/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "sınav, inceleme",
+    "turkishDefinition": "Bir yeterlilik almak için geçilmesi gereken resmi test.",
     "dictionaryDefinition": "(n) a formal test which students must pass to get a specific qualification",
-    "exampleSentence": "",
+    "exampleSentence": "The students are busy preparing for their final examinations.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -913,10 +913,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "in-depth",
     "phonetic": "/ɪn depθ/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "derinlemesine, detaylı",
+    "turkishDefinition": "Ciddi ve çok ayrıntılı bir şekilde yapılan araştırma.",
     "dictionaryDefinition": "(adj) in a serious and detailed way",
-    "exampleSentence": "",
+    "exampleSentence": "The professor gave an in-depth analysis of the economic situation.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -925,10 +925,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "illiteracy",
     "phonetic": "/ɪ'lɪt.ər.ə.si/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "okuma yazma bilmeme",
+    "turkishDefinition": "Okuma ve yazma becerisine sahip olmama durumu.",
     "dictionaryDefinition": "(n) a lack of the ability to read and write",
-    "exampleSentence": "",
+    "exampleSentence": "Illiteracy is a major barrier to modern education.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -937,10 +937,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "journal",
     "phonetic": "/'dʒɜːnəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "akademik dergi",
+    "turkishDefinition": "Araştırma makalelerinin toplandığı düzenli bilimsel yayın.",
     "dictionaryDefinition": "(n) \"is a quarterly, peer-reviewed collection of research papers\"",
-    "exampleSentence": "",
+    "exampleSentence": "His research was published in a leading medical journal.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -949,10 +949,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "lecturer",
     "phonetic": "/'lektʃərə/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "öğretim görevlisi",
+    "turkishDefinition": "Üniversitede ders veren ve araştırma yapan kişi.",
     "dictionaryDefinition": "(n) is the holder of a research position at a university who also teaches",
-    "exampleSentence": "",
+    "exampleSentence": "The lecturer explained the theory very clearly.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -961,10 +961,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "modern phenomenon",
     "phonetic": "/'mɒdən fə'nɒmɪnən/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "modern fenomen, güncel olay",
+    "turkishDefinition": "Son zamanlarda ortaya çıkan yeni bir trend veya durum.",
     "dictionaryDefinition": "(n phr) a recent trend",
-    "exampleSentence": "",
+    "exampleSentence": "Influencer marketing is a modern phenomenon in advertising.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -973,10 +973,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "motivation",
     "phonetic": "/ˌməʊtɪ'veɪʃən/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "motivasyon, isteklilik",
+    "turkishDefinition": "Bir şeyi yapma isteği veya hevesi.",
     "dictionaryDefinition": "(n) willingness to do something",
-    "exampleSentence": "",
+    "exampleSentence": "The secret to success is staying high on motivation.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -985,10 +985,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "online degree",
     "phonetic": "/'ɒnlaɪn dɪ'ɡri/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "online diploma",
+    "turkishDefinition": "Tamamen internet üzerinden alınan akademik yeterlilik.",
     "dictionaryDefinition": "(n phr) an academic qualification obtained from online instruction",
-    "exampleSentence": "",
+    "exampleSentence": "She earned an online degree while working as a nurse.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -997,10 +997,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "peer",
     "phonetic": "/pɪər/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "akran, eş",
+    "turkishDefinition": "Bir gruptaki aynı yaş veya sosyal statüdeki kişi.",
     "dictionaryDefinition": "(n) a person who is the same age or has the same social position or the same abilities as other people in a group",
-    "exampleSentence": "",
+    "exampleSentence": "Children are often influenced by their peers' opinions.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -1009,10 +1009,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "plagiarism",
     "phonetic": "/'pleɪdʒərɪzəm/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "intihal",
+    "turkishDefinition": "Başkasının eserini kaynak göstermeden kendininmiş gibi sunmak.",
     "dictionaryDefinition": "(n) when students copy from or do not acknowledge their sources when writing an essay",
-    "exampleSentence": "",
+    "exampleSentence": "Plagiarism is considered a serious academic offence.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -1021,10 +1021,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "principle",
     "phonetic": "/prɪnsəpəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "prensip, ilke",
+    "turkishDefinition": "Bir şeyin nasıl çalıştığını açıklayan temel gerçek.",
     "dictionaryDefinition": "(adj) a basic truth that explains or controls how something happens or works",
-    "exampleSentence": "",
+    "exampleSentence": "The fundamental principle of justice is fairness to all.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -1033,10 +1033,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "pursue",
     "phonetic": "/pə'sju:/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "peşinden koşmak, sürdürmek",
+    "turkishDefinition": "Bir şeyi başarmaya veya gerçekleştirmeye çalışmak.",
     "dictionaryDefinition": "(v) to try to do or achieve",
-    "exampleSentence": "",
+    "exampleSentence": "She decided to pursue a career in international law.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -1045,10 +1045,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "regard",
     "phonetic": "/rɪ'ɡɑːd/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "dikkate almak, saymak",
+    "turkishDefinition": "Bir kişi veya şey hakkında belirli bir fikre sahip olmak.",
     "dictionaryDefinition": "(v) to consider or have an opinion about something or someone",
-    "exampleSentence": "",
+    "exampleSentence": "He is highly regarded by his colleagues for his honesty.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -1057,10 +1057,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "semester",
     "phonetic": "/sɪ'mestə/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "dönem, sömestr",
+    "turkishDefinition": "Üniversite yılının bölündüğü iki dönemden her biri.",
     "dictionaryDefinition": "(n) one of the two periods a year is divided at college or university",
-    "exampleSentence": "",
+    "exampleSentence": "We will have two major projects this semester.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -1069,10 +1069,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "seminar",
     "phonetic": "/'semɪnɑː/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "seminer",
+    "turkishDefinition": "Bir grup insanın tartıştığı ve ders işlediği akademik toplantı.",
     "dictionaryDefinition": "(n) an occasion when a teacher or expert and a group of people meet to study and discuss something",
-    "exampleSentence": "",
+    "exampleSentence": "I attended a seminar on modern literature last week.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -1081,10 +1081,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "significant",
     "phonetic": "/sɪɡ'nɪfɪkənt/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "önemli, anlamlı",
+    "turkishDefinition": "Önemli, büyük veya dikkate değer olan.",
     "dictionaryDefinition": "(adj) \"important, large or great\"",
-    "exampleSentence": "",
+    "exampleSentence": "There is a significant difference between the two products.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -1093,10 +1093,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "specific",
     "phonetic": "/spə'sɪfɪk/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "belirli, özel",
+    "turkishDefinition": "Belirli bir şeye özgü olan; genel olmayan.",
     "dictionaryDefinition": "(adj) \"relating to one thing and not others; particular\"",
-    "exampleSentence": "",
+    "exampleSentence": "Could you be more specific about what you need?",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -1105,10 +1105,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "stigma",
     "phonetic": "/'stɪɡ.mə/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "damga, leke",
+    "turkishDefinition": "Toplumun bir şeye karşı duyduğu haksız dışlama hissi.",
     "dictionaryDefinition": "(n) a strong feeling of disapproval that most people in a society have about something especially when this is unfair",
-    "exampleSentence": "",
+    "exampleSentence": "There is often a social stigma attached to mental illness.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -1117,10 +1117,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "technological advances",
     "phonetic": "/ˌteknə'lɒdʒɪkəl əd'vɑːnsɪz/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "teknolojik ilerlemeler",
+    "turkishDefinition": "Teknoloji alanındaki yeni gelişmeler ve iyileştirmeler.",
     "dictionaryDefinition": "(n phr) developments in technology",
-    "exampleSentence": "",
+    "exampleSentence": "Technological advances have changed the way we communicate.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -1129,10 +1129,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "term",
     "phonetic": "/tɜːm/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "dönem, terim",
+    "turkishDefinition": "Okul veya üniversite yılının bölündüğü üç dönemden biri.",
     "dictionaryDefinition": "(n) one of the three periods a year is divided at school college or university",
-    "exampleSentence": "",
+    "exampleSentence": "The exams are always at the end of the spring term.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -1141,10 +1141,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "tutor",
     "phonetic": "/'tjuːtə/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "özel öğretmen, danışman hoca",
+    "turkishDefinition": "Öğrencilerin akademik gelişiminden sorumlu olan hoca.",
     "dictionaryDefinition": "(n) the person who assumes responsibility for students' academic and personal welfare",
-    "exampleSentence": "",
+    "exampleSentence": "If you struggle with maths, you might need a private tutor.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -1153,10 +1153,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "virtual",
     "phonetic": "/'vɜːtʃuəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "sanal",
+    "turkishDefinition": "Gerçek gibi olan ancak teknolojik ortamda var olan.",
     "dictionaryDefinition": "(adj) similar to real life but existing in a technological environment",
-    "exampleSentence": "",
+    "exampleSentence": "The company offers virtual tours of their main headquarters.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -1165,10 +1165,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "virtual classroom",
     "phonetic": "/'vɜːtʃuəl 'klɑːsruːm/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "sanal sınıf",
+    "turkishDefinition": "Öğrencilerin internet üzerinden katıldığı eğitim ortamı.",
     "dictionaryDefinition": "(n phr) online course",
-    "exampleSentence": "",
+    "exampleSentence": "Virtual classrooms are becoming more common in universities.",
     "level": "B1",
     "tags": [
       "Unit 2"
@@ -1177,10 +1177,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "aid",
     "phonetic": "/eɪd/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "yardım",
+    "turkishDefinition": "İhtiyaç duyulan yardım veya destek.",
     "dictionaryDefinition": "(n) help",
-    "exampleSentence": "",
+    "exampleSentence": "The organization provides humanitarian aid to war zones.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1189,10 +1189,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "antibiotic",
     "phonetic": "/ˌæntibaɪˈɒtɪk/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "antibiyotik",
+    "turkishDefinition": "Bakterileri öldüren veya çoğalmasını önleyen ilaç.",
     "dictionaryDefinition": "(n) a medicine that kills bacteria",
-    "exampleSentence": "",
+    "exampleSentence": "The doctor prescribed an antibiotic for my throat infection.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1201,10 +1201,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "balance",
     "phonetic": "/ˈbæl.əns/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "denge",
+    "turkishDefinition": "Farklı şeylerin eşit ağırlığa veya öneme sahip olduğu durum.",
     "dictionaryDefinition": "(n) \"a situation where different things are given equal importance, or are considered or divided equally\"",
-    "exampleSentence": "",
+    "exampleSentence": "It's important to find a balance between work and life.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1213,10 +1213,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "clinical",
     "phonetic": "/ˈklɪnɪkəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "klinik",
+    "turkishDefinition": "Tıbbi tedavi ve testlerle ilgili olan.",
     "dictionaryDefinition": "(adj) related to medical treatment and tests",
-    "exampleSentence": "",
+    "exampleSentence": "Clinical trials are necessary to test a new drug's safety.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1225,10 +1225,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "contaminated",
     "phonetic": "/kənˈtæm.ɪ.neɪ.tɪd/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "kirlenmiş, mikrop bulaşmış",
+    "turkishDefinition": "Zehirli, kirli veya saflığı bozulmuş olan.",
     "dictionaryDefinition": "(adj) poisonous or not pure",
-    "exampleSentence": "",
+    "exampleSentence": "The well was contaminated with dangerous chemicals.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1237,10 +1237,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "data",
     "phonetic": "/ˈdeɪtə/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "veri",
+    "turkishDefinition": "Bir şey hakkında toplanan bilgiler veya gerçekler.",
     "dictionaryDefinition": "(n) information or facts about something",
-    "exampleSentence": "",
+    "exampleSentence": "We need to analyze the data before making a decision.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1249,10 +1249,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "in favour of",
     "phonetic": "/ɪn ˈfeɪvər əv/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "-in lehine, destekleyen",
+    "turkishDefinition": "Bir tarafta olmak veya bir şeyi desteklemek.",
     "dictionaryDefinition": "(adj) on the side of or in support of",
-    "exampleSentence": "",
+    "exampleSentence": "Are you in favour of the new tax law?",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1261,10 +1261,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "infected",
     "phonetic": "/ɪnˈfektɪd/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "enfekte, mikrop kapmış",
+    "turkishDefinition": "Hastalık yapıcı bir organizmanın bulaştığı.",
     "dictionaryDefinition": "(adj) affected by an organism that can cause disease",
-    "exampleSentence": "",
+    "exampleSentence": "The wound became infected and needed special care.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1273,10 +1273,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "occur",
     "phonetic": "/əˈkɜː/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "meydana gelmek, oluşmak",
+    "turkishDefinition": "Bir olayın veya durumun gerçekleşmesi.",
     "dictionaryDefinition": "(v) to happen",
-    "exampleSentence": "",
+    "exampleSentence": "Earthquakes often occur without any warning.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1285,10 +1285,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "outbreak",
     "phonetic": "/ˈaʊtbreɪk/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "salgın",
+    "turkishDefinition": "Bir hastalığın aniden ve geniş çapta ortaya çıkması.",
     "dictionaryDefinition": "(n) \"a sudden appearance of something, especially of a disease\"",
-    "exampleSentence": "",
+    "exampleSentence": "There has been an outbreak of flu in the local school.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1297,10 +1297,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "precaution",
     "phonetic": "/prɪˈkɔːʃən/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "önlem, tedbir",
+    "turkishDefinition": "Kötü bir şeyin olmasını önlemek için alınan aksiyon.",
     "dictionaryDefinition": "(n) an action that is taken to stop something bad from happening",
-    "exampleSentence": "",
+    "exampleSentence": "You should take every precaution to stay safe while driving.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1309,10 +1309,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "prescription",
     "phonetic": "/prɪ'skrɪp.ʃən/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "reçete",
+    "turkishDefinition": "Doktorun gerekli ilacı yazdığı yazılı kağıt.",
     "dictionaryDefinition": "(n) a piece of paper on which a doctor writes the details of the medicine or drugs that someone needs",
-    "exampleSentence": "",
+    "exampleSentence": "You can only get these pills with a doctor's prescription.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1321,10 +1321,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "prevention",
     "phonetic": "/prɪ'venʃən/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "önleme",
+    "turkishDefinition": "Bir şeyin olmasını engelleme eylemi.",
     "dictionaryDefinition": "(n) the act of stopping something from happening",
-    "exampleSentence": "",
+    "exampleSentence": "Disease prevention is better than finding a cure.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1333,10 +1333,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "prove",
     "phonetic": "/pruːv/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "kanıtlamak",
+    "turkishDefinition": "Bir şeyin doğru olduğunu göstermek.",
     "dictionaryDefinition": "(v) to show to be true",
-    "exampleSentence": "",
+    "exampleSentence": "Can you prove that you were at home last night?",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1345,10 +1345,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "recover",
     "phonetic": "/rɪ'kʌvə/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "iyileşmek, toparlanmak",
+    "turkishDefinition": "Bir hastalık veya yaralanmadan sonra tamamen sağlığına kavuşmak.",
     "dictionaryDefinition": "(v) to become completely well again after an illness or injury",
-    "exampleSentence": "",
+    "exampleSentence": "It took him three weeks to recover from the surgery.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1357,10 +1357,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "researcher",
     "phonetic": "/rɪ'sɜːtʃə/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "araştırmacı",
+    "turkishDefinition": "Yeni bilgiler keşfetmek için bir konuyu inceleyen kişi.",
     "dictionaryDefinition": "(n) a person who studies a subject in detail to discover new information about it",
-    "exampleSentence": "",
+    "exampleSentence": "The researcher presented her findings at the conference.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1369,10 +1369,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "therapy",
     "phonetic": "/ˈθer.ə.pi/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "terapi",
+    "turkishDefinition": "Hastalıktan sonra birinin kendini daha iyi hissetmesini sağlayan tedavi.",
     "dictionaryDefinition": "(n) \"a treatment that helps somebody feel better, grow stronger, etc., especially after an illness\"",
-    "exampleSentence": "",
+    "exampleSentence": "Music therapy can help patients feel more relaxed.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1381,10 +1381,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "treat",
     "phonetic": "/triːt/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "tedavi etmek",
+    "turkishDefinition": "Hastaya tıbbi bakım sağlamak veya iyileştirmeye çalışmak.",
     "dictionaryDefinition": "(v) give medical care to",
-    "exampleSentence": "",
+    "exampleSentence": "Doctors are learning new ways to treat cancer.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1393,10 +1393,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "treatment",
     "phonetic": "/ˈtriːtmənt/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "tedavi",
+    "turkishDefinition": "Bir hastalığı veya yaralanmayı iyileştirmek için yapılan her şey.",
     "dictionaryDefinition": "(n) something that is done to try to cure an illness or injury",
-    "exampleSentence": "",
+    "exampleSentence": "She is responding well to the new medical treatment.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1405,10 +1405,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "trial",
     "phonetic": "/ˈtraɪəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "deneme, test",
+    "turkishDefinition": "Bir şeyin ne kadar etkili veya güvenli olduğunu bulma testi.",
     "dictionaryDefinition": "(n) a test to find out how effective or safe something is",
-    "exampleSentence": "",
+    "exampleSentence": "The new aircraft is undergoing flight trials this month.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1417,10 +1417,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "urgent",
     "phonetic": "/ˈɜːdʒənt/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "acil",
+    "turkishDefinition": "Derhal dikkat ve müdahale gerektiren durum.",
     "dictionaryDefinition": "(adj) requiring immediate attention",
-    "exampleSentence": "",
+    "exampleSentence": "I have an urgent message for the manager.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1429,10 +1429,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "vaccine",
     "phonetic": "/ˈvæksiːn/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "aşı",
+    "turkishDefinition": "Vücudu hastalıklardan korumak için verilen madde.",
     "dictionaryDefinition": "(n) a substance put into the body of a person or animal to protect them from a disease",
-    "exampleSentence": "",
+    "exampleSentence": "Children receive a vaccine to protect them against polio.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1441,10 +1441,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "virus",
     "phonetic": "/ˈvaɪərəs/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "virüs",
+    "turkishDefinition": "Hastalıklara neden olan mikroorganizma.",
     "dictionaryDefinition": "(n) an organism that causes disease",
-    "exampleSentence": "",
+    "exampleSentence": "The computer was infected by a dangerous virus.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1453,10 +1453,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "wound",
     "phonetic": "/wuːnd/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "yara",
+    "turkishDefinition": "Vücuttaki bir kesik veya darbe sonucu oluşan hasar.",
     "dictionaryDefinition": "(n) \"a damaged area of the body, such as a cut or hole in the skin or hole in the skin or flesh\"",
-    "exampleSentence": "",
+    "exampleSentence": "The nurse cleaned and bandaged the soldier's wound.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1465,10 +1465,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "adequate",
     "phonetic": "/'ædəkwət/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "yeterli, kafi",
+    "turkishDefinition": "Belirli bir amaç için yeterli veya tatmin edici olan.",
     "dictionaryDefinition": "(adj) enough or satisfactory for a particular purpose",
-    "exampleSentence": "",
+    "exampleSentence": "Make sure you have adequate lighting in your study room.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1477,10 +1477,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "adverse",
     "phonetic": "/æd'vɜːs/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "olumsuz, ters",
+    "turkishDefinition": "Bir şey üzerinde negatif veya zararlı etkisi olan.",
     "dictionaryDefinition": "(adj) having a negative or harmful effect on something",
-    "exampleSentence": "",
+    "exampleSentence": "High doses of this medicine can have adverse effects.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1489,10 +1489,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "burden",
     "phonetic": "/'bɜːdən/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "yük, külfet",
+    "turkishDefinition": "Taşıması veya dayanması zor olan görev veya sorumluluk.",
     "dictionaryDefinition": "(n) a duty or responsibility that is hard to bear",
-    "exampleSentence": "",
+    "exampleSentence": "Looking after elderly parents can be a heavy burden.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1501,10 +1501,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "chief",
     "phonetic": "/tʃiːf/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "baş, temel, ana",
+    "turkishDefinition": "En önemli veya başlıca olan.",
     "dictionaryDefinition": "(adj) most important or main",
-    "exampleSentence": "",
+    "exampleSentence": "Lack of funding is the chief cause of the project's delay.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1513,10 +1513,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "complex",
     "phonetic": "/ˈkɒmpleks/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "karmaşık",
+    "turkishDefinition": "Birçok farklı parçaya sahip olduğu için anlaşılması güç olan.",
     "dictionaryDefinition": "(adj) difficult to understand or find an answer to because of having many different parts",
-    "exampleSentence": "",
+    "exampleSentence": "Modern society has many complex social problems.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1525,10 +1525,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "consultation",
     "phonetic": "/ˌkɒnsəl'teɪʃən/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "danışma, görüşme",
+    "turkishDefinition": "Bir konuyu tartışmak veya tavsiye almak için yapılan toplantı.",
     "dictionaryDefinition": "(n) a meeting to discuss something or to get advice",
-    "exampleSentence": "",
+    "exampleSentence": "You should have a consultation with a specialist.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1537,10 +1537,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "contribution",
     "phonetic": "/ˌkɒntrɪ'bjuːʃən/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "katkı",
+    "turkishDefinition": "Bir şeye yardım etmek için verilen para veya emek.",
     "dictionaryDefinition": "(n) an amount of money that is given to help pay for something",
-    "exampleSentence": "",
+    "exampleSentence": "Everyone made a small contribution to the charity fund.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1549,10 +1549,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "controversial",
     "phonetic": "/ˌkɒntrə'vɜːʃəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "tartışmalı",
+    "turkishDefinition": "İnsanlar arasında anlaşmazlığa veya tartışmaya neden olan.",
     "dictionaryDefinition": "(adj) causing disagreement or discussion",
-    "exampleSentence": "",
+    "exampleSentence": "The decision to build a new road was very controversial.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1561,10 +1561,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "conventional",
     "phonetic": "/kən'venʃənəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "geleneksel, alışılagelmiş",
+    "turkishDefinition": "Alışılmış olan uygulamaları veya yöntemleri takip eden.",
     "dictionaryDefinition": "(adj) following the usual practices",
-    "exampleSentence": "",
+    "exampleSentence": "He prefers conventional medicine over alternative treatments.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1573,10 +1573,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "diabetes",
     "phonetic": "/ˌdaɪ.ə'biː.tiːz/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "diyabet, şeker hastalığı",
+    "turkishDefinition": "Vücudun kandaki şeker seviyesini kontrol edemediği hastalık.",
     "dictionaryDefinition": "(n) a disease in which the body cannot control the level of sugar in the blood",
-    "exampleSentence": "",
+    "exampleSentence": "Regular exercise helps manage the symptoms of diabetes.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1585,10 +1585,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "drug",
     "phonetic": "/drʌɡ/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "ilaç",
+    "turkishDefinition": "Tıbbi amaçla veya keyif verici olarak kullanılan kimyasal madde.",
     "dictionaryDefinition": "(n) any natural or artificially made chemical that is used as a medicine",
-    "exampleSentence": "",
+    "exampleSentence": "The company is testing a new drug for heart disease.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1597,10 +1597,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "epidemic",
     "phonetic": "/ˌepɪ'demɪk/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "epidemi, salgın",
+    "turkishDefinition": "Aynı anda çok sayıda insanı etkileyen hastalık.",
     "dictionaryDefinition": "(n) an illness that affects large numbers of people at the same time",
-    "exampleSentence": "",
+    "exampleSentence": "The flu epidemic spread quickly throughout the city.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1609,10 +1609,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "fund",
     "phonetic": "/fʌnd/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "fon sağlamak",
+    "turkishDefinition": "Bir şeyin bedelini ödemek için para sağlamak.",
     "dictionaryDefinition": "(v) to provide money to pay for something",
-    "exampleSentence": "",
+    "exampleSentence": "The government decided to fund the new hospital project.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1621,10 +1621,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "illegal",
     "phonetic": "/ɪ'liːɡəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "yasa dışı",
+    "turkishDefinition": "Kanunlara ve yasalara aykırı olan.",
     "dictionaryDefinition": "(adj) against the law",
-    "exampleSentence": "",
+    "exampleSentence": "Selling these products without a license is illegal.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1633,10 +1633,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "labour",
     "phonetic": "/'leɪbər/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "iş gücü, emek",
+    "turkishDefinition": "Pratik veya fiziksel iş yapan çalışanlar.",
     "dictionaryDefinition": "(n) \"workers, especially people who do practical work with their hands\"",
-    "exampleSentence": "",
+    "exampleSentence": "The cost of labour is higher in developed countries.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1645,10 +1645,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "medical",
     "phonetic": "/'medɪkəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "tıbbi",
+    "turkishDefinition": "Hastalık ve yaralanmaların tedavisiyle ilgili.",
     "dictionaryDefinition": "(adj) related to the treatment of illness and injuries",
-    "exampleSentence": "",
+    "exampleSentence": "He needed urgent medical attention after the car crash.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1657,10 +1657,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "mobility",
     "phonetic": "/məʊ'bɪl.ə.ti/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "hareketlilik",
+    "turkishDefinition": "Kolayca ve rahatça hareket edebilme yeteneği.",
     "dictionaryDefinition": "(n) the ability to move easily",
-    "exampleSentence": "",
+    "exampleSentence": "Regular swimming can help improve your joint mobility.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1669,10 +1669,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "obesity",
     "phonetic": "/əʊ'biː.sə.ti/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "obezite, aşırı şişmanlık",
+    "turkishDefinition": "Sağlığı tehlikeye atacak kadar aşırı kilolu olma durumu.",
     "dictionaryDefinition": "(n) \"the fact of being extremely overweight, in a way that is dangerous for health\"",
-    "exampleSentence": "",
+    "exampleSentence": "Childhood obesity is a growing concern for health officials.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1681,10 +1681,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "patent",
     "phonetic": "/'peɪtənt/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "patent",
+    "turkishDefinition": "Bir icadın haklarını belirli süreyle koruyan resmi belge.",
     "dictionaryDefinition": "(n) the official legal right to make or sell an invention for a particular number of years",
-    "exampleSentence": "",
+    "exampleSentence": "The scientist applied for a patent for her new invention.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1693,10 +1693,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "pharmaceutical",
     "phonetic": "/ˌfɑː.mə'suː.tɪ.kəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "ilaçla ilgili, farmasötik",
+    "turkishDefinition": "Tıbbi ilaç veya tedavi ile ilgili olan.",
     "dictionaryDefinition": "(n) a medicine",
-    "exampleSentence": "",
+    "exampleSentence": "The pharmaceutical industry is investing millions in research.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1705,10 +1705,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "physical",
     "phonetic": "/'fɪzɪkəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "fiziksel",
+    "turkishDefinition": "Zihin yerine vücut ve beden ile bağlantılı olan.",
     "dictionaryDefinition": "(adj) connected with the body",
-    "exampleSentence": "",
+    "exampleSentence": "Physical education is an important part of the school curriculum.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1717,10 +1717,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "physiotherapy",
     "phonetic": "/ˌfɪz.i.əʊ'θer.ə.pi/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "fizyoterapi",
+    "turkishDefinition": "Kas, eklem veya sinir problemlerinin tedavi yöntemi.",
     "dictionaryDefinition": "(n) \"the treatment of problems of the muscles, joints, or nerves\"",
-    "exampleSentence": "",
+    "exampleSentence": "She had physiotherapy sessions to recover from her leg injury.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1729,10 +1729,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "precise",
     "phonetic": "/prɪ'saɪs/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "kesin, tam",
+    "turkishDefinition": "Çok net, doğru ve hatasız olan.",
     "dictionaryDefinition": "(adj) exact and accurate",
-    "exampleSentence": "",
+    "exampleSentence": "We need a precise measurement of the room's dimensions.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1741,10 +1741,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "preventable illness",
     "phonetic": "/prɪ'ventəbəl 'ɪlnəs/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "önlenebilir hastalık",
+    "turkishDefinition": "Kişinin kendine bakmasıyla kaçınılabilecek hastalık.",
     "dictionaryDefinition": "(n phr) a disease that can be avoided, often by a person looking after themselves",
-    "exampleSentence": "",
+    "exampleSentence": "Heart disease is often a preventable illness through diet.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1753,10 +1753,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "professional",
     "phonetic": "/prə'feʃənəl/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "profesyonel",
+    "turkishDefinition": "Eğitimli ve yetenekli kişilere özgü niteliklere sahip olan.",
     "dictionaryDefinition": "(adj) having the qualities that you connect with trained and skilled people",
-    "exampleSentence": "",
+    "exampleSentence": "She gave a very professional presentation to the board.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1765,10 +1765,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "proponent",
     "phonetic": "/prə'pəʊnənt/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "taraftar, savunucu",
+    "turkishDefinition": "Belirli bir fikri veya planı destekleyen kişi.",
     "dictionaryDefinition": "(n) a person who supports a particular idea or plan of action",
-    "exampleSentence": "",
+    "exampleSentence": "He is a strong proponent of renewable energy.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1777,10 +1777,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "regardless",
     "phonetic": "/rɪ'ɡɑːdləs/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "ne olursa olsun, bakmaksızın",
+    "turkishDefinition": "Bir şeyden etkilenmeksizin, her şeye rağmen.",
     "dictionaryDefinition": "(adv) despite; not being affected by something",
-    "exampleSentence": "",
+    "exampleSentence": "The event will go ahead regardless of the weather.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1789,10 +1789,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "safety net",
     "phonetic": "/ˈseɪfti net/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "güvenlik ağı",
+    "turkishDefinition": "Birini olası zorluklara karşı koruyan sistem veya şey.",
     "dictionaryDefinition": "(n phr) something used to protect a person against possible hardship or difficulty",
-    "exampleSentence": "",
+    "exampleSentence": "Social security acts as a safety net for the unemployed.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1801,10 +1801,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "substances",
     "phonetic": "/'sʌbstənsɪz/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "maddeler",
+    "turkishDefinition": "Belirli fiziksel özelliklere sahip olan materyaller.",
     "dictionaryDefinition": "(n) materials with particular physical characteristics",
-    "exampleSentence": "",
+    "exampleSentence": "The lab is testing some unknown chemical substances.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1813,10 +1813,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "surgeon",
     "phonetic": "/'sɜː.dʒən/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "cerrah",
+    "turkishDefinition": "Tıbbi ameliyatlar yapmak üzere eğitilmiş doktor.",
     "dictionaryDefinition": "(n) a doctor who is specially trained to perform medical operations",
-    "exampleSentence": "",
+    "exampleSentence": "The surgeon performed a successful heart bypass operation.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1825,10 +1825,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "surgery",
     "phonetic": "/'sɜːdʒəri/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "cerrahi müdahale, ameliyat",
+    "turkishDefinition": "Hasarlı bir parçayı onarmak için vücudun açılması işlemi.",
     "dictionaryDefinition": "(n) the cutting open of the body to repair a damaged part",
-    "exampleSentence": "",
+    "exampleSentence": "He had to undergo emergency surgery after the accident.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1837,10 +1837,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "symptoms",
     "phonetic": "/'sɪmptəmz/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "belirtiler",
+    "turkishDefinition": "Bir hastalığın neden olduğu tepkiler veya hisler.",
     "dictionaryDefinition": "(n) reactions or feelings of illness that are caused by a disease",
-    "exampleSentence": "",
+    "exampleSentence": "The main symptoms of a cold are coughing and sneezing.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1849,10 +1849,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "tumour",
     "phonetic": "/'tjuː.mər/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "tümör, ur",
+    "turkishDefinition": "Hastalık nedeniyle oluşan hücre kütlesi veya şişlik.",
     "dictionaryDefinition": "(n) a mass of diseased cells that might become a lump or cause illness",
-    "exampleSentence": "",
+    "exampleSentence": "Doctors found a small tumour in his lung during the scan.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1861,10 +1861,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "underfunding",
     "phonetic": "/ˌʌndə'fʌndɪŋ/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "yetersiz finansman",
+    "turkishDefinition": "Bir şey için sağlanan para veya bütçenin eksikliği.",
     "dictionaryDefinition": "(n) the lack of money provided for something e.g. research",
-    "exampleSentence": "",
+    "exampleSentence": "The education system is suffering from chronic underfunding.",
     "level": "B1",
     "tags": [
       "Unit 3"
@@ -1873,10 +1873,10 @@ export const seedWords: SeedWord[] = [
   {
     "english": "ward",
     "phonetic": "/wɔːd/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
+    "turkishMeaning": "koğuş, hastane odası",
+    "turkishDefinition": "Hastanenin yataklı bölümlerine veya büyük odalarına verilen ad.",
     "dictionaryDefinition": "(n) \"one of the parts or large rooms into which a hospital is divided, usually with beds for patients\"",
-    "exampleSentence": "",
+    "exampleSentence": "The patient was moved to the intensive care ward.",
     "level": "B1",
     "tags": [
       "Unit 3"
