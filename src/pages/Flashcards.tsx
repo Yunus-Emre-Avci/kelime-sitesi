@@ -70,7 +70,15 @@ export const Flashcards: React.FC = () => {
 
   const handleResponse = async (quality: number) => {
     const currentWord = sessionWords[currentIndex];
+    if (!currentWord) return;
+
     const isCorrect = quality >= 3;
+    
+    // First, flip the card back to the front to hide the current answer
+    setIsFlipped(false);
+    
+    // Wait for the flip-back animation (300ms is enough for a smooth transition before the word changes)
+    await new Promise(resolve => setTimeout(resolve, 300));
     
     // Update SRS
     await updateWordSRS(currentWord.id, quality);
@@ -80,15 +88,14 @@ export const Flashcards: React.FC = () => {
       await addXP(XP_CORRECT_FLASHCARD);
     }
     
-    // Move to next word
+    // Move to next word in the store
     nextWord(isCorrect, isCorrect ? XP_CORRECT_FLASHCARD : 0);
-    setIsFlipped(false);
 
-    // Check if finished
+    // Check if we just answered the last word
     if (currentIndex + 1 >= sessionWords.length) {
+      setSessionFinished(true);
       await endSession();
       await updateStreak();
-      setSessionFinished(true);
     }
   };
 
@@ -115,7 +122,7 @@ export const Flashcards: React.FC = () => {
             icon={<AlertCircle className="text-danger" />}
             count={words.filter(w => w.wrongCount > 3 || w.masteryLevel <= 1).length}
             link="/flashcards?mode=weak"
-            variant="danger"
+            variant="warning"
           />
           <StudyModeCard 
             title="Random Mix" 
@@ -225,6 +232,14 @@ export const Flashcards: React.FC = () => {
 
   const currentWord = sessionWords[currentIndex];
 
+  if (!currentWord && !sessionFinished) {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-[400px]">
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary"></div>
+      </div>
+    );
+  }
+
   return (
     <div className="max-w-4xl mx-auto h-[calc(100vh-200px)] flex flex-col items-center justify-center gap-12 animate-in fade-in zoom-in-95 relative">
       <button 
@@ -260,10 +275,24 @@ export const Flashcards: React.FC = () => {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
-              className="text-muted text-sm font-medium italic opacity-50 flex items-center gap-2"
+              className="flex flex-col items-center gap-4"
             >
-              <Zap size={14} className="text-primary" />
-              Tap card to show meaning and reveal controls
+              <div className="text-muted text-sm font-medium italic opacity-50 flex items-center gap-2">
+                <Zap size={14} className="text-primary" />
+                Tap card to show meaning and reveal controls
+              </div>
+              <Button 
+                variant="ghost" 
+                size="sm" 
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleResponse(0);
+                }}
+                className="text-[10px] uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity group/skip"
+              >
+                Skip Word
+                <ChevronRight size={12} className="ml-1 group-hover/skip:translate-x-0.5 transition-transform" />
+              </Button>
             </motion.div>
           ) : (
             <motion.div
@@ -312,7 +341,7 @@ const StudyModeCard: React.FC<{
   icon: React.ReactNode, 
   count: number, 
   link: string,
-  variant: string
+  variant: 'primary' | 'secondary' | 'warning' | 'tertiary'
 }> = ({ title, desc, icon, count, link, variant }) => (
   <Link to={link}>
     <GlassCard hover className="p-8 h-full flex flex-col justify-between group">
@@ -328,7 +357,7 @@ const StudyModeCard: React.FC<{
       </div>
       <div className="mt-8 flex justify-between items-center text-xs">
         <span className="uppercase tracking-widest font-bold opacity-30">Status Monitor active</span>
-        <PillBadge variant={variant as any}>{count} Words Available</PillBadge>
+        <PillBadge variant={variant}>{count} Words Available</PillBadge>
       </div>
     </GlassCard>
   </Link>
