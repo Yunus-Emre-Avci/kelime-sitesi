@@ -247,6 +247,7 @@ const AddWordModal: React.FC<{ isOpen: boolean, onClose: () => void }> = ({ isOp
     english: '',
     phonetic: '',
     turkishMeaning: '',
+    turkishDefinition: '',
     dictionaryDefinition: '',
     exampleSentence: '',
     level: 'B1' as 'B1' | 'B2',
@@ -259,6 +260,7 @@ const AddWordModal: React.FC<{ isOpen: boolean, onClose: () => void }> = ({ isOp
       english: '',
       phonetic: '',
       turkishMeaning: '',
+      turkishDefinition: '',
       dictionaryDefinition: '',
       exampleSentence: '',
       level: 'B1',
@@ -308,6 +310,14 @@ const AddWordModal: React.FC<{ isOpen: boolean, onClose: () => void }> = ({ isOp
                         onChange={(e) => setFormData({...formData, turkishMeaning: e.target.value})} 
                         placeholder="e.g. ısrarcı, kalıcı"
                         required
+                      />
+                    </div>
+                    <div>
+                      <label className="text-xs uppercase tracking-widest font-bold text-muted mb-2 block">Turkish Definition</label>
+                      <TerminalInput 
+                        value={formData.turkishDefinition} 
+                        onChange={(e) => setFormData({...formData, turkishDefinition: e.target.value})} 
+                        placeholder="Örn: Bir şeyi sürdürmek..."
                       />
                     </div>
                     <div>
@@ -380,11 +390,12 @@ const AddWordModal: React.FC<{ isOpen: boolean, onClose: () => void }> = ({ isOp
                 </div>
 
                 <div className="w-full space-y-4 pt-4 border-t border-white/10">
-                  <div>
-                    <div className="text-[10px] text-muted uppercase tracking-widest mb-1">Meaning</div>
+                  <div className="space-y-1">
+                    <div className="text-[10px] text-muted uppercase tracking-widest mb-1">Meaning & Definition</div>
                     <div className="font-bold text-lg">{formData.turkishMeaning || '...'}</div>
+                    <div className="text-[11px] text-muted italic line-clamp-1">{formData.turkishDefinition || 'Definition preview...'}</div>
                   </div>
-                  <div className="text-xs text-muted line-clamp-3 italic">
+                  <div className="text-xs text-muted line-clamp-2 italic">
                     {formData.exampleSentence ? `"${formData.exampleSentence}"` : 'Example sentence preview...'}
                   </div>
                 </div>

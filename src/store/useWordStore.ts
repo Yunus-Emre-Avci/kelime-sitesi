@@ -57,6 +57,7 @@ export const useWordStore = create<WordState>((set, get) => ({
   addWord: async (wordData) => {
     const newWord: Word = {
       ...wordData,
+      turkishDefinition: (wordData as any).turkishDefinition || '',
       id: crypto.randomUUID(),
       createdAt: new Date(),
       interval: 0,
@@ -118,7 +119,8 @@ export const useWordStore = create<WordState>((set, get) => ({
           id: crypto.randomUUID(),
           english: wordObj.english,
           phonetic: wordObj.phonetic || '',
-          turkishMeaning: wordObj.turkishmeaning,
+          turkishMeaning: wordObj.turkishmeaning || '',
+          turkishDefinition: wordObj.turkishdefinition || '',
           dictionaryDefinition: wordObj.definition || '',
           exampleSentence: wordObj.example || '',
           level: (wordObj.level as "B1" | "B2") || "B1",

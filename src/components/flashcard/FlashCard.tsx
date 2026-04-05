@@ -66,45 +66,52 @@ export const FlashCard: React.FC<FlashCardProps> = ({ word, isFlipped, onFlip })
         </div>
 
         {/* Back Side */}
-        <div className="absolute inset-0 backface-hidden glass-elevated border-primary/20 rounded-lg p-8 flex flex-col justify-between items-center text-center shadow-2xl rotate-y-180 overflow-y-auto">
-          <div className="w-full flex justify-between items-start border-b border-white/10 pb-4 mb-4">
-             <PillBadge variant="tertiary" className="text-xs uppercase tracking-widest">Meaning</PillBadge>
-             <div className="text-xs font-mono text-muted">{word.english}</div>
+        <div className="absolute inset-0 backface-hidden glass-elevated border-primary/20 rounded-lg p-6 flex flex-col justify-between items-center text-center shadow-2xl rotate-y-180 overflow-hidden">
+          <div className="w-full flex justify-between items-start border-b border-white/10 pb-2 mb-2">
+             <PillBadge variant="tertiary" className="text-[10px] uppercase tracking-widest font-bold">Lexical Intel</PillBadge>
+             <div className="text-[10px] font-mono text-muted uppercase tracking-widest">{word.english}</div>
           </div>
 
-          <div className="flex-1 flex flex-col justify-center gap-8 w-full">
-            <div>
-              <h3 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-light mb-2">
-                {word.turkishMeaning}
+          <div className="flex-1 flex flex-col justify-center gap-3 w-full overflow-hidden">
+            <div className="space-y-1">
+              <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-light">
+                {word.turkishMeaning || "Anlam Girilmedi"}
               </h3>
-              <div className="h-[2px] w-12 bg-primary/30 mx-auto" />
+              {word.turkishDefinition && (
+                <p className="text-[11px] text-muted leading-tight max-w-[280px] mx-auto italic">
+                  {word.turkishDefinition}
+                </p>
+              )}
             </div>
 
-            <div className="space-y-4">
+            <div className="space-y-2.5">
               {word.dictionaryDefinition && (
-                <div className="text-sm text-on-surface/80 leading-relaxed max-w-xs mx-auto">
-                  <span className="text-muted text-[10px] uppercase font-bold tracking-widest block mb-1">Definition</span>
+                <div className="text-[11px] text-on-surface/80 leading-snug max-w-[300px] mx-auto bg-white/[0.02] p-2 rounded border border-white/5 text-left border-l-primary/40 border-l-2">
+                  <span className="text-primary text-[9px] uppercase font-bold tracking-widest block mb-0.5">English Definition</span>
                   {word.dictionaryDefinition}
                 </div>
               )}
               
               {word.exampleSentence && (
-                <div className="text-sm italic text-muted leading-relaxed font-serif p-4 bg-white/[0.03] rounded border border-white/5">
-                  <span className="text-primary text-[10px] uppercase font-bold tracking-widest block mb-1 not-italic">Example</span>
-                  "{word.exampleSentence.split(new RegExp(`(${word.english})`, 'gi')).map((part, i) => 
-                    part.toLowerCase() === word.english.toLowerCase() 
-                      ? <span key={i} className="text-primary font-bold not-italic">{part}</span> 
-                      : part
-                  )}"
+                <div className="text-xs italic text-muted leading-snug font-serif p-3 bg-white/[0.03] rounded border border-white/5 text-left relative overflow-hidden">
+                  <span className="text-accent text-[9px] uppercase font-bold tracking-widest block mb-1 not-italic">Usage Example</span>
+                  <div className="relative z-10">
+                    "{word.exampleSentence.split(new RegExp(`(${word.english})`, 'gi')).map((part, i) => 
+                      part.toLowerCase() === word.english.toLowerCase() 
+                        ? <span key={i} className="text-accent font-bold not-italic">{part}</span> 
+                        : part
+                    )}"
+                  </div>
+                  <div className="absolute top-0 right-0 w-12 h-12 bg-accent/5 rounded-full translate-x-1/2 -translate-y-1/2 blur-xl" />
                 </div>
               )}
             </div>
           </div>
 
-          <div className="mt-6 pt-4 border-t border-white/10 w-full flex justify-center">
-            <div className="text-[10px] text-muted uppercase tracking-widest flex items-center gap-2">
-              <BookOpen size={12} />
-              Protocol Response Required
+          <div className="mt-4 pt-2 border-t border-white/10 w-full flex justify-center">
+            <div className="text-[8px] text-muted uppercase tracking-[0.2em] flex items-center gap-2 opacity-40">
+              <BookOpen size={10} />
+              Protocol Synchronized
             </div>
           </div>
         </div>

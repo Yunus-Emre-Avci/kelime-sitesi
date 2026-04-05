@@ -5,6 +5,7 @@ export interface Word {
   english: string;               // "ambiguous"
   phonetic: string;              // "/æmˈbɪɡ.ju.əs/"
   turkishMeaning: string;        // "belirsiz, muğlak"
+  turkishDefinition: string;     // "Birden fazla anlama gelebilen, net olmayan"
   dictionaryDefinition: string;  // "open to more than one interpretation"
   exampleSentence: string;       // "The instructions were ambiguous."
   level: "B1" | "B2";
@@ -51,7 +52,7 @@ export class LexiDatabase extends Dexie {
 
   constructor() {
     super('LexiDB');
-    this.version(1).stores({
+    this.version(2).stores({
       words: 'id, english, level, nextReviewDate, masteryLevel, *tags',
       sessions: 'id, date, mode',
       progress: 'id'
