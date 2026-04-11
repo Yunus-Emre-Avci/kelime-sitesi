@@ -11,1875 +11,3468 @@ export interface SeedWord {
 
 export const seedWords: SeedWord[] = [
   {
-    "english": "consumer",
-    "phonetic": "/kən'sju:mə/",
-    "turkishMeaning": "tüketici",
-    "turkishDefinition": "Mal veya hizmet satın alan veya kullanan kişi.",
-    "dictionaryDefinition": "(n) somebody who buys or uses goods or services",
-    "exampleSentence": "Most consumers today prefer organic products.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "cost",
-    "phonetic": "/kɒst/",
-    "turkishMeaning": "maliyet",
-    "turkishDefinition": "Bir şeyi satın almak veya yapmak için gereken para miktarı.",
-    "dictionaryDefinition": "(n) \"the amount of money needed to buy, do, or make something\"",
-    "exampleSentence": "The production cost of this car is very high.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "discount",
-    "phonetic": "/ˈdɪskaʊnt/",
-    "turkishMeaning": "indirim",
-    "turkishDefinition": "Bir malın fiyatında yapılan azalma veya eksiltme.",
-    "dictionaryDefinition": "(n) a reduction in price",
-    "exampleSentence": "Is there a discount for students in this store?",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "domestic",
-    "phonetic": "/də'mestɪk/",
-    "turkishMeaning": "yerli, iç",
-    "turkishDefinition": "Bir kişinin kendi ülkesiyle veya ev yaşamıyla ilgili olan.",
-    "dictionaryDefinition": "(adj) related to a person's own country",
-    "exampleSentence": "Domestic flights are currently cheaper than international ones.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "export",
-    "phonetic": "/ɪk'spɔ:t/",
-    "turkishMeaning": "ihracat",
-    "turkishDefinition": "Başka bir ülkeye satmak amacıyla mal göndermek.",
-    "dictionaryDefinition": "(v) to send goods to another country for sale",
-    "exampleSentence": "Turkey exports many high-quality textiles to Europe.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "goods",
-    "phonetic": "/ɡʊdz/",
-    "turkishMeaning": "eşya, mallar",
-    "turkishDefinition": "Ticaret amacıyla üretilen ve satılan ürünler.",
-    "dictionaryDefinition": "(n) items for sale",
-    "exampleSentence": "The truck was carrying industrial goods.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "greenhouse",
-    "phonetic": "/ˈɡriːnhaʊs/",
-    "turkishMeaning": "sera",
-    "turkishDefinition": "Bitkilerin sabit sıcaklıkta yetiştiği cam veya plastik bina.",
-    "dictionaryDefinition": "(n) a building used to grow plants that need constant warmth and protection",
-    "exampleSentence": "We grow our organic tomatoes in a greenhouse.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "import",
-    "phonetic": "/ɪm'pɔ:t/",
-    "turkishMeaning": "ithalat",
-    "turkishDefinition": "Başka bir ülkeden satmak veya kullanmak amacıyla mal getirmek.",
-    "dictionaryDefinition": "(v) to bring products in from another country to sell or use",
-    "exampleSentence": "The country needs to import more energy to meet demand.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "investigate",
-    "phonetic": "/ɪn'vestɪɡeɪt/",
-    "turkishMeaning": "araştırmak, incelemek",
-    "turkishDefinition": "Gerçeği ortaya çıkarmak için bir şeyi dikkatle muayene etmek.",
-    "dictionaryDefinition": "(v) \"to carefully examine something, especially to discover the truth about it\"",
-    "exampleSentence": "The police are investigating the cause of the accident.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "labour",
-    "phonetic": "/ˈleɪbə/",
-    "turkishMeaning": "iş gücü, emek",
-    "turkishDefinition": "Özellikle el ile yapılan fiziksel çalışma veya işçiler.",
-    "dictionaryDefinition": "(n) work",
-    "exampleSentence": "Manual labour is still important in some industries.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "multinational",
-    "phonetic": "/ˌmʌltiˈnæʃənəl/",
-    "turkishMeaning": "çok uluslu",
-    "turkishDefinition": "Birden fazla ülkede aktif olarak faaliyet gösteren şirket.",
-    "dictionaryDefinition": "(adj) active in several countries",
-    "exampleSentence": "Coca-Cola is a successful multinational company.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "outsourcing",
-    "phonetic": "/ˈaʊtˌsɔːsɪŋ/",
-    "turkishMeaning": "dış kaynak kullanımı",
-    "turkishDefinition": "Bir şirketin işinin bir kısmını başka bir şirkete yaptırması.",
-    "dictionaryDefinition": "(n) a situation in which a company pays to have part of its work done by another company",
-    "exampleSentence": "Outsourcing IT services can save the company money.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "overseas",
-    "phonetic": "/ˌəʊvə'si:z/",
-    "turkishMeaning": "yurt dışı, deniz aşırı",
-    "turkishDefinition": "Kendi ülkesinin dışındaki ülkelerde veya ülkelere.",
-    "dictionaryDefinition": "(adv) \"in, from, or to other countries\"",
-    "exampleSentence": "Many students want to study overseas for a year.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "produce",
-    "phonetic": "/ˈprɒdʒu:s/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
-    "dictionaryDefinition": "(n) food or any other substance or material that is grown or obtained through farming",
-    "exampleSentence": "",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "produce",
-    "phonetic": "/prə'dʒu:s/",
-    "turkishMeaning": "",
-    "turkishDefinition": "",
-    "dictionaryDefinition": "(v) to create something or bring it into existence",
-    "exampleSentence": "",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "production costs",
-    "phonetic": "/prə'dʌkʃən kɒsts/",
-    "turkishMeaning": "üretim maliyetleri",
-    "turkishDefinition": "Bir şeyi üretmek için harcanan toplam para miktarı.",
-    "dictionaryDefinition": "(n) the money spent to make something",
-    "exampleSentence": "High energy prices have increased production costs.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "profit",
-    "phonetic": "/ˈprɒfɪt/",
-    "turkishMeaning": "kâr",
-    "turkishDefinition": "Gelir ile gider arasındaki olumlu fark; kazanç.",
-    "dictionaryDefinition": "(n) financial gain",
-    "exampleSentence": "The company made a huge profit this year.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "prosperity",
-    "phonetic": "/prɒs'perəti/",
-    "turkishMeaning": "refah, zenginlik",
-    "turkishDefinition": "Başarılı olma ve çok paraya sahip olma durumu.",
-    "dictionaryDefinition": "(n) the state of being successful and having a lot of money",
-    "exampleSentence": "Economic prosperity is the goal of every nation.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "purchase",
-    "phonetic": "/ˈpɜːtʃəs/",
-    "turkishMeaning": "satın almak",
-    "turkishDefinition": "Bir mülkü veya malı para karşılığı edinmek.",
-    "dictionaryDefinition": "(v) to buy something",
-    "exampleSentence": "You can purchase the tickets online or at the station.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "supply chain",
-    "phonetic": "/sə'plaɪ tʃeɪn/",
-    "turkishMeaning": "tedarik zinciri",
-    "turkishDefinition": "Bir ürünün üretimden tüketiciye ulaşana kadarki süreci.",
-    "dictionaryDefinition": "(n) the system of people and things that are involved in getting a product from the place where it is made to the person who buys it",
-    "exampleSentence": "Any break in the supply chain can cause delays.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "transport",
-    "phonetic": "/ˈtrænspɔːt/",
-    "turkishMeaning": "nakliyat, ulaşım",
-    "turkishDefinition": "İnsanların veya malların bir yerden başka yere taşınması.",
-    "dictionaryDefinition": "(n) the movement of people or goods from one place to another",
-    "exampleSentence": "Public transport is a great way to reduce traffic.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "confuse",
-    "phonetic": "/kən'fju:z/",
-    "turkishMeaning": "kafasını karıştırmak",
-    "turkishDefinition": "Birinin zihnini karıştırmak veya bir şeyi zorlaştırmak.",
-    "dictionaryDefinition": "(v) \"to mix up someone's mind or ideas, or to make something difficult to understand\"",
-    "exampleSentence": "Too many options can confuse the customers.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "consumption",
-    "phonetic": "/kən'sʌmpʃən/",
-    "turkishMeaning": "tüketim",
-    "turkishDefinition": "Birinin aşındırdığı, yediği veya kullandığı miktar.",
-    "dictionaryDefinition": "(n) the amount of something that someone uses, eats or drinks",
-    "exampleSentence": "The consumption of electricity increases in winter.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "continue",
-    "phonetic": "/kən'tɪnju:/",
-    "turkishMeaning": "devam etmek",
-    "turkishDefinition": "Bir şeyin olmaya, var olmaya veya yapılmaya sürmesi.",
-    "dictionaryDefinition": "(v) \"to keep happening, existing or doing something, or to cause something or someone to do this\"",
-    "exampleSentence": "We will continue our discussion after the break.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "convenience",
-    "phonetic": "/kən'vi:niəns/",
-    "turkishMeaning": "kolaylık, uygunluk",
-    "turkishDefinition": "Bir şeyin amaçlarınıza uygun ve en az zorluktaki durumu.",
-    "dictionaryDefinition": "(n) the state of being suitable for your purposes and causing the least difficulty",
-    "exampleSentence": "Online banking offers a lot of convenience to users.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "dominant",
-    "phonetic": "/'dɒmɪnənt/",
-    "turkishMeaning": "baskın, egemen",
-    "turkishDefinition": "Kendi türündeki her şeyden daha önemli veya güçlü olan.",
-    "dictionaryDefinition": "(adj) more important, stronger or more noticeable than anything else of the same type",
-    "exampleSentence": "English is the dominant language in international business.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "ensure",
-    "phonetic": "/ɪn'ʃɔ:/",
-    "turkishMeaning": "garantiye almak",
-    "turkishDefinition": "Bir şeyin yapıldığından veya olduğundan emin olmak.",
-    "dictionaryDefinition": "(v) to make certain that something is done or happens",
-    "exampleSentence": "Please ensure that all windows are closed before leaving.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "exclude",
-    "phonetic": "/ɪk'sklu:d/",
-    "turkishMeaning": "hariç tutmak",
-    "turkishDefinition": "Birinin bir yer girmesini veya aktiviteye katılmasını önlemek.",
-    "dictionaryDefinition": "(v) to prevent someone or something from entering a place or taking part in an activity",
-    "exampleSentence": "The price excludes breakfast and other extra costs.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "exhaust",
-    "phonetic": "/ɪɡ'zɔ:st/",
-    "turkishMeaning": "tüketmek, bitirmek",
-    "turkishDefinition": "Bir şeyi tamamen kullanmak veya bitirmek.",
-    "dictionaryDefinition": "(v) to use something completely",
-    "exampleSentence": "We have exhausted all our options for this problem.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "experiment",
-    "phonetic": "/ɪk'sperɪmənt/",
-    "turkishMeaning": "deney, deneme",
-    "turkishDefinition": "Yeni bir yolu test etmek veya denemek için yapılan işlem.",
-    "dictionaryDefinition": "(v) to test or to try a new way of doing something",
-    "exampleSentence": "Scientists are conducting an experiment on new fuels.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "increase",
-    "phonetic": "/ɪn'kri:s/",
-    "turkishMeaning": "artırmak, çoğalmak",
-    "turkishDefinition": "Bir şeyin daha büyük veya daha fazla hale gelmesi.",
-    "dictionaryDefinition": "(v) to become larger or greater",
-    "exampleSentence": "The population of the city continues to increase.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "inflation",
-    "phonetic": "/ɪn'fleɪʃən/",
-    "turkishMeaning": "enflasyon",
-    "turkishDefinition": "Bir ekonomideki fiyatların sürekli olarak yükselmesi.",
-    "dictionaryDefinition": "(n) a continuing rise in prices in an economy",
-    "exampleSentence": "High inflation reduces the purchasing power of people.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "influence",
-    "phonetic": "/'ɪnfluəns/",
-    "turkishMeaning": "etki",
-    "turkishDefinition": "İnsanlar veya şeyler üzerinde etkili olma gücü.",
-    "dictionaryDefinition": "(n) the power to have an effect on people or things or someone or something which is able to do this",
-    "exampleSentence": "Social media has a big influence on young people.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "monopoly",
-    "phonetic": "/mə'nɒpəli/",
-    "turkishMeaning": "tekel",
-    "turkishDefinition": "Bir iş alanının tamamına sahip olup başkasına yer bırakmamak.",
-    "dictionaryDefinition": "(n) \"complete control of something, especially an area of business, so that others have no share\"",
-    "exampleSentence": "The state had a monopoly on the postal service.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "outlet",
-    "phonetic": "/'aʊtlet/",
-    "turkishMeaning": "satış noktası",
-    "turkishDefinition": "Bir şirketin ürünlerini satan perakende mağazası.",
-    "dictionaryDefinition": "(n) a shop that is one of many owned by a particular company selling the goods produced by the company",
-    "exampleSentence": "Apple has many retail outlets all around the world.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "refuse",
-    "phonetic": "/rɪ'fju:z/",
-    "turkishMeaning": "reddetmek",
-    "turkishDefinition": "Bir şeyi yapmayı veya kabul etmeyi istemediğini söylemek.",
-    "dictionaryDefinition": "(v) to say that you will not do or accept something",
-    "exampleSentence": "I had to refuse the invitation because I was busy.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "relatively",
-    "phonetic": "/'relətɪvli/",
-    "turkishMeaning": "nispeten, oldukça",
-    "turkishDefinition": "Diğer benzer şeylerle karşılaştırıldığında oldukça iyi/kötü.",
-    "dictionaryDefinition": "(adv) \"quite good, bad, etc. in comparison with other similar things or with what you expect\"",
-    "exampleSentence": "The test was relatively easy compared to the last one.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "remove",
-    "phonetic": "/rɪ'mu:v/",
-    "turkishMeaning": "çıkarmak, kaldırmak",
-    "turkishDefinition": "Bir şeyi veya birini bir yerden alıp başka yere götürmek.",
-    "dictionaryDefinition": "(v) to take something or someone away from somewhere, or off something",
-    "exampleSentence": "You must remove your shoes before entering the house.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "reputation",
-    "phonetic": "/ˌrepjə'teɪʃən/",
-    "turkishMeaning": "itibar, ün",
-    "turkishDefinition": "Birinin karakteri hakkında insanların sahip olduğu genel görüş.",
-    "dictionaryDefinition": "(n) the general opinion that people have about someone or something based on their character in the past",
-    "exampleSentence": "The hotel has a very good reputation for its service.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "selling point",
-    "phonetic": "/'selɪŋ pɔɪnt/",
-    "turkishMeaning": "satış noktası, cazip özellik",
-    "turkishDefinition": "İnsanları bir ürünü satın almaya ikna eden özellik.",
-    "dictionaryDefinition": "(n) a feature that persuades people to buy a product",
-    "exampleSentence": "The long battery life is a big selling point for this phone.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "specialty",
-    "phonetic": "/'speʃəlti/",
-    "turkishMeaning": "uzmanlık alanı, özel ürün",
-    "turkishDefinition": "Bir yerin veya kişinin özellikle tanındığı ürün veya konu.",
-    "dictionaryDefinition": "(n) a product that a place is especially known for",
-    "exampleSentence": "Seafood is the specialty of this local restaurant.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "study",
-    "phonetic": "/'stʌdi/",
-    "turkishMeaning": "incelemek, çalışmak",
-    "turkishDefinition": "Bir şeyi yeni bilgiler keşfetmek için dikkatle incelemek.",
-    "dictionaryDefinition": "(v) to examine something very carefully",
-    "exampleSentence": "Researchers are studying the effects of the new drug.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "supplier",
-    "phonetic": "/ə'plaɪə/",
-    "turkishMeaning": "tedarikçi",
-    "turkishDefinition": "Belirli bir tür mal sağlayan kişi veya şirket.",
-    "dictionaryDefinition": "(n) a person or company that provides goods of a particular kind",
-    "exampleSentence": "We need to find a new supplier for office materials.",
-    "level": "B1",
-    "tags": [
-      "Unit 1"
-    ]
-  },
-  {
-    "english": "adviser",
-    "phonetic": "/əd'vaɪzə/",
-    "turkishMeaning": "danışman",
-    "turkishDefinition": "Belirli bir konuda tavsiye veya bilgi veren uzman kişi.",
-    "dictionaryDefinition": "(n) somebody whose job is to give advice about a subject",
-    "exampleSentence": "The student met with her academic adviser to plan her courses.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "campus",
-    "phonetic": "/ˈkæm.pəs/",
-    "turkishMeaning": "kampüs, yerleşke",
-    "turkishDefinition": "Bir üniversitenin veya kolejin binalarının ve arazisinin tamamı.",
-    "dictionaryDefinition": "(n) the buildings and land of a college or university",
-    "exampleSentence": "Living on campus makes it easier to attend early morning lectures.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "complex",
-    "phonetic": "/ˈkɒmpleks/",
-    "turkishMeaning": "karmaşık",
-    "turkishDefinition": "Birçok farklı ama birbiriyle ilişkili parçadan oluşan, anlaşılması güç.",
-    "dictionaryDefinition": "(adj) involving a lot of different but related parts",
-    "exampleSentence": "The human brain is an incredibly complex organ.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "emphasis",
-    "phonetic": "/ˈem.fə.sɪs/",
-    "turkishMeaning": "vurgu, önem",
-    "turkishDefinition": "Bir şeye verilen özel önem veya dikkat.",
-    "dictionaryDefinition": "(n) the particular importance or attention that is given to something",
-    "exampleSentence": "The course puts a strong emphasis on practical skills.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "innovation",
-    "phonetic": "/ˌɪn.əˈveɪ.ʃən/",
-    "turkishMeaning": "yenilik, inovasyon",
-    "turkishDefinition": "Yeni bir fikir, yöntem veya icadın uygulanması.",
-    "dictionaryDefinition": "(n) a new idea or method",
-    "exampleSentence": "Technological innovation is key to any country's economic growth.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "institution",
-    "phonetic": "/ˌɪn.stɪˈtʃuː.ʃən/",
-    "turkishMeaning": "kuruluş, kurum",
-    "turkishDefinition": "Üniversite veya banka gibi büyük ve önemli bir organizasyon.",
-    "dictionaryDefinition": "(n) a large and important organization such as a university or bank",
-    "exampleSentence": "Harvard is one of the oldest educational institutions in the US.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "manual",
-    "phonetic": "/ˈmænjuəl/",
-    "turkishMeaning": "el ile yapılan",
-    "turkishDefinition": "Ellerin kullanıldığı, fiziksel güç gerektiren iş.",
-    "dictionaryDefinition": "(adj) involving the use of the hands",
-    "exampleSentence": "Some people find manual jobs more satisfying than office work.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "medical",
-    "phonetic": "/ˈmedɪkəl/",
-    "turkishMeaning": "tıbbi",
-    "turkishDefinition": "Hastalık ve yaralanmaların tedavisi ile ilgili olan.",
-    "dictionaryDefinition": "(adj) relating to the treatment of disease and injury",
-    "exampleSentence": "She decided to go to medical school to become a doctor.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "physical",
-    "phonetic": "/ˈfɪzɪkəl/",
-    "turkishMeaning": "fiziksel, bedensel",
-    "turkishDefinition": "Zihin yerine vücut ile ilgili olan her şey.",
-    "dictionaryDefinition": "(adj) relating to the body",
-    "exampleSentence": "Regular physical exercise is essential for a healthy life.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "practical",
-    "phonetic": "/ˈpræktɪkəl/",
-    "turkishMeaning": "pratik, uygulamalı",
-    "turkishDefinition": "Düşünceler veya hayaller yerine gerçek durumlar ve deneyimlerle ilgili.",
-    "dictionaryDefinition": "(adj) relating to experience and real situations not ideas or imagination",
-    "exampleSentence": "The workshop provided practical training for young engineers.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "professional",
-    "phonetic": "/prə'feʃənəl/",
-    "turkishMeaning": "profesyonel, mesleki",
-    "turkishDefinition": "Özel eğitim veya eğitim gerektiren bir işle ilgili.",
-    "dictionaryDefinition": "(adj) relating to a job that needs special education or training",
-    "exampleSentence": "It is important to maintain professional behavior at the workplace.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "reference",
-    "phonetic": "/ˈref.ər.əns/",
-    "turkishMeaning": "referans",
-    "turkishDefinition": "Birinin bir işe uygun olup olmadığını söyleyen tavsiye mektubu.",
-    "dictionaryDefinition": "(n) \"a letter that is written by somebody who knows you, to say if you are suitable for a job, course, etc.\"",
-    "exampleSentence": "He asked his former professor for a character reference.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "requirements",
-    "phonetic": "/rɪˈkwaɪə.mənt/",
-    "turkishMeaning": "gereksinimler, şartlar",
-    "turkishDefinition": "İhtiyaç duyulan veya yapılması zorunlu olan şeyler.",
-    "dictionaryDefinition": "(n) things which are needed or necessary",
-    "exampleSentence": "Applicants must meet all the entry requirements.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "secure",
-    "phonetic": "/sɪˈkjʊə/",
-    "turkishMeaning": "güvenli, sağlam",
-    "turkishDefinition": "Güvenilir olan ve değişmesi muhtemel olmayan durum.",
-    "dictionaryDefinition": "(adj) dependable; not likely to change",
-    "exampleSentence": "A secure job provides peace of mind for the future.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "statement",
-    "phonetic": "/ˈsteɪt.mənt/",
-    "turkishMeaning": "açıklama, ifade",
-    "turkishDefinition": "Resmi olarak söylenen veya yazılan bir görüş veya bilgi.",
-    "dictionaryDefinition": "(n) \"something that somebody says or writes officially, or an action done to express an opinion\"",
-    "exampleSentence": "The company issued an official statement regarding the new policy.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "technical",
-    "phonetic": "/ˈteknɪkəl/",
-    "turkishMeaning": "teknik",
-    "turkishDefinition": "Bilim ve sanayide kullanılan yöntemler veya makinelerle ilgili.",
-    "dictionaryDefinition": "(adj) relating to the knowledge machines or methods used in science and industry",
-    "exampleSentence": "The report was full of technical terms that were hard to understand.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "alternative",
-    "phonetic": "/ɒl'tɜ:nətɪv/",
-    "turkishMeaning": "alternatif, seçenek",
-    "turkishDefinition": "Alışılmış olandan farklı olan bir başka seçenek.",
-    "dictionaryDefinition": "(n) \"something that is different, especially from what is usual; a choice\"",
-    "exampleSentence": "Solar energy is a clean alternative to fossil fuels.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "aspect",
-    "phonetic": "/'æspekt/",
-    "turkishMeaning": "yön, taraf, boyut",
-    "turkishDefinition": "Bir şeyin belirli bir özelliği veya parçası.",
-    "dictionaryDefinition": "(n) a feature of something",
-    "exampleSentence": "Safety is the most important aspect of car design.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "assignment",
-    "phonetic": "/ə'saɪnmənt/",
-    "turkishMeaning": "ödev, görev",
-    "turkishDefinition": "Üniversitede yazılan bir makale veya verilen bir görev.",
-    "dictionaryDefinition": "(n) a written essay at university",
-    "exampleSentence": "The students have to submit their history assignment by Friday.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "community",
-    "phonetic": "/kə'mju:nəti/",
-    "turkishMeaning": "topluluk, cemiyet",
-    "turkishDefinition": "Aynı bölgede yaşayan veya aynı ilgileri paylaşan insanlar.",
-    "dictionaryDefinition": "(n) the people living in the same area",
-    "exampleSentence": "The local community worked together to clean the park.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "concrete",
-    "phonetic": "/'kɒŋkri:t/",
-    "turkishMeaning": "somut",
-    "turkishDefinition": "Fikirler yerine gerçek şeylere ve örneklere dayanan.",
-    "dictionaryDefinition": "(adj) based on actual things and particular examples",
-    "exampleSentence": "There is no concrete evidence to prove his theory yet.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "core",
-    "phonetic": "/kɔ:/, (adj)",
-    "turkishMeaning": "çekirdek, temel",
-    "turkishDefinition": "Bir şeyin en merkezi ve en temel olan kısmı.",
-    "dictionaryDefinition": "\"central, basic\"",
-    "exampleSentence": "The core subjects in primary school are maths and language.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "core principles",
-    "phonetic": "/kɔ: prɪnsəpəl/",
-    "turkishMeaning": "temel ilkeler",
-    "turkishDefinition": "Bir şeyin temelini oluşturan en önemli değerler.",
-    "dictionaryDefinition": "(n phr) key values",
-    "exampleSentence": "Freedom and equality are the core principles of democracy.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "credible alternative",
-    "phonetic": "/'kredəbəl ɒl'tɜ:nətɪv/",
-    "turkishMeaning": "güvenilir alternatif",
-    "turkishDefinition": "İnanılabilir ve sağlam bir yedek seçenek.",
-    "dictionaryDefinition": "(n phr) a reliable substitute",
-    "exampleSentence": "The new bus route is a credible alternative to driving to work.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "deadline",
-    "phonetic": "/'ded.laɪn/",
-    "turkishMeaning": "son teslim tarihi",
-    "turkishDefinition": "Bir şeyin yapılması gereken en son zaman veya gün.",
-    "dictionaryDefinition": "(n) a time or day by which something must be done",
-    "exampleSentence": "The deadline for the project is the end of the month.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "degree",
-    "phonetic": "/dɪ'ɡri/",
-    "turkishMeaning": "derece, üniversite diploması",
-    "turkishDefinition": "Üniversiteyi bitiren öğrencilere verilen yeterlilik belgesi.",
-    "dictionaryDefinition": "(n) \"a course of study at a college or university, or the qualification given to a student after he or she has completed his or her studies\"",
-    "exampleSentence": "She is going to university to get a degree in biology.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "discipline",
-    "phonetic": "/'dɪsəplɪn/",
-    "turkishMeaning": "disiplin, bilim dalı",
-    "turkishDefinition": "Üniversitede çalışılan belirli bir akademik alan.",
-    "dictionaryDefinition": "(n) a particular area of study",
-    "exampleSentence": "Sociology is a fascinating academic discipline.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "dissertation",
-    "phonetic": "/ˌdisə'teɪʃən/",
-    "turkishMeaning": "tez, bitirme ödevi",
-    "turkishDefinition": "Üniversite derecesi için yazılan çok uzun bilimsel yazı.",
-    "dictionaryDefinition": "(n) a long essay usually for a university degree",
-    "exampleSentence": "He is writing his dissertation on renewable energy sources.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "distance learning",
-    "phonetic": "/'distəns 'lɜːniŋ/",
-    "turkishMeaning": "uzaktan eğitim",
-    "turkishDefinition": "Genellikle internet üzerinden yapılan eğitim türü.",
-    "dictionaryDefinition": "(n phr) general education from online teaching",
-    "exampleSentence": "Distance learning is ideal for people who work full-time.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "employability",
-    "phonetic": "/ɪmˌplɔɪə'bɪləti/",
-    "turkishMeaning": "istihdam edilebilirlik",
-    "turkishDefinition": "Birinin iş bulmasını sağlayan beceri ve yetenekleri.",
-    "dictionaryDefinition": "(n) the skills and abilities that allow you to be employed",
-    "exampleSentence": "Internships are great for improving your employability.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "establishment",
-    "phonetic": "/ɪ'stæblɪʃmənt/",
-    "turkishMeaning": "kuruluş, tesis etme",
-    "turkishDefinition": "Uzun süre kalıcı olacak bir şeyi başlatma veya kurma eylemi.",
-    "dictionaryDefinition": "(n) the act of starting or creating something that will last a long time",
-    "exampleSentence": "The establishment of the new university took five years.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "examination",
-    "phonetic": "/ɪɡˌzæmɪ'neɪʃən/",
-    "turkishMeaning": "sınav, inceleme",
-    "turkishDefinition": "Bir yeterlilik almak için geçilmesi gereken resmi test.",
-    "dictionaryDefinition": "(n) a formal test which students must pass to get a specific qualification",
-    "exampleSentence": "The students are busy preparing for their final examinations.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "in-depth",
-    "phonetic": "/ɪn depθ/",
-    "turkishMeaning": "derinlemesine, detaylı",
-    "turkishDefinition": "Ciddi ve çok ayrıntılı bir şekilde yapılan araştırma.",
-    "dictionaryDefinition": "(adj) in a serious and detailed way",
-    "exampleSentence": "The professor gave an in-depth analysis of the economic situation.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "illiteracy",
-    "phonetic": "/ɪ'lɪt.ər.ə.si/",
-    "turkishMeaning": "okuma yazma bilmeme",
-    "turkishDefinition": "Okuma ve yazma becerisine sahip olmama durumu.",
-    "dictionaryDefinition": "(n) a lack of the ability to read and write",
-    "exampleSentence": "Illiteracy is a major barrier to modern education.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "journal",
-    "phonetic": "/'dʒɜːnəl/",
-    "turkishMeaning": "akademik dergi",
-    "turkishDefinition": "Araştırma makalelerinin toplandığı düzenli bilimsel yayın.",
-    "dictionaryDefinition": "(n) \"is a quarterly, peer-reviewed collection of research papers\"",
-    "exampleSentence": "His research was published in a leading medical journal.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "lecturer",
-    "phonetic": "/'lektʃərə/",
-    "turkishMeaning": "öğretim görevlisi",
-    "turkishDefinition": "Üniversitede ders veren ve araştırma yapan kişi.",
-    "dictionaryDefinition": "(n) is the holder of a research position at a university who also teaches",
-    "exampleSentence": "The lecturer explained the theory very clearly.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "modern phenomenon",
-    "phonetic": "/'mɒdən fə'nɒmɪnən/",
-    "turkishMeaning": "modern fenomen, güncel olay",
-    "turkishDefinition": "Son zamanlarda ortaya çıkan yeni bir trend veya durum.",
-    "dictionaryDefinition": "(n phr) a recent trend",
-    "exampleSentence": "Influencer marketing is a modern phenomenon in advertising.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "motivation",
-    "phonetic": "/ˌməʊtɪ'veɪʃən/",
-    "turkishMeaning": "motivasyon, isteklilik",
-    "turkishDefinition": "Bir şeyi yapma isteği veya hevesi.",
-    "dictionaryDefinition": "(n) willingness to do something",
-    "exampleSentence": "The secret to success is staying high on motivation.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "online degree",
-    "phonetic": "/'ɒnlaɪn dɪ'ɡri/",
-    "turkishMeaning": "online diploma",
-    "turkishDefinition": "Tamamen internet üzerinden alınan akademik yeterlilik.",
-    "dictionaryDefinition": "(n phr) an academic qualification obtained from online instruction",
-    "exampleSentence": "She earned an online degree while working as a nurse.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "peer",
-    "phonetic": "/pɪər/",
-    "turkishMeaning": "akran, eş",
-    "turkishDefinition": "Bir gruptaki aynı yaş veya sosyal statüdeki kişi.",
-    "dictionaryDefinition": "(n) a person who is the same age or has the same social position or the same abilities as other people in a group",
-    "exampleSentence": "Children are often influenced by their peers' opinions.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "plagiarism",
-    "phonetic": "/'pleɪdʒərɪzəm/",
-    "turkishMeaning": "intihal",
-    "turkishDefinition": "Başkasının eserini kaynak göstermeden kendininmiş gibi sunmak.",
-    "dictionaryDefinition": "(n) when students copy from or do not acknowledge their sources when writing an essay",
-    "exampleSentence": "Plagiarism is considered a serious academic offence.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "principle",
-    "phonetic": "/prɪnsəpəl/",
-    "turkishMeaning": "prensip, ilke",
-    "turkishDefinition": "Bir şeyin nasıl çalıştığını açıklayan temel gerçek.",
-    "dictionaryDefinition": "(adj) a basic truth that explains or controls how something happens or works",
-    "exampleSentence": "The fundamental principle of justice is fairness to all.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "pursue",
-    "phonetic": "/pə'sju:/",
-    "turkishMeaning": "peşinden koşmak, sürdürmek",
-    "turkishDefinition": "Bir şeyi başarmaya veya gerçekleştirmeye çalışmak.",
-    "dictionaryDefinition": "(v) to try to do or achieve",
-    "exampleSentence": "She decided to pursue a career in international law.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "regard",
-    "phonetic": "/rɪ'ɡɑːd/",
-    "turkishMeaning": "dikkate almak, saymak",
-    "turkishDefinition": "Bir kişi veya şey hakkında belirli bir fikre sahip olmak.",
-    "dictionaryDefinition": "(v) to consider or have an opinion about something or someone",
-    "exampleSentence": "He is highly regarded by his colleagues for his honesty.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "semester",
-    "phonetic": "/sɪ'mestə/",
-    "turkishMeaning": "dönem, sömestr",
-    "turkishDefinition": "Üniversite yılının bölündüğü iki dönemden her biri.",
-    "dictionaryDefinition": "(n) one of the two periods a year is divided at college or university",
-    "exampleSentence": "We will have two major projects this semester.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "seminar",
-    "phonetic": "/'semɪnɑː/",
-    "turkishMeaning": "seminer",
-    "turkishDefinition": "Bir grup insanın tartıştığı ve ders işlediği akademik toplantı.",
-    "dictionaryDefinition": "(n) an occasion when a teacher or expert and a group of people meet to study and discuss something",
-    "exampleSentence": "I attended a seminar on modern literature last week.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "significant",
-    "phonetic": "/sɪɡ'nɪfɪkənt/",
-    "turkishMeaning": "önemli, anlamlı",
-    "turkishDefinition": "Önemli, büyük veya dikkate değer olan.",
-    "dictionaryDefinition": "(adj) \"important, large or great\"",
-    "exampleSentence": "There is a significant difference between the two products.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "specific",
-    "phonetic": "/spə'sɪfɪk/",
-    "turkishMeaning": "belirli, özel",
-    "turkishDefinition": "Belirli bir şeye özgü olan; genel olmayan.",
-    "dictionaryDefinition": "(adj) \"relating to one thing and not others; particular\"",
-    "exampleSentence": "Could you be more specific about what you need?",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "stigma",
-    "phonetic": "/'stɪɡ.mə/",
-    "turkishMeaning": "damga, leke",
-    "turkishDefinition": "Toplumun bir şeye karşı duyduğu haksız dışlama hissi.",
-    "dictionaryDefinition": "(n) a strong feeling of disapproval that most people in a society have about something especially when this is unfair",
-    "exampleSentence": "There is often a social stigma attached to mental illness.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "technological advances",
-    "phonetic": "/ˌteknə'lɒdʒɪkəl əd'vɑːnsɪz/",
-    "turkishMeaning": "teknolojik ilerlemeler",
-    "turkishDefinition": "Teknoloji alanındaki yeni gelişmeler ve iyileştirmeler.",
-    "dictionaryDefinition": "(n phr) developments in technology",
-    "exampleSentence": "Technological advances have changed the way we communicate.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "term",
-    "phonetic": "/tɜːm/",
-    "turkishMeaning": "dönem, terim",
-    "turkishDefinition": "Okul veya üniversite yılının bölündüğü üç dönemden biri.",
-    "dictionaryDefinition": "(n) one of the three periods a year is divided at school college or university",
-    "exampleSentence": "The exams are always at the end of the spring term.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "tutor",
-    "phonetic": "/'tjuːtə/",
-    "turkishMeaning": "özel öğretmen, danışman hoca",
-    "turkishDefinition": "Öğrencilerin akademik gelişiminden sorumlu olan hoca.",
-    "dictionaryDefinition": "(n) the person who assumes responsibility for students' academic and personal welfare",
-    "exampleSentence": "If you struggle with maths, you might need a private tutor.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "virtual",
-    "phonetic": "/'vɜːtʃuəl/",
-    "turkishMeaning": "sanal",
-    "turkishDefinition": "Gerçek gibi olan ancak teknolojik ortamda var olan.",
-    "dictionaryDefinition": "(adj) similar to real life but existing in a technological environment",
-    "exampleSentence": "The company offers virtual tours of their main headquarters.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "virtual classroom",
-    "phonetic": "/'vɜːtʃuəl 'klɑːsruːm/",
-    "turkishMeaning": "sanal sınıf",
-    "turkishDefinition": "Öğrencilerin internet üzerinden katıldığı eğitim ortamı.",
-    "dictionaryDefinition": "(n phr) online course",
-    "exampleSentence": "Virtual classrooms are becoming more common in universities.",
-    "level": "B1",
-    "tags": [
-      "Unit 2"
-    ]
-  },
-  {
-    "english": "aid",
-    "phonetic": "/eɪd/",
-    "turkishMeaning": "yardım",
-    "turkishDefinition": "İhtiyaç duyulan yardım veya destek.",
-    "dictionaryDefinition": "(n) help",
-    "exampleSentence": "The organization provides humanitarian aid to war zones.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "antibiotic",
-    "phonetic": "/ˌæntibaɪˈɒtɪk/",
-    "turkishMeaning": "antibiyotik",
-    "turkishDefinition": "Bakterileri öldüren veya çoğalmasını önleyen ilaç.",
-    "dictionaryDefinition": "(n) a medicine that kills bacteria",
-    "exampleSentence": "The doctor prescribed an antibiotic for my throat infection.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "balance",
-    "phonetic": "/ˈbæl.əns/",
-    "turkishMeaning": "denge",
-    "turkishDefinition": "Farklı şeylerin eşit ağırlığa veya öneme sahip olduğu durum.",
-    "dictionaryDefinition": "(n) \"a situation where different things are given equal importance, or are considered or divided equally\"",
-    "exampleSentence": "It's important to find a balance between work and life.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "clinical",
-    "phonetic": "/ˈklɪnɪkəl/",
-    "turkishMeaning": "klinik",
-    "turkishDefinition": "Tıbbi tedavi ve testlerle ilgili olan.",
-    "dictionaryDefinition": "(adj) related to medical treatment and tests",
-    "exampleSentence": "Clinical trials are necessary to test a new drug's safety.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "contaminated",
-    "phonetic": "/kənˈtæm.ɪ.neɪ.tɪd/",
-    "turkishMeaning": "kirlenmiş, mikrop bulaşmış",
-    "turkishDefinition": "Zehirli, kirli veya saflığı bozulmuş olan.",
-    "dictionaryDefinition": "(adj) poisonous or not pure",
-    "exampleSentence": "The well was contaminated with dangerous chemicals.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "data",
-    "phonetic": "/ˈdeɪtə/",
-    "turkishMeaning": "veri",
-    "turkishDefinition": "Bir şey hakkında toplanan bilgiler veya gerçekler.",
-    "dictionaryDefinition": "(n) information or facts about something",
-    "exampleSentence": "We need to analyze the data before making a decision.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "in favour of",
-    "phonetic": "/ɪn ˈfeɪvər əv/",
-    "turkishMeaning": "-in lehine, destekleyen",
-    "turkishDefinition": "Bir tarafta olmak veya bir şeyi desteklemek.",
-    "dictionaryDefinition": "(adj) on the side of or in support of",
-    "exampleSentence": "Are you in favour of the new tax law?",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "infected",
-    "phonetic": "/ɪnˈfektɪd/",
-    "turkishMeaning": "enfekte, mikrop kapmış",
-    "turkishDefinition": "Hastalık yapıcı bir organizmanın bulaştığı.",
-    "dictionaryDefinition": "(adj) affected by an organism that can cause disease",
-    "exampleSentence": "The wound became infected and needed special care.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "occur",
-    "phonetic": "/əˈkɜː/",
-    "turkishMeaning": "meydana gelmek, oluşmak",
-    "turkishDefinition": "Bir olayın veya durumun gerçekleşmesi.",
-    "dictionaryDefinition": "(v) to happen",
-    "exampleSentence": "Earthquakes often occur without any warning.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "outbreak",
-    "phonetic": "/ˈaʊtbreɪk/",
-    "turkishMeaning": "salgın",
-    "turkishDefinition": "Bir hastalığın aniden ve geniş çapta ortaya çıkması.",
-    "dictionaryDefinition": "(n) \"a sudden appearance of something, especially of a disease\"",
-    "exampleSentence": "There has been an outbreak of flu in the local school.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "precaution",
-    "phonetic": "/prɪˈkɔːʃən/",
-    "turkishMeaning": "önlem, tedbir",
-    "turkishDefinition": "Kötü bir şeyin olmasını önlemek için alınan aksiyon.",
-    "dictionaryDefinition": "(n) an action that is taken to stop something bad from happening",
-    "exampleSentence": "You should take every precaution to stay safe while driving.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "prescription",
-    "phonetic": "/prɪ'skrɪp.ʃən/",
-    "turkishMeaning": "reçete",
-    "turkishDefinition": "Doktorun gerekli ilacı yazdığı yazılı kağıt.",
-    "dictionaryDefinition": "(n) a piece of paper on which a doctor writes the details of the medicine or drugs that someone needs",
-    "exampleSentence": "You can only get these pills with a doctor's prescription.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "prevention",
-    "phonetic": "/prɪ'venʃən/",
-    "turkishMeaning": "önleme",
-    "turkishDefinition": "Bir şeyin olmasını engelleme eylemi.",
-    "dictionaryDefinition": "(n) the act of stopping something from happening",
-    "exampleSentence": "Disease prevention is better than finding a cure.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "prove",
-    "phonetic": "/pruːv/",
-    "turkishMeaning": "kanıtlamak",
-    "turkishDefinition": "Bir şeyin doğru olduğunu göstermek.",
-    "dictionaryDefinition": "(v) to show to be true",
-    "exampleSentence": "Can you prove that you were at home last night?",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "recover",
-    "phonetic": "/rɪ'kʌvə/",
-    "turkishMeaning": "iyileşmek, toparlanmak",
-    "turkishDefinition": "Bir hastalık veya yaralanmadan sonra tamamen sağlığına kavuşmak.",
-    "dictionaryDefinition": "(v) to become completely well again after an illness or injury",
-    "exampleSentence": "It took him three weeks to recover from the surgery.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "researcher",
-    "phonetic": "/rɪ'sɜːtʃə/",
-    "turkishMeaning": "araştırmacı",
-    "turkishDefinition": "Yeni bilgiler keşfetmek için bir konuyu inceleyen kişi.",
-    "dictionaryDefinition": "(n) a person who studies a subject in detail to discover new information about it",
-    "exampleSentence": "The researcher presented her findings at the conference.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "therapy",
-    "phonetic": "/ˈθer.ə.pi/",
-    "turkishMeaning": "terapi",
-    "turkishDefinition": "Hastalıktan sonra birinin kendini daha iyi hissetmesini sağlayan tedavi.",
-    "dictionaryDefinition": "(n) \"a treatment that helps somebody feel better, grow stronger, etc., especially after an illness\"",
-    "exampleSentence": "Music therapy can help patients feel more relaxed.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "treat",
-    "phonetic": "/triːt/",
-    "turkishMeaning": "tedavi etmek",
-    "turkishDefinition": "Hastaya tıbbi bakım sağlamak veya iyileştirmeye çalışmak.",
-    "dictionaryDefinition": "(v) give medical care to",
-    "exampleSentence": "Doctors are learning new ways to treat cancer.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "treatment",
-    "phonetic": "/ˈtriːtmənt/",
-    "turkishMeaning": "tedavi",
-    "turkishDefinition": "Bir hastalığı veya yaralanmayı iyileştirmek için yapılan her şey.",
-    "dictionaryDefinition": "(n) something that is done to try to cure an illness or injury",
-    "exampleSentence": "She is responding well to the new medical treatment.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "trial",
-    "phonetic": "/ˈtraɪəl/",
-    "turkishMeaning": "deneme, test",
-    "turkishDefinition": "Bir şeyin ne kadar etkili veya güvenli olduğunu bulma testi.",
-    "dictionaryDefinition": "(n) a test to find out how effective or safe something is",
-    "exampleSentence": "The new aircraft is undergoing flight trials this month.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "urgent",
-    "phonetic": "/ˈɜːdʒənt/",
-    "turkishMeaning": "acil",
-    "turkishDefinition": "Derhal dikkat ve müdahale gerektiren durum.",
-    "dictionaryDefinition": "(adj) requiring immediate attention",
-    "exampleSentence": "I have an urgent message for the manager.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "vaccine",
-    "phonetic": "/ˈvæksiːn/",
-    "turkishMeaning": "aşı",
-    "turkishDefinition": "Vücudu hastalıklardan korumak için verilen madde.",
-    "dictionaryDefinition": "(n) a substance put into the body of a person or animal to protect them from a disease",
-    "exampleSentence": "Children receive a vaccine to protect them against polio.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "virus",
-    "phonetic": "/ˈvaɪərəs/",
-    "turkishMeaning": "virüs",
-    "turkishDefinition": "Hastalıklara neden olan mikroorganizma.",
-    "dictionaryDefinition": "(n) an organism that causes disease",
-    "exampleSentence": "The computer was infected by a dangerous virus.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "wound",
-    "phonetic": "/wuːnd/",
-    "turkishMeaning": "yara",
-    "turkishDefinition": "Vücuttaki bir kesik veya darbe sonucu oluşan hasar.",
-    "dictionaryDefinition": "(n) \"a damaged area of the body, such as a cut or hole in the skin or hole in the skin or flesh\"",
-    "exampleSentence": "The nurse cleaned and bandaged the soldier's wound.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "adequate",
-    "phonetic": "/'ædəkwət/",
-    "turkishMeaning": "yeterli, kafi",
-    "turkishDefinition": "Belirli bir amaç için yeterli veya tatmin edici olan.",
-    "dictionaryDefinition": "(adj) enough or satisfactory for a particular purpose",
-    "exampleSentence": "Make sure you have adequate lighting in your study room.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "adverse",
-    "phonetic": "/æd'vɜːs/",
-    "turkishMeaning": "olumsuz, ters",
-    "turkishDefinition": "Bir şey üzerinde negatif veya zararlı etkisi olan.",
-    "dictionaryDefinition": "(adj) having a negative or harmful effect on something",
-    "exampleSentence": "High doses of this medicine can have adverse effects.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "burden",
-    "phonetic": "/'bɜːdən/",
-    "turkishMeaning": "yük, külfet",
-    "turkishDefinition": "Taşıması veya dayanması zor olan görev veya sorumluluk.",
-    "dictionaryDefinition": "(n) a duty or responsibility that is hard to bear",
-    "exampleSentence": "Looking after elderly parents can be a heavy burden.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "chief",
-    "phonetic": "/tʃiːf/",
-    "turkishMeaning": "baş, temel, ana",
-    "turkishDefinition": "En önemli veya başlıca olan.",
-    "dictionaryDefinition": "(adj) most important or main",
-    "exampleSentence": "Lack of funding is the chief cause of the project's delay.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "complex",
-    "phonetic": "/ˈkɒmpleks/",
-    "turkishMeaning": "karmaşık",
-    "turkishDefinition": "Birçok farklı parçaya sahip olduğu için anlaşılması güç olan.",
-    "dictionaryDefinition": "(adj) difficult to understand or find an answer to because of having many different parts",
-    "exampleSentence": "Modern society has many complex social problems.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "consultation",
-    "phonetic": "/ˌkɒnsəl'teɪʃən/",
-    "turkishMeaning": "danışma, görüşme",
-    "turkishDefinition": "Bir konuyu tartışmak veya tavsiye almak için yapılan toplantı.",
-    "dictionaryDefinition": "(n) a meeting to discuss something or to get advice",
-    "exampleSentence": "You should have a consultation with a specialist.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "contribution",
-    "phonetic": "/ˌkɒntrɪ'bjuːʃən/",
-    "turkishMeaning": "katkı",
-    "turkishDefinition": "Bir şeye yardım etmek için verilen para veya emek.",
-    "dictionaryDefinition": "(n) an amount of money that is given to help pay for something",
-    "exampleSentence": "Everyone made a small contribution to the charity fund.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "controversial",
-    "phonetic": "/ˌkɒntrə'vɜːʃəl/",
-    "turkishMeaning": "tartışmalı",
-    "turkishDefinition": "İnsanlar arasında anlaşmazlığa veya tartışmaya neden olan.",
-    "dictionaryDefinition": "(adj) causing disagreement or discussion",
-    "exampleSentence": "The decision to build a new road was very controversial.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "conventional",
-    "phonetic": "/kən'venʃənəl/",
-    "turkishMeaning": "geleneksel, alışılagelmiş",
-    "turkishDefinition": "Alışılmış olan uygulamaları veya yöntemleri takip eden.",
-    "dictionaryDefinition": "(adj) following the usual practices",
-    "exampleSentence": "He prefers conventional medicine over alternative treatments.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "diabetes",
-    "phonetic": "/ˌdaɪ.ə'biː.tiːz/",
-    "turkishMeaning": "diyabet, şeker hastalığı",
-    "turkishDefinition": "Vücudun kandaki şeker seviyesini kontrol edemediği hastalık.",
-    "dictionaryDefinition": "(n) a disease in which the body cannot control the level of sugar in the blood",
-    "exampleSentence": "Regular exercise helps manage the symptoms of diabetes.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "drug",
-    "phonetic": "/drʌɡ/",
-    "turkishMeaning": "ilaç",
-    "turkishDefinition": "Tıbbi amaçla veya keyif verici olarak kullanılan kimyasal madde.",
-    "dictionaryDefinition": "(n) any natural or artificially made chemical that is used as a medicine",
-    "exampleSentence": "The company is testing a new drug for heart disease.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "epidemic",
-    "phonetic": "/ˌepɪ'demɪk/",
-    "turkishMeaning": "epidemi, salgın",
-    "turkishDefinition": "Aynı anda çok sayıda insanı etkileyen hastalık.",
-    "dictionaryDefinition": "(n) an illness that affects large numbers of people at the same time",
-    "exampleSentence": "The flu epidemic spread quickly throughout the city.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "fund",
-    "phonetic": "/fʌnd/",
-    "turkishMeaning": "fon sağlamak",
-    "turkishDefinition": "Bir şeyin bedelini ödemek için para sağlamak.",
-    "dictionaryDefinition": "(v) to provide money to pay for something",
-    "exampleSentence": "The government decided to fund the new hospital project.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "illegal",
-    "phonetic": "/ɪ'liːɡəl/",
-    "turkishMeaning": "yasa dışı",
-    "turkishDefinition": "Kanunlara ve yasalara aykırı olan.",
-    "dictionaryDefinition": "(adj) against the law",
-    "exampleSentence": "Selling these products without a license is illegal.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "labour",
-    "phonetic": "/'leɪbər/",
-    "turkishMeaning": "iş gücü, emek",
-    "turkishDefinition": "Pratik veya fiziksel iş yapan çalışanlar.",
-    "dictionaryDefinition": "(n) \"workers, especially people who do practical work with their hands\"",
-    "exampleSentence": "The cost of labour is higher in developed countries.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "medical",
-    "phonetic": "/'medɪkəl/",
-    "turkishMeaning": "tıbbi",
-    "turkishDefinition": "Hastalık ve yaralanmaların tedavisiyle ilgili.",
-    "dictionaryDefinition": "(adj) related to the treatment of illness and injuries",
-    "exampleSentence": "He needed urgent medical attention after the car crash.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "mobility",
-    "phonetic": "/məʊ'bɪl.ə.ti/",
-    "turkishMeaning": "hareketlilik",
-    "turkishDefinition": "Kolayca ve rahatça hareket edebilme yeteneği.",
-    "dictionaryDefinition": "(n) the ability to move easily",
-    "exampleSentence": "Regular swimming can help improve your joint mobility.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "obesity",
-    "phonetic": "/əʊ'biː.sə.ti/",
-    "turkishMeaning": "obezite, aşırı şişmanlık",
-    "turkishDefinition": "Sağlığı tehlikeye atacak kadar aşırı kilolu olma durumu.",
-    "dictionaryDefinition": "(n) \"the fact of being extremely overweight, in a way that is dangerous for health\"",
-    "exampleSentence": "Childhood obesity is a growing concern for health officials.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "patent",
-    "phonetic": "/'peɪtənt/",
-    "turkishMeaning": "patent",
-    "turkishDefinition": "Bir icadın haklarını belirli süreyle koruyan resmi belge.",
-    "dictionaryDefinition": "(n) the official legal right to make or sell an invention for a particular number of years",
-    "exampleSentence": "The scientist applied for a patent for her new invention.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "pharmaceutical",
-    "phonetic": "/ˌfɑː.mə'suː.tɪ.kəl/",
-    "turkishMeaning": "ilaçla ilgili, farmasötik",
-    "turkishDefinition": "Tıbbi ilaç veya tedavi ile ilgili olan.",
-    "dictionaryDefinition": "(n) a medicine",
-    "exampleSentence": "The pharmaceutical industry is investing millions in research.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "physical",
-    "phonetic": "/'fɪzɪkəl/",
-    "turkishMeaning": "fiziksel",
-    "turkishDefinition": "Zihin yerine vücut ve beden ile bağlantılı olan.",
-    "dictionaryDefinition": "(adj) connected with the body",
-    "exampleSentence": "Physical education is an important part of the school curriculum.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "physiotherapy",
-    "phonetic": "/ˌfɪz.i.əʊ'θer.ə.pi/",
-    "turkishMeaning": "fizyoterapi",
-    "turkishDefinition": "Kas, eklem veya sinir problemlerinin tedavi yöntemi.",
-    "dictionaryDefinition": "(n) \"the treatment of problems of the muscles, joints, or nerves\"",
-    "exampleSentence": "She had physiotherapy sessions to recover from her leg injury.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "precise",
-    "phonetic": "/prɪ'saɪs/",
-    "turkishMeaning": "kesin, tam",
-    "turkishDefinition": "Çok net, doğru ve hatasız olan.",
-    "dictionaryDefinition": "(adj) exact and accurate",
-    "exampleSentence": "We need a precise measurement of the room's dimensions.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "preventable illness",
-    "phonetic": "/prɪ'ventəbəl 'ɪlnəs/",
-    "turkishMeaning": "önlenebilir hastalık",
-    "turkishDefinition": "Kişinin kendine bakmasıyla kaçınılabilecek hastalık.",
-    "dictionaryDefinition": "(n phr) a disease that can be avoided, often by a person looking after themselves",
-    "exampleSentence": "Heart disease is often a preventable illness through diet.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "professional",
-    "phonetic": "/prə'feʃənəl/",
-    "turkishMeaning": "profesyonel",
-    "turkishDefinition": "Eğitimli ve yetenekli kişilere özgü niteliklere sahip olan.",
-    "dictionaryDefinition": "(adj) having the qualities that you connect with trained and skilled people",
-    "exampleSentence": "She gave a very professional presentation to the board.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "proponent",
-    "phonetic": "/prə'pəʊnənt/",
-    "turkishMeaning": "taraftar, savunucu",
-    "turkishDefinition": "Belirli bir fikri veya planı destekleyen kişi.",
-    "dictionaryDefinition": "(n) a person who supports a particular idea or plan of action",
-    "exampleSentence": "He is a strong proponent of renewable energy.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "regardless",
-    "phonetic": "/rɪ'ɡɑːdləs/",
-    "turkishMeaning": "ne olursa olsun, bakmaksızın",
-    "turkishDefinition": "Bir şeyden etkilenmeksizin, her şeye rağmen.",
-    "dictionaryDefinition": "(adv) despite; not being affected by something",
-    "exampleSentence": "The event will go ahead regardless of the weather.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "safety net",
-    "phonetic": "/ˈseɪfti net/",
-    "turkishMeaning": "güvenlik ağı",
-    "turkishDefinition": "Birini olası zorluklara karşı koruyan sistem veya şey.",
-    "dictionaryDefinition": "(n phr) something used to protect a person against possible hardship or difficulty",
-    "exampleSentence": "Social security acts as a safety net for the unemployed.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "substances",
-    "phonetic": "/'sʌbstənsɪz/",
-    "turkishMeaning": "maddeler",
-    "turkishDefinition": "Belirli fiziksel özelliklere sahip olan materyaller.",
-    "dictionaryDefinition": "(n) materials with particular physical characteristics",
-    "exampleSentence": "The lab is testing some unknown chemical substances.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "surgeon",
-    "phonetic": "/'sɜː.dʒən/",
-    "turkishMeaning": "cerrah",
-    "turkishDefinition": "Tıbbi ameliyatlar yapmak üzere eğitilmiş doktor.",
-    "dictionaryDefinition": "(n) a doctor who is specially trained to perform medical operations",
-    "exampleSentence": "The surgeon performed a successful heart bypass operation.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "surgery",
-    "phonetic": "/'sɜːdʒəri/",
-    "turkishMeaning": "cerrahi müdahale, ameliyat",
-    "turkishDefinition": "Hasarlı bir parçayı onarmak için vücudun açılması işlemi.",
-    "dictionaryDefinition": "(n) the cutting open of the body to repair a damaged part",
-    "exampleSentence": "He had to undergo emergency surgery after the accident.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "symptoms",
-    "phonetic": "/'sɪmptəmz/",
-    "turkishMeaning": "belirtiler",
-    "turkishDefinition": "Bir hastalığın neden olduğu tepkiler veya hisler.",
-    "dictionaryDefinition": "(n) reactions or feelings of illness that are caused by a disease",
-    "exampleSentence": "The main symptoms of a cold are coughing and sneezing.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "tumour",
-    "phonetic": "/'tjuː.mər/",
-    "turkishMeaning": "tümör, ur",
-    "turkishDefinition": "Hastalık nedeniyle oluşan hücre kütlesi veya şişlik.",
-    "dictionaryDefinition": "(n) a mass of diseased cells that might become a lump or cause illness",
-    "exampleSentence": "Doctors found a small tumour in his lung during the scan.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "underfunding",
-    "phonetic": "/ˌʌndə'fʌndɪŋ/",
-    "turkishMeaning": "yetersiz finansman",
-    "turkishDefinition": "Bir şey için sağlanan para veya bütçenin eksikliği.",
-    "dictionaryDefinition": "(n) the lack of money provided for something e.g. research",
-    "exampleSentence": "The education system is suffering from chronic underfunding.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  },
-  {
-    "english": "ward",
-    "phonetic": "/wɔːd/",
-    "turkishMeaning": "koğuş, hastane odası",
-    "turkishDefinition": "Hastanenin yataklı bölümlerine veya büyük odalarına verilen ad.",
-    "dictionaryDefinition": "(n) \"one of the parts or large rooms into which a hospital is divided, usually with beds for patients\"",
-    "exampleSentence": "The patient was moved to the intensive care ward.",
-    "level": "B1",
-    "tags": [
-      "Unit 3"
-    ]
-  }
+    english: "consumer",
+    phonetic: "/kən'sju:mə/",
+    turkishMeaning: "tüketici",
+    turkishDefinition: "Mal veya hizmet satın alan veya kullanan kişi.",
+    dictionaryDefinition: "(n) somebody who buys or uses goods or services",
+    exampleSentence: "Most consumers today prefer organic products.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "cost",
+    phonetic: "/kɒst/",
+    turkishMeaning: "maliyet",
+    turkishDefinition:
+      "Bir şeyi satın almak veya yapmak için gereken para miktarı.",
+    dictionaryDefinition:
+      '(n) "the amount of money needed to buy, do, or make something"',
+    exampleSentence: "The production cost of this car is very high.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "discount",
+    phonetic: "/ˈdɪskaʊnt/",
+    turkishMeaning: "indirim",
+    turkishDefinition: "Bir malın fiyatında yapılan azalma veya eksiltme.",
+    dictionaryDefinition: "(n) a reduction in price",
+    exampleSentence: "Is there a discount for students in this store?",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "domestic",
+    phonetic: "/də'mestɪk/",
+    turkishMeaning: "yerli, iç",
+    turkishDefinition:
+      "Bir kişinin kendi ülkesiyle veya ev yaşamıyla ilgili olan.",
+    dictionaryDefinition: "(adj) related to a person's own country",
+    exampleSentence:
+      "Domestic flights are currently cheaper than international ones.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "export",
+    phonetic: "/ɪk'spɔ:t/",
+    turkishMeaning: "ihracat",
+    turkishDefinition: "Başka bir ülkeye satmak amacıyla mal göndermek.",
+    dictionaryDefinition: "(v) to send goods to another country for sale",
+    exampleSentence: "Turkey exports many high-quality textiles to Europe.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "goods",
+    phonetic: "/ɡʊdz/",
+    turkishMeaning: "eşya, mallar",
+    turkishDefinition: "Ticaret amacıyla üretilen ve satılan ürünler.",
+    dictionaryDefinition: "(n) items for sale",
+    exampleSentence: "The truck was carrying industrial goods.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "greenhouse",
+    phonetic: "/ˈɡriːnhaʊs/",
+    turkishMeaning: "sera",
+    turkishDefinition:
+      "Bitkilerin sabit sıcaklıkta yetiştiği cam veya plastik bina.",
+    dictionaryDefinition:
+      "(n) a building used to grow plants that need constant warmth and protection",
+    exampleSentence: "We grow our organic tomatoes in a greenhouse.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "import",
+    phonetic: "/ɪm'pɔ:t/",
+    turkishMeaning: "ithalat",
+    turkishDefinition:
+      "Başka bir ülkeden satmak veya kullanmak amacıyla mal getirmek.",
+    dictionaryDefinition:
+      "(v) to bring products in from another country to sell or use",
+    exampleSentence: "The country needs to import more energy to meet demand.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "investigate",
+    phonetic: "/ɪn'vestɪɡeɪt/",
+    turkishMeaning: "araştırmak, incelemek",
+    turkishDefinition:
+      "Gerçeği ortaya çıkarmak için bir şeyi dikkatle muayene etmek.",
+    dictionaryDefinition:
+      '(v) "to carefully examine something, especially to discover the truth about it"',
+    exampleSentence: "The police are investigating the cause of the accident.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "labour",
+    phonetic: "/ˈleɪbə/",
+    turkishMeaning: "iş gücü, emek",
+    turkishDefinition:
+      "Özellikle el ile yapılan fiziksel çalışma veya işçiler.",
+    dictionaryDefinition: "(n) work",
+    exampleSentence: "Manual labour is still important in some industries.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "multinational",
+    phonetic: "/ˌmʌltiˈnæʃənəl/",
+    turkishMeaning: "çok uluslu",
+    turkishDefinition:
+      "Birden fazla ülkede aktif olarak faaliyet gösteren şirket.",
+    dictionaryDefinition: "(adj) active in several countries",
+    exampleSentence: "Coca-Cola is a successful multinational company.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "outsourcing",
+    phonetic: "/ˈaʊtˌsɔːsɪŋ/",
+    turkishMeaning: "dış kaynak kullanımı",
+    turkishDefinition:
+      "Bir şirketin işinin bir kısmını başka bir şirkete yaptırması.",
+    dictionaryDefinition:
+      "(n) a situation in which a company pays to have part of its work done by another company",
+    exampleSentence: "Outsourcing IT services can save the company money.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "overseas",
+    phonetic: "/ˌəʊvə'si:z/",
+    turkishMeaning: "yurt dışı, deniz aşırı",
+    turkishDefinition: "Kendi ülkesinin dışındaki ülkelerde veya ülkelere.",
+    dictionaryDefinition: '(adv) "in, from, or to other countries"',
+    exampleSentence: "Many students want to study overseas for a year.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "produce",
+    phonetic: "/ˈprɒdʒu:s/",
+    turkishMeaning: "",
+    turkishDefinition: "",
+    dictionaryDefinition:
+      "(n) food or any other substance or material that is grown or obtained through farming",
+    exampleSentence: "",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "produce",
+    phonetic: "/prə'dʒu:s/",
+    turkishMeaning: "",
+    turkishDefinition: "",
+    dictionaryDefinition: "(v) to create something or bring it into existence",
+    exampleSentence: "",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "production costs",
+    phonetic: "/prə'dʌkʃən kɒsts/",
+    turkishMeaning: "üretim maliyetleri",
+    turkishDefinition: "Bir şeyi üretmek için harcanan toplam para miktarı.",
+    dictionaryDefinition: "(n) the money spent to make something",
+    exampleSentence: "High energy prices have increased production costs.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "profit",
+    phonetic: "/ˈprɒfɪt/",
+    turkishMeaning: "kâr",
+    turkishDefinition: "Gelir ile gider arasındaki olumlu fark; kazanç.",
+    dictionaryDefinition: "(n) financial gain",
+    exampleSentence: "The company made a huge profit this year.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "prosperity",
+    phonetic: "/prɒs'perəti/",
+    turkishMeaning: "refah, zenginlik",
+    turkishDefinition: "Başarılı olma ve çok paraya sahip olma durumu.",
+    dictionaryDefinition:
+      "(n) the state of being successful and having a lot of money",
+    exampleSentence: "Economic prosperity is the goal of every nation.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "purchase",
+    phonetic: "/ˈpɜːtʃəs/",
+    turkishMeaning: "satın almak",
+    turkishDefinition: "Bir mülkü veya malı para karşılığı edinmek.",
+    dictionaryDefinition: "(v) to buy something",
+    exampleSentence: "You can purchase the tickets online or at the station.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "supply chain",
+    phonetic: "/sə'plaɪ tʃeɪn/",
+    turkishMeaning: "tedarik zinciri",
+    turkishDefinition:
+      "Bir ürünün üretimden tüketiciye ulaşana kadarki süreci.",
+    dictionaryDefinition:
+      "(n) the system of people and things that are involved in getting a product from the place where it is made to the person who buys it",
+    exampleSentence: "Any break in the supply chain can cause delays.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "transport",
+    phonetic: "/ˈtrænspɔːt/",
+    turkishMeaning: "nakliyat, ulaşım",
+    turkishDefinition:
+      "İnsanların veya malların bir yerden başka yere taşınması.",
+    dictionaryDefinition:
+      "(n) the movement of people or goods from one place to another",
+    exampleSentence: "Public transport is a great way to reduce traffic.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "confuse",
+    phonetic: "/kən'fju:z/",
+    turkishMeaning: "kafasını karıştırmak",
+    turkishDefinition:
+      "Birinin zihnini karıştırmak veya bir şeyi zorlaştırmak.",
+    dictionaryDefinition:
+      '(v) "to mix up someone\'s mind or ideas, or to make something difficult to understand"',
+    exampleSentence: "Too many options can confuse the customers.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "consumption",
+    phonetic: "/kən'sʌmpʃən/",
+    turkishMeaning: "tüketim",
+    turkishDefinition: "Birinin aşındırdığı, yediği veya kullandığı miktar.",
+    dictionaryDefinition:
+      "(n) the amount of something that someone uses, eats or drinks",
+    exampleSentence: "The consumption of electricity increases in winter.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "continue",
+    phonetic: "/kən'tɪnju:/",
+    turkishMeaning: "devam etmek",
+    turkishDefinition: "Bir şeyin olmaya, var olmaya veya yapılmaya sürmesi.",
+    dictionaryDefinition:
+      '(v) "to keep happening, existing or doing something, or to cause something or someone to do this"',
+    exampleSentence: "We will continue our discussion after the break.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "convenience",
+    phonetic: "/kən'vi:niəns/",
+    turkishMeaning: "kolaylık, uygunluk",
+    turkishDefinition:
+      "Bir şeyin amaçlarınıza uygun ve en az zorluktaki durumu.",
+    dictionaryDefinition:
+      "(n) the state of being suitable for your purposes and causing the least difficulty",
+    exampleSentence: "Online banking offers a lot of convenience to users.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "dominant",
+    phonetic: "/'dɒmɪnənt/",
+    turkishMeaning: "baskın, egemen",
+    turkishDefinition:
+      "Kendi türündeki her şeyden daha önemli veya güçlü olan.",
+    dictionaryDefinition:
+      "(adj) more important, stronger or more noticeable than anything else of the same type",
+    exampleSentence:
+      "English is the dominant language in international business.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "ensure",
+    phonetic: "/ɪn'ʃɔ:/",
+    turkishMeaning: "garantiye almak",
+    turkishDefinition: "Bir şeyin yapıldığından veya olduğundan emin olmak.",
+    dictionaryDefinition:
+      "(v) to make certain that something is done or happens",
+    exampleSentence:
+      "Please ensure that all windows are closed before leaving.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "exclude",
+    phonetic: "/ɪk'sklu:d/",
+    turkishMeaning: "hariç tutmak",
+    turkishDefinition:
+      "Birinin bir yer girmesini veya aktiviteye katılmasını önlemek.",
+    dictionaryDefinition:
+      "(v) to prevent someone or something from entering a place or taking part in an activity",
+    exampleSentence: "The price excludes breakfast and other extra costs.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "exhaust",
+    phonetic: "/ɪɡ'zɔ:st/",
+    turkishMeaning: "tüketmek, bitirmek",
+    turkishDefinition: "Bir şeyi tamamen kullanmak veya bitirmek.",
+    dictionaryDefinition: "(v) to use something completely",
+    exampleSentence: "We have exhausted all our options for this problem.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "experiment",
+    phonetic: "/ɪk'sperɪmənt/",
+    turkishMeaning: "deney, deneme",
+    turkishDefinition:
+      "Yeni bir yolu test etmek veya denemek için yapılan işlem.",
+    dictionaryDefinition: "(v) to test or to try a new way of doing something",
+    exampleSentence: "Scientists are conducting an experiment on new fuels.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "increase",
+    phonetic: "/ɪn'kri:s/",
+    turkishMeaning: "artırmak, çoğalmak",
+    turkishDefinition: "Bir şeyin daha büyük veya daha fazla hale gelmesi.",
+    dictionaryDefinition: "(v) to become larger or greater",
+    exampleSentence: "The population of the city continues to increase.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "inflation",
+    phonetic: "/ɪn'fleɪʃən/",
+    turkishMeaning: "enflasyon",
+    turkishDefinition: "Bir ekonomideki fiyatların sürekli olarak yükselmesi.",
+    dictionaryDefinition: "(n) a continuing rise in prices in an economy",
+    exampleSentence: "High inflation reduces the purchasing power of people.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "influence",
+    phonetic: "/'ɪnfluəns/",
+    turkishMeaning: "etki",
+    turkishDefinition: "İnsanlar veya şeyler üzerinde etkili olma gücü.",
+    dictionaryDefinition:
+      "(n) the power to have an effect on people or things or someone or something which is able to do this",
+    exampleSentence: "Social media has a big influence on young people.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "monopoly",
+    phonetic: "/mə'nɒpəli/",
+    turkishMeaning: "tekel",
+    turkishDefinition:
+      "Bir iş alanının tamamına sahip olup başkasına yer bırakmamak.",
+    dictionaryDefinition:
+      '(n) "complete control of something, especially an area of business, so that others have no share"',
+    exampleSentence: "The state had a monopoly on the postal service.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "outlet",
+    phonetic: "/'aʊtlet/",
+    turkishMeaning: "satış noktası",
+    turkishDefinition: "Bir şirketin ürünlerini satan perakende mağazası.",
+    dictionaryDefinition:
+      "(n) a shop that is one of many owned by a particular company selling the goods produced by the company",
+    exampleSentence: "Apple has many retail outlets all around the world.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "refuse",
+    phonetic: "/rɪ'fju:z/",
+    turkishMeaning: "reddetmek",
+    turkishDefinition:
+      "Bir şeyi yapmayı veya kabul etmeyi istemediğini söylemek.",
+    dictionaryDefinition: "(v) to say that you will not do or accept something",
+    exampleSentence: "I had to refuse the invitation because I was busy.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "relatively",
+    phonetic: "/'relətɪvli/",
+    turkishMeaning: "nispeten, oldukça",
+    turkishDefinition:
+      "Diğer benzer şeylerle karşılaştırıldığında oldukça iyi/kötü.",
+    dictionaryDefinition:
+      '(adv) "quite good, bad, etc. in comparison with other similar things or with what you expect"',
+    exampleSentence: "The test was relatively easy compared to the last one.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "remove",
+    phonetic: "/rɪ'mu:v/",
+    turkishMeaning: "çıkarmak, kaldırmak",
+    turkishDefinition:
+      "Bir şeyi veya birini bir yerden alıp başka yere götürmek.",
+    dictionaryDefinition:
+      "(v) to take something or someone away from somewhere, or off something",
+    exampleSentence: "You must remove your shoes before entering the house.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "reputation",
+    phonetic: "/ˌrepjə'teɪʃən/",
+    turkishMeaning: "itibar, ün",
+    turkishDefinition:
+      "Birinin karakteri hakkında insanların sahip olduğu genel görüş.",
+    dictionaryDefinition:
+      "(n) the general opinion that people have about someone or something based on their character in the past",
+    exampleSentence: "The hotel has a very good reputation for its service.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "selling point",
+    phonetic: "/'selɪŋ pɔɪnt/",
+    turkishMeaning: "satış noktası, cazip özellik",
+    turkishDefinition: "İnsanları bir ürünü satın almaya ikna eden özellik.",
+    dictionaryDefinition:
+      "(n) a feature that persuades people to buy a product",
+    exampleSentence:
+      "The long battery life is a big selling point for this phone.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "specialty",
+    phonetic: "/'speʃəlti/",
+    turkishMeaning: "uzmanlık alanı, özel ürün",
+    turkishDefinition:
+      "Bir yerin veya kişinin özellikle tanındığı ürün veya konu.",
+    dictionaryDefinition: "(n) a product that a place is especially known for",
+    exampleSentence: "Seafood is the specialty of this local restaurant.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "study",
+    phonetic: "/'stʌdi/",
+    turkishMeaning: "incelemek, çalışmak",
+    turkishDefinition:
+      "Bir şeyi yeni bilgiler keşfetmek için dikkatle incelemek.",
+    dictionaryDefinition: "(v) to examine something very carefully",
+    exampleSentence: "Researchers are studying the effects of the new drug.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "supplier",
+    phonetic: "/ə'plaɪə/",
+    turkishMeaning: "tedarikçi",
+    turkishDefinition: "Belirli bir tür mal sağlayan kişi veya şirket.",
+    dictionaryDefinition:
+      "(n) a person or company that provides goods of a particular kind",
+    exampleSentence: "We need to find a new supplier for office materials.",
+    level: "B1",
+    tags: ["Unit 1"],
+  },
+  {
+    english: "adviser",
+    phonetic: "/əd'vaɪzə/",
+    turkishMeaning: "danışman",
+    turkishDefinition:
+      "Belirli bir konuda tavsiye veya bilgi veren uzman kişi.",
+    dictionaryDefinition:
+      "(n) somebody whose job is to give advice about a subject",
+    exampleSentence:
+      "The student met with her academic adviser to plan her courses.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "campus",
+    phonetic: "/ˈkæm.pəs/",
+    turkishMeaning: "kampüs, yerleşke",
+    turkishDefinition:
+      "Bir üniversitenin veya kolejin binalarının ve arazisinin tamamı.",
+    dictionaryDefinition:
+      "(n) the buildings and land of a college or university",
+    exampleSentence:
+      "Living on campus makes it easier to attend early morning lectures.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "complex",
+    phonetic: "/ˈkɒmpleks/",
+    turkishMeaning: "karmaşık",
+    turkishDefinition:
+      "Birçok farklı ama birbiriyle ilişkili parçadan oluşan, anlaşılması güç.",
+    dictionaryDefinition:
+      "(adj) involving a lot of different but related parts",
+    exampleSentence: "The human brain is an incredibly complex organ.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "emphasis",
+    phonetic: "/ˈem.fə.sɪs/",
+    turkishMeaning: "vurgu, önem",
+    turkishDefinition: "Bir şeye verilen özel önem veya dikkat.",
+    dictionaryDefinition:
+      "(n) the particular importance or attention that is given to something",
+    exampleSentence: "The course puts a strong emphasis on practical skills.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "innovation",
+    phonetic: "/ˌɪn.əˈveɪ.ʃən/",
+    turkishMeaning: "yenilik, inovasyon",
+    turkishDefinition: "Yeni bir fikir, yöntem veya icadın uygulanması.",
+    dictionaryDefinition: "(n) a new idea or method",
+    exampleSentence:
+      "Technological innovation is key to any country's economic growth.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "institution",
+    phonetic: "/ˌɪn.stɪˈtʃuː.ʃən/",
+    turkishMeaning: "kuruluş, kurum",
+    turkishDefinition:
+      "Üniversite veya banka gibi büyük ve önemli bir organizasyon.",
+    dictionaryDefinition:
+      "(n) a large and important organization such as a university or bank",
+    exampleSentence:
+      "Harvard is one of the oldest educational institutions in the US.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "manual",
+    phonetic: "/ˈmænjuəl/",
+    turkishMeaning: "el ile yapılan",
+    turkishDefinition: "Ellerin kullanıldığı, fiziksel güç gerektiren iş.",
+    dictionaryDefinition: "(adj) involving the use of the hands",
+    exampleSentence:
+      "Some people find manual jobs more satisfying than office work.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "medical",
+    phonetic: "/ˈmedɪkəl/",
+    turkishMeaning: "tıbbi",
+    turkishDefinition: "Hastalık ve yaralanmaların tedavisi ile ilgili olan.",
+    dictionaryDefinition:
+      "(adj) relating to the treatment of disease and injury",
+    exampleSentence: "She decided to go to medical school to become a doctor.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "physical",
+    phonetic: "/ˈfɪzɪkəl/",
+    turkishMeaning: "fiziksel, bedensel",
+    turkishDefinition: "Zihin yerine vücut ile ilgili olan her şey.",
+    dictionaryDefinition: "(adj) relating to the body",
+    exampleSentence:
+      "Regular physical exercise is essential for a healthy life.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "practical",
+    phonetic: "/ˈpræktɪkəl/",
+    turkishMeaning: "pratik, uygulamalı",
+    turkishDefinition:
+      "Düşünceler veya hayaller yerine gerçek durumlar ve deneyimlerle ilgili.",
+    dictionaryDefinition:
+      "(adj) relating to experience and real situations not ideas or imagination",
+    exampleSentence:
+      "The workshop provided practical training for young engineers.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "professional",
+    phonetic: "/prə'feʃənəl/",
+    turkishMeaning: "profesyonel, mesleki",
+    turkishDefinition: "Özel eğitim veya eğitim gerektiren bir işle ilgili.",
+    dictionaryDefinition:
+      "(adj) relating to a job that needs special education or training",
+    exampleSentence:
+      "It is important to maintain professional behavior at the workplace.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "reference",
+    phonetic: "/ˈref.ər.əns/",
+    turkishMeaning: "referans",
+    turkishDefinition:
+      "Birinin bir işe uygun olup olmadığını söyleyen tavsiye mektubu.",
+    dictionaryDefinition:
+      '(n) "a letter that is written by somebody who knows you, to say if you are suitable for a job, course, etc."',
+    exampleSentence: "He asked his former professor for a character reference.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "requirements",
+    phonetic: "/rɪˈkwaɪə.mənt/",
+    turkishMeaning: "gereksinimler, şartlar",
+    turkishDefinition: "İhtiyaç duyulan veya yapılması zorunlu olan şeyler.",
+    dictionaryDefinition: "(n) things which are needed or necessary",
+    exampleSentence: "Applicants must meet all the entry requirements.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "secure",
+    phonetic: "/sɪˈkjʊə/",
+    turkishMeaning: "güvenli, sağlam",
+    turkishDefinition: "Güvenilir olan ve değişmesi muhtemel olmayan durum.",
+    dictionaryDefinition: "(adj) dependable; not likely to change",
+    exampleSentence: "A secure job provides peace of mind for the future.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "statement",
+    phonetic: "/ˈsteɪt.mənt/",
+    turkishMeaning: "açıklama, ifade",
+    turkishDefinition:
+      "Resmi olarak söylenen veya yazılan bir görüş veya bilgi.",
+    dictionaryDefinition:
+      '(n) "something that somebody says or writes officially, or an action done to express an opinion"',
+    exampleSentence:
+      "The company issued an official statement regarding the new policy.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "technical",
+    phonetic: "/ˈteknɪkəl/",
+    turkishMeaning: "teknik",
+    turkishDefinition:
+      "Bilim ve sanayide kullanılan yöntemler veya makinelerle ilgili.",
+    dictionaryDefinition:
+      "(adj) relating to the knowledge machines or methods used in science and industry",
+    exampleSentence:
+      "The report was full of technical terms that were hard to understand.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "alternative",
+    phonetic: "/ɒl'tɜ:nətɪv/",
+    turkishMeaning: "alternatif, seçenek",
+    turkishDefinition: "Alışılmış olandan farklı olan bir başka seçenek.",
+    dictionaryDefinition:
+      '(n) "something that is different, especially from what is usual; a choice"',
+    exampleSentence: "Solar energy is a clean alternative to fossil fuels.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "aspect",
+    phonetic: "/'æspekt/",
+    turkishMeaning: "yön, taraf, boyut",
+    turkishDefinition: "Bir şeyin belirli bir özelliği veya parçası.",
+    dictionaryDefinition: "(n) a feature of something",
+    exampleSentence: "Safety is the most important aspect of car design.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "assignment",
+    phonetic: "/ə'saɪnmənt/",
+    turkishMeaning: "ödev, görev",
+    turkishDefinition:
+      "Üniversitede yazılan bir makale veya verilen bir görev.",
+    dictionaryDefinition: "(n) a written essay at university",
+    exampleSentence:
+      "The students have to submit their history assignment by Friday.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "community",
+    phonetic: "/kə'mju:nəti/",
+    turkishMeaning: "topluluk, cemiyet",
+    turkishDefinition:
+      "Aynı bölgede yaşayan veya aynı ilgileri paylaşan insanlar.",
+    dictionaryDefinition: "(n) the people living in the same area",
+    exampleSentence: "The local community worked together to clean the park.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "concrete",
+    phonetic: "/'kɒŋkri:t/",
+    turkishMeaning: "somut",
+    turkishDefinition: "Fikirler yerine gerçek şeylere ve örneklere dayanan.",
+    dictionaryDefinition:
+      "(adj) based on actual things and particular examples",
+    exampleSentence: "There is no concrete evidence to prove his theory yet.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "core",
+    phonetic: "/kɔ:/, (adj)",
+    turkishMeaning: "çekirdek, temel",
+    turkishDefinition: "Bir şeyin en merkezi ve en temel olan kısmı.",
+    dictionaryDefinition: '"central, basic"',
+    exampleSentence:
+      "The core subjects in primary school are maths and language.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "core principles",
+    phonetic: "/kɔ: prɪnsəpəl/",
+    turkishMeaning: "temel ilkeler",
+    turkishDefinition: "Bir şeyin temelini oluşturan en önemli değerler.",
+    dictionaryDefinition: "(n phr) key values",
+    exampleSentence:
+      "Freedom and equality are the core principles of democracy.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "credible alternative",
+    phonetic: "/'kredəbəl ɒl'tɜ:nətɪv/",
+    turkishMeaning: "güvenilir alternatif",
+    turkishDefinition: "İnanılabilir ve sağlam bir yedek seçenek.",
+    dictionaryDefinition: "(n phr) a reliable substitute",
+    exampleSentence:
+      "The new bus route is a credible alternative to driving to work.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "deadline",
+    phonetic: "/'ded.laɪn/",
+    turkishMeaning: "son teslim tarihi",
+    turkishDefinition: "Bir şeyin yapılması gereken en son zaman veya gün.",
+    dictionaryDefinition: "(n) a time or day by which something must be done",
+    exampleSentence: "The deadline for the project is the end of the month.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "degree",
+    phonetic: "/dɪ'ɡri/",
+    turkishMeaning: "derece, üniversite diploması",
+    turkishDefinition:
+      "Üniversiteyi bitiren öğrencilere verilen yeterlilik belgesi.",
+    dictionaryDefinition:
+      '(n) "a course of study at a college or university, or the qualification given to a student after he or she has completed his or her studies"',
+    exampleSentence: "She is going to university to get a degree in biology.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "discipline",
+    phonetic: "/'dɪsəplɪn/",
+    turkishMeaning: "disiplin, bilim dalı",
+    turkishDefinition: "Üniversitede çalışılan belirli bir akademik alan.",
+    dictionaryDefinition: "(n) a particular area of study",
+    exampleSentence: "Sociology is a fascinating academic discipline.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "dissertation",
+    phonetic: "/ˌdisə'teɪʃən/",
+    turkishMeaning: "tez, bitirme ödevi",
+    turkishDefinition:
+      "Üniversite derecesi için yazılan çok uzun bilimsel yazı.",
+    dictionaryDefinition: "(n) a long essay usually for a university degree",
+    exampleSentence:
+      "He is writing his dissertation on renewable energy sources.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "distance learning",
+    phonetic: "/'distəns 'lɜːniŋ/",
+    turkishMeaning: "uzaktan eğitim",
+    turkishDefinition: "Genellikle internet üzerinden yapılan eğitim türü.",
+    dictionaryDefinition: "(n phr) general education from online teaching",
+    exampleSentence:
+      "Distance learning is ideal for people who work full-time.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "employability",
+    phonetic: "/ɪmˌplɔɪə'bɪləti/",
+    turkishMeaning: "istihdam edilebilirlik",
+    turkishDefinition: "Birinin iş bulmasını sağlayan beceri ve yetenekleri.",
+    dictionaryDefinition:
+      "(n) the skills and abilities that allow you to be employed",
+    exampleSentence: "Internships are great for improving your employability.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "establishment",
+    phonetic: "/ɪ'stæblɪʃmənt/",
+    turkishMeaning: "kuruluş, tesis etme",
+    turkishDefinition:
+      "Uzun süre kalıcı olacak bir şeyi başlatma veya kurma eylemi.",
+    dictionaryDefinition:
+      "(n) the act of starting or creating something that will last a long time",
+    exampleSentence: "The establishment of the new university took five years.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "examination",
+    phonetic: "/ɪɡˌzæmɪ'neɪʃən/",
+    turkishMeaning: "sınav, inceleme",
+    turkishDefinition:
+      "Bir yeterlilik almak için geçilmesi gereken resmi test.",
+    dictionaryDefinition:
+      "(n) a formal test which students must pass to get a specific qualification",
+    exampleSentence:
+      "The students are busy preparing for their final examinations.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "in-depth",
+    phonetic: "/ɪn depθ/",
+    turkishMeaning: "derinlemesine, detaylı",
+    turkishDefinition: "Ciddi ve çok ayrıntılı bir şekilde yapılan araştırma.",
+    dictionaryDefinition: "(adj) in a serious and detailed way",
+    exampleSentence:
+      "The professor gave an in-depth analysis of the economic situation.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "illiteracy",
+    phonetic: "/ɪ'lɪt.ər.ə.si/",
+    turkishMeaning: "okuma yazma bilmeme",
+    turkishDefinition: "Okuma ve yazma becerisine sahip olmama durumu.",
+    dictionaryDefinition: "(n) a lack of the ability to read and write",
+    exampleSentence: "Illiteracy is a major barrier to modern education.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "journal",
+    phonetic: "/'dʒɜːnəl/",
+    turkishMeaning: "akademik dergi",
+    turkishDefinition:
+      "Araştırma makalelerinin toplandığı düzenli bilimsel yayın.",
+    dictionaryDefinition:
+      '(n) "is a quarterly, peer-reviewed collection of research papers"',
+    exampleSentence: "His research was published in a leading medical journal.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "lecturer",
+    phonetic: "/'lektʃərə/",
+    turkishMeaning: "öğretim görevlisi",
+    turkishDefinition: "Üniversitede ders veren ve araştırma yapan kişi.",
+    dictionaryDefinition:
+      "(n) is the holder of a research position at a university who also teaches",
+    exampleSentence: "The lecturer explained the theory very clearly.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "modern phenomenon",
+    phonetic: "/'mɒdən fə'nɒmɪnən/",
+    turkishMeaning: "modern fenomen, güncel olay",
+    turkishDefinition: "Son zamanlarda ortaya çıkan yeni bir trend veya durum.",
+    dictionaryDefinition: "(n phr) a recent trend",
+    exampleSentence:
+      "Influencer marketing is a modern phenomenon in advertising.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "motivation",
+    phonetic: "/ˌməʊtɪ'veɪʃən/",
+    turkishMeaning: "motivasyon, isteklilik",
+    turkishDefinition: "Bir şeyi yapma isteği veya hevesi.",
+    dictionaryDefinition: "(n) willingness to do something",
+    exampleSentence: "The secret to success is staying high on motivation.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "online degree",
+    phonetic: "/'ɒnlaɪn dɪ'ɡri/",
+    turkishMeaning: "online diploma",
+    turkishDefinition: "Tamamen internet üzerinden alınan akademik yeterlilik.",
+    dictionaryDefinition:
+      "(n phr) an academic qualification obtained from online instruction",
+    exampleSentence: "She earned an online degree while working as a nurse.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "peer",
+    phonetic: "/pɪər/",
+    turkishMeaning: "akran, eş",
+    turkishDefinition: "Bir gruptaki aynı yaş veya sosyal statüdeki kişi.",
+    dictionaryDefinition:
+      "(n) a person who is the same age or has the same social position or the same abilities as other people in a group",
+    exampleSentence: "Children are often influenced by their peers' opinions.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "plagiarism",
+    phonetic: "/'pleɪdʒərɪzəm/",
+    turkishMeaning: "intihal",
+    turkishDefinition:
+      "Başkasının eserini kaynak göstermeden kendininmiş gibi sunmak.",
+    dictionaryDefinition:
+      "(n) when students copy from or do not acknowledge their sources when writing an essay",
+    exampleSentence: "Plagiarism is considered a serious academic offence.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "principle",
+    phonetic: "/prɪnsəpəl/",
+    turkishMeaning: "prensip, ilke",
+    turkishDefinition: "Bir şeyin nasıl çalıştığını açıklayan temel gerçek.",
+    dictionaryDefinition:
+      "(adj) a basic truth that explains or controls how something happens or works",
+    exampleSentence: "The fundamental principle of justice is fairness to all.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "pursue",
+    phonetic: "/pə'sju:/",
+    turkishMeaning: "peşinden koşmak, sürdürmek",
+    turkishDefinition: "Bir şeyi başarmaya veya gerçekleştirmeye çalışmak.",
+    dictionaryDefinition: "(v) to try to do or achieve",
+    exampleSentence: "She decided to pursue a career in international law.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "regard",
+    phonetic: "/rɪ'ɡɑːd/",
+    turkishMeaning: "dikkate almak, saymak",
+    turkishDefinition:
+      "Bir kişi veya şey hakkında belirli bir fikre sahip olmak.",
+    dictionaryDefinition:
+      "(v) to consider or have an opinion about something or someone",
+    exampleSentence: "He is highly regarded by his colleagues for his honesty.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "semester",
+    phonetic: "/sɪ'mestə/",
+    turkishMeaning: "dönem, sömestr",
+    turkishDefinition: "Üniversite yılının bölündüğü iki dönemden her biri.",
+    dictionaryDefinition:
+      "(n) one of the two periods a year is divided at college or university",
+    exampleSentence: "We will have two major projects this semester.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "seminar",
+    phonetic: "/'semɪnɑː/",
+    turkishMeaning: "seminer",
+    turkishDefinition:
+      "Bir grup insanın tartıştığı ve ders işlediği akademik toplantı.",
+    dictionaryDefinition:
+      "(n) an occasion when a teacher or expert and a group of people meet to study and discuss something",
+    exampleSentence: "I attended a seminar on modern literature last week.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "significant",
+    phonetic: "/sɪɡ'nɪfɪkənt/",
+    turkishMeaning: "önemli, anlamlı",
+    turkishDefinition: "Önemli, büyük veya dikkate değer olan.",
+    dictionaryDefinition: '(adj) "important, large or great"',
+    exampleSentence:
+      "There is a significant difference between the two products.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "specific",
+    phonetic: "/spə'sɪfɪk/",
+    turkishMeaning: "belirli, özel",
+    turkishDefinition: "Belirli bir şeye özgü olan; genel olmayan.",
+    dictionaryDefinition:
+      '(adj) "relating to one thing and not others; particular"',
+    exampleSentence: "Could you be more specific about what you need?",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "stigma",
+    phonetic: "/'stɪɡ.mə/",
+    turkishMeaning: "damga, leke",
+    turkishDefinition: "Toplumun bir şeye karşı duyduğu haksız dışlama hissi.",
+    dictionaryDefinition:
+      "(n) a strong feeling of disapproval that most people in a society have about something especially when this is unfair",
+    exampleSentence:
+      "There is often a social stigma attached to mental illness.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "technological advances",
+    phonetic: "/ˌteknə'lɒdʒɪkəl əd'vɑːnsɪz/",
+    turkishMeaning: "teknolojik ilerlemeler",
+    turkishDefinition:
+      "Teknoloji alanındaki yeni gelişmeler ve iyileştirmeler.",
+    dictionaryDefinition: "(n phr) developments in technology",
+    exampleSentence:
+      "Technological advances have changed the way we communicate.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "term",
+    phonetic: "/tɜːm/",
+    turkishMeaning: "dönem, terim",
+    turkishDefinition:
+      "Okul veya üniversite yılının bölündüğü üç dönemden biri.",
+    dictionaryDefinition:
+      "(n) one of the three periods a year is divided at school college or university",
+    exampleSentence: "The exams are always at the end of the spring term.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "tutor",
+    phonetic: "/'tjuːtə/",
+    turkishMeaning: "özel öğretmen, danışman hoca",
+    turkishDefinition: "Öğrencilerin akademik gelişiminden sorumlu olan hoca.",
+    dictionaryDefinition:
+      "(n) the person who assumes responsibility for students' academic and personal welfare",
+    exampleSentence:
+      "If you struggle with maths, you might need a private tutor.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "virtual",
+    phonetic: "/'vɜːtʃuəl/",
+    turkishMeaning: "sanal",
+    turkishDefinition: "Gerçek gibi olan ancak teknolojik ortamda var olan.",
+    dictionaryDefinition:
+      "(adj) similar to real life but existing in a technological environment",
+    exampleSentence:
+      "The company offers virtual tours of their main headquarters.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "virtual classroom",
+    phonetic: "/'vɜːtʃuəl 'klɑːsruːm/",
+    turkishMeaning: "sanal sınıf",
+    turkishDefinition:
+      "Öğrencilerin internet üzerinden katıldığı eğitim ortamı.",
+    dictionaryDefinition: "(n phr) online course",
+    exampleSentence:
+      "Virtual classrooms are becoming more common in universities.",
+    level: "B1",
+    tags: ["Unit 2"],
+  },
+  {
+    english: "aid",
+    phonetic: "/eɪd/",
+    turkishMeaning: "yardım",
+    turkishDefinition: "İhtiyaç duyulan yardım veya destek.",
+    dictionaryDefinition: "(n) help",
+    exampleSentence: "The organization provides humanitarian aid to war zones.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "antibiotic",
+    phonetic: "/ˌæntibaɪˈɒtɪk/",
+    turkishMeaning: "antibiyotik",
+    turkishDefinition: "Bakterileri öldüren veya çoğalmasını önleyen ilaç.",
+    dictionaryDefinition: "(n) a medicine that kills bacteria",
+    exampleSentence:
+      "The doctor prescribed an antibiotic for my throat infection.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "balance",
+    phonetic: "/ˈbæl.əns/",
+    turkishMeaning: "denge",
+    turkishDefinition:
+      "Farklı şeylerin eşit ağırlığa veya öneme sahip olduğu durum.",
+    dictionaryDefinition:
+      '(n) "a situation where different things are given equal importance, or are considered or divided equally"',
+    exampleSentence: "It's important to find a balance between work and life.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "clinical",
+    phonetic: "/ˈklɪnɪkəl/",
+    turkishMeaning: "klinik",
+    turkishDefinition: "Tıbbi tedavi ve testlerle ilgili olan.",
+    dictionaryDefinition: "(adj) related to medical treatment and tests",
+    exampleSentence:
+      "Clinical trials are necessary to test a new drug's safety.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "contaminated",
+    phonetic: "/kənˈtæm.ɪ.neɪ.tɪd/",
+    turkishMeaning: "kirlenmiş, mikrop bulaşmış",
+    turkishDefinition: "Zehirli, kirli veya saflığı bozulmuş olan.",
+    dictionaryDefinition: "(adj) poisonous or not pure",
+    exampleSentence: "The well was contaminated with dangerous chemicals.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "data",
+    phonetic: "/ˈdeɪtə/",
+    turkishMeaning: "veri",
+    turkishDefinition: "Bir şey hakkında toplanan bilgiler veya gerçekler.",
+    dictionaryDefinition: "(n) information or facts about something",
+    exampleSentence: "We need to analyze the data before making a decision.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "in favour of",
+    phonetic: "/ɪn ˈfeɪvər əv/",
+    turkishMeaning: "-in lehine, destekleyen",
+    turkishDefinition: "Bir tarafta olmak veya bir şeyi desteklemek.",
+    dictionaryDefinition: "(adj) on the side of or in support of",
+    exampleSentence: "Are you in favour of the new tax law?",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "infected",
+    phonetic: "/ɪnˈfektɪd/",
+    turkishMeaning: "enfekte, mikrop kapmış",
+    turkishDefinition: "Hastalık yapıcı bir organizmanın bulaştığı.",
+    dictionaryDefinition:
+      "(adj) affected by an organism that can cause disease",
+    exampleSentence: "The wound became infected and needed special care.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "occur",
+    phonetic: "/əˈkɜː/",
+    turkishMeaning: "meydana gelmek, oluşmak",
+    turkishDefinition: "Bir olayın veya durumun gerçekleşmesi.",
+    dictionaryDefinition: "(v) to happen",
+    exampleSentence: "Earthquakes often occur without any warning.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "outbreak",
+    phonetic: "/ˈaʊtbreɪk/",
+    turkishMeaning: "salgın",
+    turkishDefinition: "Bir hastalığın aniden ve geniş çapta ortaya çıkması.",
+    dictionaryDefinition:
+      '(n) "a sudden appearance of something, especially of a disease"',
+    exampleSentence: "There has been an outbreak of flu in the local school.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "precaution",
+    phonetic: "/prɪˈkɔːʃən/",
+    turkishMeaning: "önlem, tedbir",
+    turkishDefinition: "Kötü bir şeyin olmasını önlemek için alınan aksiyon.",
+    dictionaryDefinition:
+      "(n) an action that is taken to stop something bad from happening",
+    exampleSentence:
+      "You should take every precaution to stay safe while driving.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "prescription",
+    phonetic: "/prɪ'skrɪp.ʃən/",
+    turkishMeaning: "reçete",
+    turkishDefinition: "Doktorun gerekli ilacı yazdığı yazılı kağıt.",
+    dictionaryDefinition:
+      "(n) a piece of paper on which a doctor writes the details of the medicine or drugs that someone needs",
+    exampleSentence:
+      "You can only get these pills with a doctor's prescription.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "prevention",
+    phonetic: "/prɪ'venʃən/",
+    turkishMeaning: "önleme",
+    turkishDefinition: "Bir şeyin olmasını engelleme eylemi.",
+    dictionaryDefinition: "(n) the act of stopping something from happening",
+    exampleSentence: "Disease prevention is better than finding a cure.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "prove",
+    phonetic: "/pruːv/",
+    turkishMeaning: "kanıtlamak",
+    turkishDefinition: "Bir şeyin doğru olduğunu göstermek.",
+    dictionaryDefinition: "(v) to show to be true",
+    exampleSentence: "Can you prove that you were at home last night?",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "recover",
+    phonetic: "/rɪ'kʌvə/",
+    turkishMeaning: "iyileşmek, toparlanmak",
+    turkishDefinition:
+      "Bir hastalık veya yaralanmadan sonra tamamen sağlığına kavuşmak.",
+    dictionaryDefinition:
+      "(v) to become completely well again after an illness or injury",
+    exampleSentence: "It took him three weeks to recover from the surgery.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "researcher",
+    phonetic: "/rɪ'sɜːtʃə/",
+    turkishMeaning: "araştırmacı",
+    turkishDefinition:
+      "Yeni bilgiler keşfetmek için bir konuyu inceleyen kişi.",
+    dictionaryDefinition:
+      "(n) a person who studies a subject in detail to discover new information about it",
+    exampleSentence: "The researcher presented her findings at the conference.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "therapy",
+    phonetic: "/ˈθer.ə.pi/",
+    turkishMeaning: "terapi",
+    turkishDefinition:
+      "Hastalıktan sonra birinin kendini daha iyi hissetmesini sağlayan tedavi.",
+    dictionaryDefinition:
+      '(n) "a treatment that helps somebody feel better, grow stronger, etc., especially after an illness"',
+    exampleSentence: "Music therapy can help patients feel more relaxed.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "treat",
+    phonetic: "/triːt/",
+    turkishMeaning: "tedavi etmek",
+    turkishDefinition:
+      "Hastaya tıbbi bakım sağlamak veya iyileştirmeye çalışmak.",
+    dictionaryDefinition: "(v) give medical care to",
+    exampleSentence: "Doctors are learning new ways to treat cancer.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "treatment",
+    phonetic: "/ˈtriːtmənt/",
+    turkishMeaning: "tedavi",
+    turkishDefinition:
+      "Bir hastalığı veya yaralanmayı iyileştirmek için yapılan her şey.",
+    dictionaryDefinition:
+      "(n) something that is done to try to cure an illness or injury",
+    exampleSentence: "She is responding well to the new medical treatment.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "trial",
+    phonetic: "/ˈtraɪəl/",
+    turkishMeaning: "deneme, test",
+    turkishDefinition:
+      "Bir şeyin ne kadar etkili veya güvenli olduğunu bulma testi.",
+    dictionaryDefinition:
+      "(n) a test to find out how effective or safe something is",
+    exampleSentence: "The new aircraft is undergoing flight trials this month.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "urgent",
+    phonetic: "/ˈɜːdʒənt/",
+    turkishMeaning: "acil",
+    turkishDefinition: "Derhal dikkat ve müdahale gerektiren durum.",
+    dictionaryDefinition: "(adj) requiring immediate attention",
+    exampleSentence: "I have an urgent message for the manager.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "vaccine",
+    phonetic: "/ˈvæksiːn/",
+    turkishMeaning: "aşı",
+    turkishDefinition: "Vücudu hastalıklardan korumak için verilen madde.",
+    dictionaryDefinition:
+      "(n) a substance put into the body of a person or animal to protect them from a disease",
+    exampleSentence:
+      "Children receive a vaccine to protect them against polio.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "virus",
+    phonetic: "/ˈvaɪərəs/",
+    turkishMeaning: "virüs",
+    turkishDefinition: "Hastalıklara neden olan mikroorganizma.",
+    dictionaryDefinition: "(n) an organism that causes disease",
+    exampleSentence: "The computer was infected by a dangerous virus.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "wound",
+    phonetic: "/wuːnd/",
+    turkishMeaning: "yara",
+    turkishDefinition: "Vücuttaki bir kesik veya darbe sonucu oluşan hasar.",
+    dictionaryDefinition:
+      '(n) "a damaged area of the body, such as a cut or hole in the skin or hole in the skin or flesh"',
+    exampleSentence: "The nurse cleaned and bandaged the soldier's wound.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "adequate",
+    phonetic: "/'ædəkwət/",
+    turkishMeaning: "yeterli, kafi",
+    turkishDefinition: "Belirli bir amaç için yeterli veya tatmin edici olan.",
+    dictionaryDefinition:
+      "(adj) enough or satisfactory for a particular purpose",
+    exampleSentence: "Make sure you have adequate lighting in your study room.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "adverse",
+    phonetic: "/æd'vɜːs/",
+    turkishMeaning: "olumsuz, ters",
+    turkishDefinition: "Bir şey üzerinde negatif veya zararlı etkisi olan.",
+    dictionaryDefinition:
+      "(adj) having a negative or harmful effect on something",
+    exampleSentence: "High doses of this medicine can have adverse effects.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "burden",
+    phonetic: "/'bɜːdən/",
+    turkishMeaning: "yük, külfet",
+    turkishDefinition:
+      "Taşıması veya dayanması zor olan görev veya sorumluluk.",
+    dictionaryDefinition: "(n) a duty or responsibility that is hard to bear",
+    exampleSentence: "Looking after elderly parents can be a heavy burden.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "chief",
+    phonetic: "/tʃiːf/",
+    turkishMeaning: "baş, temel, ana",
+    turkishDefinition: "En önemli veya başlıca olan.",
+    dictionaryDefinition: "(adj) most important or main",
+    exampleSentence:
+      "Lack of funding is the chief cause of the project's delay.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "complex",
+    phonetic: "/ˈkɒmpleks/",
+    turkishMeaning: "karmaşık",
+    turkishDefinition:
+      "Birçok farklı parçaya sahip olduğu için anlaşılması güç olan.",
+    dictionaryDefinition:
+      "(adj) difficult to understand or find an answer to because of having many different parts",
+    exampleSentence: "Modern society has many complex social problems.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "consultation",
+    phonetic: "/ˌkɒnsəl'teɪʃən/",
+    turkishMeaning: "danışma, görüşme",
+    turkishDefinition:
+      "Bir konuyu tartışmak veya tavsiye almak için yapılan toplantı.",
+    dictionaryDefinition: "(n) a meeting to discuss something or to get advice",
+    exampleSentence: "You should have a consultation with a specialist.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "contribution",
+    phonetic: "/ˌkɒntrɪ'bjuːʃən/",
+    turkishMeaning: "katkı",
+    turkishDefinition: "Bir şeye yardım etmek için verilen para veya emek.",
+    dictionaryDefinition:
+      "(n) an amount of money that is given to help pay for something",
+    exampleSentence: "Everyone made a small contribution to the charity fund.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "controversial",
+    phonetic: "/ˌkɒntrə'vɜːʃəl/",
+    turkishMeaning: "tartışmalı",
+    turkishDefinition:
+      "İnsanlar arasında anlaşmazlığa veya tartışmaya neden olan.",
+    dictionaryDefinition: "(adj) causing disagreement or discussion",
+    exampleSentence: "The decision to build a new road was very controversial.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "conventional",
+    phonetic: "/kən'venʃənəl/",
+    turkishMeaning: "geleneksel, alışılagelmiş",
+    turkishDefinition:
+      "Alışılmış olan uygulamaları veya yöntemleri takip eden.",
+    dictionaryDefinition: "(adj) following the usual practices",
+    exampleSentence:
+      "He prefers conventional medicine over alternative treatments.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "diabetes",
+    phonetic: "/ˌdaɪ.ə'biː.tiːz/",
+    turkishMeaning: "diyabet, şeker hastalığı",
+    turkishDefinition:
+      "Vücudun kandaki şeker seviyesini kontrol edemediği hastalık.",
+    dictionaryDefinition:
+      "(n) a disease in which the body cannot control the level of sugar in the blood",
+    exampleSentence: "Regular exercise helps manage the symptoms of diabetes.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "drug",
+    phonetic: "/drʌɡ/",
+    turkishMeaning: "ilaç",
+    turkishDefinition:
+      "Tıbbi amaçla veya keyif verici olarak kullanılan kimyasal madde.",
+    dictionaryDefinition:
+      "(n) any natural or artificially made chemical that is used as a medicine",
+    exampleSentence: "The company is testing a new drug for heart disease.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "epidemic",
+    phonetic: "/ˌepɪ'demɪk/",
+    turkishMeaning: "epidemi, salgın",
+    turkishDefinition: "Aynı anda çok sayıda insanı etkileyen hastalık.",
+    dictionaryDefinition:
+      "(n) an illness that affects large numbers of people at the same time",
+    exampleSentence: "The flu epidemic spread quickly throughout the city.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "fund",
+    phonetic: "/fʌnd/",
+    turkishMeaning: "fon sağlamak",
+    turkishDefinition: "Bir şeyin bedelini ödemek için para sağlamak.",
+    dictionaryDefinition: "(v) to provide money to pay for something",
+    exampleSentence: "The government decided to fund the new hospital project.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "illegal",
+    phonetic: "/ɪ'liːɡəl/",
+    turkishMeaning: "yasa dışı",
+    turkishDefinition: "Kanunlara ve yasalara aykırı olan.",
+    dictionaryDefinition: "(adj) against the law",
+    exampleSentence: "Selling these products without a license is illegal.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "labour",
+    phonetic: "/'leɪbər/",
+    turkishMeaning: "iş gücü, emek",
+    turkishDefinition: "Pratik veya fiziksel iş yapan çalışanlar.",
+    dictionaryDefinition:
+      '(n) "workers, especially people who do practical work with their hands"',
+    exampleSentence: "The cost of labour is higher in developed countries.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "medical",
+    phonetic: "/'medɪkəl/",
+    turkishMeaning: "tıbbi",
+    turkishDefinition: "Hastalık ve yaralanmaların tedavisiyle ilgili.",
+    dictionaryDefinition:
+      "(adj) related to the treatment of illness and injuries",
+    exampleSentence: "He needed urgent medical attention after the car crash.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "mobility",
+    phonetic: "/məʊ'bɪl.ə.ti/",
+    turkishMeaning: "hareketlilik",
+    turkishDefinition: "Kolayca ve rahatça hareket edebilme yeteneği.",
+    dictionaryDefinition: "(n) the ability to move easily",
+    exampleSentence: "Regular swimming can help improve your joint mobility.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "obesity",
+    phonetic: "/əʊ'biː.sə.ti/",
+    turkishMeaning: "obezite, aşırı şişmanlık",
+    turkishDefinition:
+      "Sağlığı tehlikeye atacak kadar aşırı kilolu olma durumu.",
+    dictionaryDefinition:
+      '(n) "the fact of being extremely overweight, in a way that is dangerous for health"',
+    exampleSentence:
+      "Childhood obesity is a growing concern for health officials.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "patent",
+    phonetic: "/'peɪtənt/",
+    turkishMeaning: "patent",
+    turkishDefinition:
+      "Bir icadın haklarını belirli süreyle koruyan resmi belge.",
+    dictionaryDefinition:
+      "(n) the official legal right to make or sell an invention for a particular number of years",
+    exampleSentence:
+      "The scientist applied for a patent for her new invention.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "pharmaceutical",
+    phonetic: "/ˌfɑː.mə'suː.tɪ.kəl/",
+    turkishMeaning: "ilaçla ilgili, farmasötik",
+    turkishDefinition: "Tıbbi ilaç veya tedavi ile ilgili olan.",
+    dictionaryDefinition: "(n) a medicine",
+    exampleSentence:
+      "The pharmaceutical industry is investing millions in research.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "physical",
+    phonetic: "/'fɪzɪkəl/",
+    turkishMeaning: "fiziksel",
+    turkishDefinition: "Zihin yerine vücut ve beden ile bağlantılı olan.",
+    dictionaryDefinition: "(adj) connected with the body",
+    exampleSentence:
+      "Physical education is an important part of the school curriculum.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "physiotherapy",
+    phonetic: "/ˌfɪz.i.əʊ'θer.ə.pi/",
+    turkishMeaning: "fizyoterapi",
+    turkishDefinition: "Kas, eklem veya sinir problemlerinin tedavi yöntemi.",
+    dictionaryDefinition:
+      '(n) "the treatment of problems of the muscles, joints, or nerves"',
+    exampleSentence:
+      "She had physiotherapy sessions to recover from her leg injury.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "precise",
+    phonetic: "/prɪ'saɪs/",
+    turkishMeaning: "kesin, tam",
+    turkishDefinition: "Çok net, doğru ve hatasız olan.",
+    dictionaryDefinition: "(adj) exact and accurate",
+    exampleSentence: "We need a precise measurement of the room's dimensions.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "preventable illness",
+    phonetic: "/prɪ'ventəbəl 'ɪlnəs/",
+    turkishMeaning: "önlenebilir hastalık",
+    turkishDefinition: "Kişinin kendine bakmasıyla kaçınılabilecek hastalık.",
+    dictionaryDefinition:
+      "(n phr) a disease that can be avoided, often by a person looking after themselves",
+    exampleSentence:
+      "Heart disease is often a preventable illness through diet.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "professional",
+    phonetic: "/prə'feʃənəl/",
+    turkishMeaning: "profesyonel",
+    turkishDefinition:
+      "Eğitimli ve yetenekli kişilere özgü niteliklere sahip olan.",
+    dictionaryDefinition:
+      "(adj) having the qualities that you connect with trained and skilled people",
+    exampleSentence: "She gave a very professional presentation to the board.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "proponent",
+    phonetic: "/prə'pəʊnənt/",
+    turkishMeaning: "taraftar, savunucu",
+    turkishDefinition: "Belirli bir fikri veya planı destekleyen kişi.",
+    dictionaryDefinition:
+      "(n) a person who supports a particular idea or plan of action",
+    exampleSentence: "He is a strong proponent of renewable energy.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "regardless",
+    phonetic: "/rɪ'ɡɑːdləs/",
+    turkishMeaning: "ne olursa olsun, bakmaksızın",
+    turkishDefinition: "Bir şeyden etkilenmeksizin, her şeye rağmen.",
+    dictionaryDefinition: "(adv) despite; not being affected by something",
+    exampleSentence: "The event will go ahead regardless of the weather.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "safety net",
+    phonetic: "/ˈseɪfti net/",
+    turkishMeaning: "güvenlik ağı",
+    turkishDefinition: "Birini olası zorluklara karşı koruyan sistem veya şey.",
+    dictionaryDefinition:
+      "(n phr) something used to protect a person against possible hardship or difficulty",
+    exampleSentence: "Social security acts as a safety net for the unemployed.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "substances",
+    phonetic: "/'sʌbstənsɪz/",
+    turkishMeaning: "maddeler",
+    turkishDefinition: "Belirli fiziksel özelliklere sahip olan materyaller.",
+    dictionaryDefinition:
+      "(n) materials with particular physical characteristics",
+    exampleSentence: "The lab is testing some unknown chemical substances.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "surgeon",
+    phonetic: "/'sɜː.dʒən/",
+    turkishMeaning: "cerrah",
+    turkishDefinition: "Tıbbi ameliyatlar yapmak üzere eğitilmiş doktor.",
+    dictionaryDefinition:
+      "(n) a doctor who is specially trained to perform medical operations",
+    exampleSentence:
+      "The surgeon performed a successful heart bypass operation.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "surgery",
+    phonetic: "/'sɜːdʒəri/",
+    turkishMeaning: "cerrahi müdahale, ameliyat",
+    turkishDefinition:
+      "Hasarlı bir parçayı onarmak için vücudun açılması işlemi.",
+    dictionaryDefinition:
+      "(n) the cutting open of the body to repair a damaged part",
+    exampleSentence: "He had to undergo emergency surgery after the accident.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "symptoms",
+    phonetic: "/'sɪmptəmz/",
+    turkishMeaning: "belirtiler",
+    turkishDefinition: "Bir hastalığın neden olduğu tepkiler veya hisler.",
+    dictionaryDefinition:
+      "(n) reactions or feelings of illness that are caused by a disease",
+    exampleSentence: "The main symptoms of a cold are coughing and sneezing.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "tumour",
+    phonetic: "/'tjuː.mər/",
+    turkishMeaning: "tümör, ur",
+    turkishDefinition: "Hastalık nedeniyle oluşan hücre kütlesi veya şişlik.",
+    dictionaryDefinition:
+      "(n) a mass of diseased cells that might become a lump or cause illness",
+    exampleSentence:
+      "Doctors found a small tumour in his lung during the scan.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "underfunding",
+    phonetic: "/ˌʌndə'fʌndɪŋ/",
+    turkishMeaning: "yetersiz finansman",
+    turkishDefinition: "Bir şey için sağlanan para veya bütçenin eksikliği.",
+    dictionaryDefinition:
+      "(n) the lack of money provided for something e.g. research",
+    exampleSentence:
+      "The education system is suffering from chronic underfunding.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "ward",
+    phonetic: "/wɔːd/",
+    turkishMeaning: "koğuş, hastane odası",
+    turkishDefinition:
+      "Hastanenin yataklı bölümlerine veya büyük odalarına verilen ad.",
+    dictionaryDefinition:
+      '(n) "one of the parts or large rooms into which a hospital is divided, usually with beds for patients"',
+    exampleSentence: "The patient was moved to the intensive care ward.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "aid",
+    phonetic: "/eɪd/",
+    turkishMeaning: "yardım, destek",
+    turkishDefinition: "Birine yapılan yardım veya sağlanan destek.",
+    dictionaryDefinition: "(n) help; assistance",
+    exampleSentence: "The charity provides aid to people in need.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "antibiotic",
+    phonetic: "/ˌæntibaɪˈɒtɪk/",
+    turkishMeaning: "antibiyotik",
+    turkishDefinition: "Bakterileri öldüren veya çoğalmalarını engelleyen ilaç.",
+    dictionaryDefinition: "(n) a medicine that kills bacteria",
+    exampleSentence: "The doctor prescribed an antibiotic for my throat infection.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "balance",
+    phonetic: "/ˈbæləns/",
+    turkishMeaning: "denge",
+    turkishDefinition: "Farklı şeylerin eşit önemde veya ölçüde olma durumu.",
+    dictionaryDefinition:
+      "(n) a situation where different things are given equal importance, or are considered or divided equally",
+    exampleSentence: "It's important to keep a balance between work and life.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "clinical",
+    phonetic: "/ˈklɪnɪkəl/",
+    turkishMeaning: "klinik",
+    turkishDefinition: "Tıbbi tedavi ve testlerle ilgili olan.",
+    dictionaryDefinition: "(adj) related to medical treatment and tests",
+    exampleSentence: "Clinical trials are necessary to test new drugs.",
+    level: "B2",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "contaminated",
+    phonetic: "/kənˈtæm.ɪ.neɪ.tɪd/",
+    turkishMeaning: "kirli, kontamine",
+    turkishDefinition: "Zehirli, kirli veya saflığını yitirmiş.",
+    dictionaryDefinition: "(adj) poisonous or not pure",
+    exampleSentence: "The river was contaminated with industrial waste.",
+    level: "B2",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "data",
+    phonetic: "/ˈdeɪtə/",
+    turkishMeaning: "veri, bilgi",
+    turkishDefinition: "Bir konu hakkındaki bilgiler veya gerçekler.",
+    dictionaryDefinition: "(n) information or facts about something",
+    exampleSentence: "We need more data to analyze the situation correctly.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "in favour of",
+    phonetic: "/ɪn ˈfeɪvər əv/",
+    turkishMeaning: "lehine, destekleyen",
+    turkishDefinition: "Bir düşünceyi veya tarafı destekleyen, ondan yana olan.",
+    dictionaryDefinition: "(adj) on the side of or in support of",
+    exampleSentence: "Most people are in favour of the new environmental law.",
+    level: "B2",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "infected",
+    phonetic: "/ɪnˈfektɪd/",
+    turkishMeaning: "enfekte, iltihaplı",
+    turkishDefinition: "Bir hastalık yapıcı mikroorganizma kapmış olan.",
+    dictionaryDefinition:
+      "(adj) affected by an organism that can cause disease",
+    exampleSentence: "You should clean the wound so it doesn't get infected.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "occur",
+    phonetic: "/əˈkɜːr/",
+    turkishMeaning: "meydana gelmek, olmak",
+    turkishDefinition: "Bir olayın gerçekleşmesi veya vuku bulması.",
+    dictionaryDefinition: "(v) to happen",
+    exampleSentence: "Earthquakes often occur in this part of the country.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "outbreak",
+    phonetic: "/ˈaʊtbreɪk/",
+    turkishMeaning: "salgın, patlak verme",
+    turkishDefinition: "Özellikle bir hastalığın aniden ortaya çıkması.",
+    dictionaryDefinition:
+      "(n) a sudden appearance of something, especially of a disease",
+    exampleSentence: "There was an outbreak of flu in the school last week.",
+    level: "B2",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "precaution",
+    phonetic: "/prɪˈkɔːʃən/",
+    turkishMeaning: "önlem, tedbir",
+    turkishDefinition: "Kötü bir durumu önlemek için önceden alınan tedbir.",
+    dictionaryDefinition:
+      "(n) an action that is taken to stop something bad from happening",
+    exampleSentence: "We took every precaution to ensure the safety of the workers.",
+    level: "B2",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "prescription",
+    phonetic: "/prɪˈskrɪpʃən/",
+    turkishMeaning: "reçete",
+    turkishDefinition:
+      "Doktorun hastanın kullanması gereken ilaçlar için yazdığı belge.",
+    dictionaryDefinition:
+      "(n) a doctor's written instruction of the medicine somebody needs",
+    exampleSentence: "I need to go to the pharmacy to get my prescription.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "prevention",
+    phonetic: "/prɪˈvenʃən/",
+    turkishMeaning: "önleme, koruma",
+    turkishDefinition: "Bir şeyin olmasını veya yayılmasını engelleme eylemi.",
+    dictionaryDefinition: "(n) the act of stopping something from happening",
+    exampleSentence: "Prevention is always better than cure.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "prove",
+    phonetic: "/pruːv/",
+    turkishMeaning: "kanıtlamak, ispatlamak",
+    turkishDefinition: "Bir şeyin doğru olduğunu delillerle göstermek.",
+    dictionaryDefinition: "(v) to show to be true",
+    exampleSentence:
+      "The researchers are trying to prove their theory with experiments.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "recover",
+    phonetic: "/rɪˈkʌvər/",
+    turkishMeaning: "iyileşmek, toparlanmak",
+    turkishDefinition:
+      "Bir hastalık veya yaralanma sonrası tekrar sağlığına kavuşmak.",
+    dictionaryDefinition:
+      "(v) to become completely well again after an illness or injury",
+    exampleSentence: "It took him several weeks to recover from the surgery.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "researcher",
+    phonetic: "/rɪˈsɜːtʃər/",
+    turkishMeaning: "araştırmacı",
+    turkishDefinition:
+      "Bir konuyu detaylarıyla inceleyerek yeni bilgiler bulan kişi.",
+    dictionaryDefinition:
+      "(n) a person who studies a subject in detail to discover new information about it",
+    exampleSentence:
+      "The medical researcher is studying the effects of the new virus.",
+    level: "B2",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "therapy",
+    phonetic: "/ˈθer.ə.pi/",
+    turkishMeaning: "terapi, tedavi",
+    turkishDefinition:
+      "Birinin daha iyi hissetmesini sağlayan fiziksel veya ruhsal tedavi.",
+    dictionaryDefinition:
+      "(n) a treatment that helps somebody feel better, grow stronger, etc., especially after an illness",
+    exampleSentence: "Physical therapy helped him walk again after the accident.",
+    level: "B2",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "treat",
+    phonetic: "/triːt/",
+    turkishMeaning: "tedavi etmek",
+    turkishDefinition: "Bir hastaya tıbbi bakım uygulamak.",
+    dictionaryDefinition: "(v) give medical care to",
+    exampleSentence: "Doctors are treating him for a rare genetic condition.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "treatment",
+    phonetic: "/ˈtriːtmənt/",
+    turkishMeaning: "tedavi",
+    turkishDefinition:
+      "Bir hastalığı veya yaralanmayı iyileştirmek için yapılan işlemler.",
+    dictionaryDefinition:
+      "(n) something that is done to try to cure an illness or injury",
+    exampleSentence: "The new cancer treatment has shown promising results.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "trial",
+    phonetic: "/ˈtraɪəl/",
+    turkishMeaning: "deneme, test",
+    turkishDefinition:
+      "Bir şeyin ne kadar etkili veya güvenli olduğunu anlama testi.",
+    dictionaryDefinition:
+      "(n) a test to find out how effective or safe something is",
+    exampleSentence:
+      "The clinical trial for the new vaccine will last six months.",
+    level: "B2",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "urgent",
+    phonetic: "/ˈɜːdʒənt/",
+    turkishMeaning: "acil, ivedi",
+    turkishDefinition: "Hemen ilgilenilmesi gereken, geciktirilemez.",
+    dictionaryDefinition: "(adj) requiring immediate attention",
+    exampleSentence: "The patient needs urgent medical attention.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "vaccine",
+    phonetic: "/ˈvæksiːn/",
+    turkishMeaning: "aşı",
+    turkishDefinition: "Vücudu bir hastalığa karşı korumak için verilen madde.",
+    dictionaryDefinition:
+      "(n) a substance put into the body of a person or animal to protect them from a disease",
+    exampleSentence: "Scientists developed a vaccine for the virus in record time.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "virus",
+    phonetic: "/ˈvaɪərəs/",
+    turkishMeaning: "virüs",
+    turkishDefinition: "Hastalık yapan çok küçük mikroorganizma.",
+    dictionaryDefinition: "(n) an organism that causes disease",
+    exampleSentence: "The flu is caused by a highly contagious virus.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "wound",
+    phonetic: "/wuːnd/",
+    turkishMeaning: "yara",
+    turkishDefinition: "Vücutta oluşan kesik, delik veya hasarlı bölge.",
+    dictionaryDefinition:
+      "(n) a damaged area of the body, such as a cut or hole in the skin or flesh",
+    exampleSentence: "He cleaned the wound on his leg and applied a bandage.",
+    level: "B1",
+    tags: ["Unit 3"],
+  },
+  {
+    english: "adapt",
+    phonetic: "/əˈdæpt/",
+    turkishMeaning: "uyum sağlamak",
+    turkishDefinition: "Yeni bir duruma veya şarta kendini alıştırmak.",
+    dictionaryDefinition: "(v) to adjust to different conditions",
+    exampleSentence: "The animals had to adapt to the changing climate.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "affect",
+    phonetic: "/əˈfekt/",
+    turkishMeaning: "etkilemek",
+    turkishDefinition: "Bir şey üzerinde değişiklik veya sonuç yaratmak.",
+    dictionaryDefinition: "(v) to have an influence on something",
+    exampleSentence: "Air pollution can seriously affect your health.",
+    level: "B1",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "apply",
+    phonetic: "/əˈplaɪ/",
+    turkishMeaning: "uygulamak, başvurmak",
+    turkishDefinition:
+      "Bir şeyi belirli bir durumda kullanmak veya resmi talepte bulunmak.",
+    dictionaryDefinition:
+      "(v) to make use of something or use it for a practical purpose",
+    exampleSentence: "You should apply the cream twice a day.",
+    level: "B1",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "coastal",
+    phonetic: "/ˈkəʊstəl/",
+    turkishMeaning: "kıyı, sahil",
+    turkishDefinition: "Deniz kıyısı ile ilgili olan veya orada bulunan.",
+    dictionaryDefinition: "(adj) on or related to land by the sea or ocean",
+    exampleSentence: "They live in a small coastal town.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "conservation",
+    phonetic: "/ˌkɒnsəˈveɪʃən/",
+    turkishMeaning: "koruma, muhafaza",
+    turkishDefinition: "Doğayı veya kaynakları koruma eylemi.",
+    dictionaryDefinition:
+      "(n) the act of being careful not to waste water, energy, etc.",
+    exampleSentence: "Wildlife conservation is essential for biodiversity.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "copper",
+    phonetic: "/ˈkɒpə/",
+    turkishMeaning: "bakır",
+    turkishDefinition: "Kırmızımsı kahverengi, elektriği iyi ileten metal.",
+    dictionaryDefinition:
+      "(n) a reddish-brown metal, used for making wires and coins",
+    exampleSentence: "Copper is widely used in electrical wiring.",
+    level: "B1",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "decline",
+    phonetic: "/dɪˈklaɪn/",
+    turkishMeaning: "azalmak, gerilemek",
+    turkishDefinition: "Sayıca veya kalitede düşüş göstermek.",
+    dictionaryDefinition: "(v) to gradually become less, worse or lower",
+    exampleSentence: "The number of native birds has begun to decline.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "diamond",
+    phonetic: "/ˈdaɪəmənd/",
+    turkishMeaning: "elmas",
+    turkishDefinition: "Çok sert ve parlak, değerli bir taş.",
+    dictionaryDefinition:
+      "(n) a transparent, extremely hard precious stone used in jewellery, and in industry for cutting",
+    exampleSentence: "She wore a beautiful diamond necklace.",
+    level: "B1",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "exploit",
+    phonetic: "/ɪkˈsplɔɪt/",
+    turkishMeaning: "sömürmek, faydalanmak",
+    turkishDefinition:
+      "Bir şeyi veya birini kendi çıkarı için haksızca kullanmak.",
+    dictionaryDefinition: "(v) to use something in a way that helps you",
+    exampleSentence:
+      "Some companies exploit their workers by paying low wages.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "extract",
+    phonetic: "/ɪkˈstrækt/",
+    turkishMeaning: "çıkarmak, çekip almak",
+    turkishDefinition:
+      "Bir şeyi bir yerden zorla veya işlemle çekip çıkarmak.",
+    dictionaryDefinition: "(v) to remove or take out something",
+    exampleSentence: "They use large machines to extract oil from the ground.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "habitat",
+    phonetic: "/ˈhæbɪtæt/",
+    turkishMeaning: "yaşam alanı, habitat",
+    turkishDefinition: "Bir hayvanın veya bitkinin doğal olarak yaşadığı yer.",
+    dictionaryDefinition:
+      "(n) the natural surroundings where a plant or animal lives",
+    exampleSentence: "The forest is the natural habitat of the tiger.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "harsh",
+    phonetic: "/hɑːʃ/",
+    turkishMeaning: "sert, kaba, ağır",
+    turkishDefinition: "İklim veya koşullar için çok zorlayıcı veya hoş olmayan.",
+    dictionaryDefinition: "(adj) severe and unpleasant",
+    exampleSentence: "The winter in the mountains can be very harsh.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "impact",
+    phonetic: "/ˈɪmpækt/",
+    turkishMeaning: "etki, tesir",
+    turkishDefinition: "Bir şeyin diğeri üzerindeki güçlü etkisi.",
+    dictionaryDefinition:
+      "(n) the strong effect something has on a situation or person",
+    exampleSentence: "The new law had a significant impact on the economy.",
+    level: "B1",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "impact",
+    phonetic: "/ɪmˈpækt/",
+    turkishMeaning: "etkilemek",
+    turkishDefinition: "Bir durumu veya kişiyi güçlü bir şekilde değiştirmek.",
+    dictionaryDefinition: "(v) to have an influence on something",
+    exampleSentence: "Climate change will impact agricultural production.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "mineral",
+    phonetic: "/ˈmɪnərəl/",
+    turkishMeaning: "mineral",
+    turkishDefinition:
+      "Toprakta doğal olarak bulunan kristal yapıdaki madde.",
+    dictionaryDefinition:
+      "(n) a valuable or useful chemical substance that is formed naturally in the ground",
+    exampleSentence: "The region is rich in gold and other minerals.",
+    level: "B1",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "mining",
+    phonetic: "/ˈmaɪnɪŋ/",
+    turkishMeaning: "madencilik",
+    turkishDefinition: "Yer altından değerli madenleri çıkarma işi.",
+    dictionaryDefinition:
+      "(n) the industry or activity of removing valuable substances from the earth",
+    exampleSentence: "Coal mining has been the main industry here for years.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "modify",
+    phonetic: "/ˈmɒdɪfaɪ/",
+    turkishMeaning: "değiştirmek, modifiye etmek",
+    turkishDefinition:
+      "Bir şeyi daha iyi hale getirmek için küçük değişiklikler yapmak.",
+    dictionaryDefinition: "(v) to change something, usually to improve it",
+    exampleSentence: "We had to modify our plans due to the bad weather.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "natural gas",
+    phonetic: "/ˈnætʃərəl ˌɡæs/",
+    turkishMeaning: "doğal gaz",
+    turkishDefinition:
+      "Yakıt olarak kullanılan, yer altından çıkarılan yanıcı gaz.",
+    dictionaryDefinition:
+      "(n) fuel for heating or cooking that is found underground",
+    exampleSentence: "Many houses use natural gas for heating.",
+    level: "B1",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "support",
+    phonetic: "/səˈpɔːt/",
+    turkishMeaning: "desteklemek",
+    turkishDefinition:
+      "Birinin başarılı olması için yardım etmek veya arkasında durmak.",
+    dictionaryDefinition:
+      "(v) to provide the right conditions, such as enough food and water, for life",
+    exampleSentence: "My parents always support my decisions.",
+    level: "B1",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "survive",
+    phonetic: "/səˈvaɪv/",
+    turkishMeaning: "hayatta kalmak",
+    turkishDefinition: "Ölmemek, zor bir durumdan sağ çıkmak.",
+    dictionaryDefinition: "(v) to continue to live or exist",
+    exampleSentence: "It is difficult for these plants to survive in the desert.",
+    level: "B1",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "waste",
+    phonetic: "/weɪst/",
+    turkishMeaning: "atık, çöp",
+    turkishDefinition: "Artık ihtiyaç duyulmayan veya kullanılan maddeler.",
+    dictionaryDefinition: "(n) unwanted substances or material",
+    exampleSentence: "We should find ways to reduce plastic waste.",
+    level: "B1",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "wilderness",
+    phonetic: "/ˈwɪldənəs/",
+    turkishMeaning: "vahşi doğa, yaban hayatı",
+    turkishDefinition: "İnsanların yaşamadığı, bozulmamış doğal alan.",
+    dictionaryDefinition:
+      "(n) a place that is in a completely natural state without houses, industry, roads, etc.",
+    exampleSentence: "They spent a week exploring the Alaskan wilderness.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "criticize",
+    phonetic: "/ˈkrɪtɪsaɪz/",
+    turkishMeaning: "eleştirmek",
+    turkishDefinition: "Birinin veya bir şeyin kusurlarını veya yanlışlarını ortaya koymak.",
+    dictionaryDefinition: "(v) to express disapproval of someone or something",
+    exampleSentence: "It's easy to criticize, but much harder to suggest a better plan.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "crucial",
+    phonetic: "/ˈkruːʃəl/",
+    turkishMeaning: "çok önemli, hayati",
+    turkishDefinition: "Bir şeyin başarısı veya varlığı için son derece gerekli olan.",
+    dictionaryDefinition: "(adj) extremely important or necessary",
+    exampleSentence: "Getting enough sleep is crucial for your health.",
+    level: "B1",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "devastating",
+    phonetic: "/ˈdevəsteɪtɪŋ/",
+    turkishMeaning: "yıkıcı, harap edici",
+    turkishDefinition: "Büyük çapta hasara veya üzüntüye neden olan.",
+    dictionaryDefinition: "(adj) causing a lot of damage or destruction",
+    exampleSentence: "The hurricane had a devastating effect on the coastal towns.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "disaster",
+    phonetic: "/dɪˈzɑːstə/",
+    turkishMeaning: "felaket, afet",
+    turkishDefinition: "Büyük zarara veya can kaybına yol açan kötü olay.",
+    dictionaryDefinition: "(n) something that causes great harm or damage",
+    exampleSentence: "The earthquake was the worst natural disaster in the country's history.",
+    level: "B1",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "emission",
+    phonetic: "/iˈmɪʃən/",
+    turkishMeaning: "emisyon, yayılım",
+    turkishDefinition: "Gaz, ısı veya ışık gibi maddelerin çevreye yayılması.",
+    dictionaryDefinition: "(n) the act of sending out gas, heat, etc.",
+    exampleSentence: "Reducing carbon emissions is vital for the planet.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "extreme",
+    phonetic: "/ɪkˈstriːm/",
+    turkishMeaning: "uç, aşırı",
+    turkishDefinition: "Normalden çok daha fazla veya yoğun olan.",
+    dictionaryDefinition: "(adj) very large in amount or degree",
+    exampleSentence: "This region experiences extreme heat during the summer months.",
+    level: "B1",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "greenhouse gas",
+    phonetic: "/ˌɡriːn.haʊs ˈɡæs/",
+    turkishMeaning: "sera gazı",
+    turkishDefinition: "Sera etkisine neden olan, özellikle karbondioksit gibi gazlar.",
+    dictionaryDefinition:
+      "(n) a gas that causes the greenhouse effect, especially carbon dioxide",
+    exampleSentence: "Methane is a very powerful greenhouse gas.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "identify",
+    phonetic: "/aɪˈdentɪfaɪ/",
+    turkishMeaning: "tanımlamak, belirlemek",
+    turkishDefinition: "Bir şeyi veya kimseyi tanıyıp kim veya ne olduğunu söylemek.",
+    dictionaryDefinition:
+      "(v) to recognize something or somebody and say what or who that thing or person is",
+    exampleSentence: "Scientists are trying to identify the cause of the disease.",
+    level: "B1",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "issue",
+    phonetic: "/ˈɪʃuː/",
+    turkishMeaning: "mesele, sorun",
+    turkishDefinition: "Üzerinde tartışılan veya düşünülen önemli bir konu.",
+    dictionaryDefinition: "(n) a subject or problem that people are thinking about or discussing",
+    exampleSentence: "Climate change is a global issue that affects everyone.",
+    level: "B1",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "large-scale",
+    phonetic: "/ˌlɑːdʒˈskeɪl/",
+    turkishMeaning: "büyük ölçekli",
+    turkishDefinition: "Çok sayıda insanı veya büyük miktarları kapsayan.",
+    dictionaryDefinition: "(adj) involving a lot of people or happening in big numbers",
+    exampleSentence: "The government is planning a large-scale vaccination program.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "long-term",
+    phonetic: "/ˌlɒŋˈtɜːm/",
+    turkishMeaning: "uzun vadeli",
+    turkishDefinition: "Gelecekte uzun süre devam edecek olan.",
+    dictionaryDefinition: "(adj) continuing a long time into the future",
+    exampleSentence: "We need a long-term solution to the energy crisis.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "maintenance",
+    phonetic: "/ˈmeɪntənəns/",
+    turkishMeaning: "bakım, onarım",
+    turkishDefinition: "Bir yapının veya makinenin iyi durumda kalması için yapılan iş.",
+    dictionaryDefinition: "(n) the work needed to keep something in good condition",
+    exampleSentence: "Regular maintenance is necessary to prevent car breakdowns.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "major",
+    phonetic: "/ˈmeɪdʒə/",
+    turkishMeaning: "ana, önemli, büyük",
+    turkishDefinition: "Kendi türündekilerden daha büyük veya önemli olan.",
+    dictionaryDefinition: "(adj) more important bigger or more serious than others of the same type",
+    exampleSentence: "Sugar is a major cause of tooth decay.",
+    level: "B1",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "measure",
+    phonetic: "/ˈmeʒə/",
+    turkishMeaning: "önlem, tedbir",
+    turkishDefinition: "Bir durumu çözmek veya kontrol altına almak için yapılan iş.",
+    dictionaryDefinition: "(n) a method for dealing with a situation",
+    exampleSentence: "The city took measures to reduce water consumption.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "policy",
+    phonetic: "/ˈpɒləsi/",
+    turkishMeaning: "politika, ilke",
+    turkishDefinition: "Bir kurumun veya hükümetin izlediği hareket tarzı veya plan.",
+    dictionaryDefinition: "(n) a set of ideas or a plan for action that a business, government, political party or group of people follow",
+    exampleSentence: "The company has a strict policy against smoking in the office.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "reduction",
+    phonetic: "/rɪˈdʌkʃən/",
+    turkishMeaning: "azaltma, düşüş",
+    turkishDefinition: "Bir şeyin miktarını veya boyutunu küçültme eylemi.",
+    dictionaryDefinition: "(n) the act of making something smaller in size or amount",
+    exampleSentence: "There has been a significant reduction in pollution levels.",
+    level: "B1",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "rely on",
+    phonetic: "/rɪˈlaɪ ɒn/",
+    turkishMeaning: "güvenmek, bel bağlamak",
+    turkishDefinition: "Birine veya bir şeye güvenmek, onun yardımına ihtiyaç duymak.",
+    dictionaryDefinition: "(phr v) to depend on or trust someone or something",
+    exampleSentence: "Many people rely on public transport to get to work.",
+    level: "B1",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "severe",
+    phonetic: "/sɪˈvɪə/",
+    turkishMeaning: "şiddetli, ağır",
+    turkishDefinition: "Çok kötü, ciddi veya zorlayıcı olan durum veya hava.",
+    dictionaryDefinition: "(adj) extremely bad",
+    exampleSentence: "The country is facing a severe food shortage.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "strategy",
+    phonetic: "/ˈstrætədʒi/",
+    turkishMeaning: "strateji, izlem",
+    turkishDefinition: "Bir hedefe ulaşmak için önceden hazırlanan kapsamlı plan.",
+    dictionaryDefinition: "(n) a long-range plan for achieving a goal",
+    exampleSentence: "We need a new strategy to win the game.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "sustainability",
+    phonetic: "/səˌsteɪ.nəˈbɪl.ə.ti/",
+    turkishMeaning: "sürdürülebilirlik",
+    turkishDefinition: "Bir sürecin veya sistemin uzun süre devam ettirilebilme özelliği.",
+    dictionaryDefinition: "(n) the quality of being able to continue over a period of time",
+    exampleSentence: "Sustainability is at the heart of our environmental project.",
+    level: "B2",
+    tags: ["Unit 4"],
+  },
+  {
+    english: "abandon",
+    phonetic: "/əˈbændən/",
+    turkishMeaning: "terk etmek, bırakmak",
+    turkishDefinition: "Bir şeyi veya yeri tamamen ve kalıcı olarak bırakmak.",
+    dictionaryDefinition: "(v) to leave something forever",
+    exampleSentence: "The sailors were forced to abandon the sinking ship.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "acquire",
+    phonetic: "/əˈkwaɪə/",
+    turkishMeaning: "edinmek, kazanmak",
+    turkishDefinition: "Satın alma veya çaba yoluyla bir şeye sahip olmak.",
+    dictionaryDefinition: "(v) to buy or get something",
+    exampleSentence: "The company plans to acquire new software next month.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "adequate",
+    phonetic: "/ˈædəkwət/",
+    turkishMeaning: "yeterli, kafi",
+    turkishDefinition: "Belirli bir amaç için ihtiyaç duyulan miktarda olan.",
+    dictionaryDefinition:
+      "(adj) enough or satisfactory for a specific purpose",
+    exampleSentence: "We need to ensure that the water supply is adequate.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "ambitious",
+    phonetic: "/æmˈbɪʃəs/",
+    turkishMeaning: "hırslı, azimli",
+    turkishDefinition: "Başarılması zor olan veya büyük başarı hedefleyen.",
+    dictionaryDefinition: "(adj) not easily done or achieved",
+    exampleSentence: "The plan to build a new city is quite ambitious.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "anticipate",
+    phonetic: "/ænˈtɪsɪpeɪt/",
+    turkishMeaning: "beklemek, ummak",
+    turkishDefinition: "Bir şeyin olacağını önceden tahmin etmek veya beklemek.",
+    dictionaryDefinition: "(v) to expect that something will happen",
+    exampleSentence: "We anticipate that the project will be finished by June.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "appreciate",
+    phonetic: "/əˈpriː.ʃi.eɪt/",
+    turkishMeaning: "takdir etmek, değerini bilmek",
+    turkishDefinition: "Birinin veya bir şeyin değerini anlamak ve onaylamak.",
+    dictionaryDefinition:
+      "(v) to recognize how good somebody or something is and to value them",
+    exampleSentence: "I really appreciate all the help you have given me.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "appropriate",
+    phonetic: "/əˈprəʊpriət/",
+    turkishMeaning: "uygun, yerinde",
+    turkishDefinition:
+      "Belirli bir durum veya olay için doğru ve yakışır olan.",
+    dictionaryDefinition:
+      "(adj) suitable or right for a specific situation or occasion",
+    exampleSentence:
+      "It is important to wear appropriate clothes for the interview.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "collapse",
+    phonetic: "/kəˈlæps/",
+    turkishMeaning: "çökmek, yıkılmak",
+    turkishDefinition: "Aniden ve kontrolsüzce yere yıkılmak veya dağılmak.",
+    dictionaryDefinition: "(v) to fall down suddenly",
+    exampleSentence: "The old building collapsed during the earthquake.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "concerned",
+    phonetic: "/kənˈsɜːnd/",
+    turkishMeaning: "endişeli, kaygılı",
+    turkishDefinition: "Bir durum hakkında üzüntü veya korku duyan.",
+    dictionaryDefinition: "(adj) worried or anxious",
+    exampleSentence: "Many parents are concerned about their children's safety.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "contemporary",
+    phonetic: "/kənˈtempərəri/",
+    turkishMeaning: "çağdaş, modern",
+    turkishDefinition: "Günümüzde olan veya güncel tarza sahip olan.",
+    dictionaryDefinition: "(adj) happening now; modern",
+    exampleSentence: "We are studying contemporary Turkish literature.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "contribute",
+    phonetic: "/kənˈtrɪbjuːt/",
+    turkishMeaning: "katkıda bulunmak",
+    turkishDefinition:
+      "Bir sonucun oluşmasında pay sahibi olmak veya yardım etmek.",
+    dictionaryDefinition:
+      "(v) to be one of the reasons why something happens",
+    exampleSentence: "Everyone should contribute to the group project.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "controversial",
+    phonetic: "/ˌkɒntrəˈvɜːʃəl/",
+    turkishMeaning: "tartışmalı",
+    turkishDefinition:
+      "İnsanlar arasında büyük fikir ayrılıklarına neden olan.",
+    dictionaryDefinition:
+      "(adj) causing a lot of disagreement or argument",
+    exampleSentence: "The referee's decision was highly controversial.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "convert",
+    phonetic: "/kənˈvɜːt/",
+    turkishMeaning: "dönüştürmek",
+    turkishDefinition:
+      "Bir şeyi başka bir forma, duruma veya inanca çevirmek.",
+    dictionaryDefinition: "(v) to change something from one thing to another",
+    exampleSentence: "They converted the old warehouse into a modern office.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "existing",
+    phonetic: "/ɪɡˈzɪstɪŋ/",
+    turkishMeaning: "mevcut, var olan",
+    turkishDefinition: "Halihazırda bulunan veya kullanılan.",
+    dictionaryDefinition:
+      "(adj) that exists or is being used at the present time",
+    exampleSentence: "The existing rules need to be updated.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "expand",
+    phonetic: "/ɪkˈspænd/",
+    turkishMeaning: "genişlemek, büyümek",
+    turkishDefinition: "Boyut, sayı veya önem bakımından artış göstermek.",
+    dictionaryDefinition:
+      "(v) to increase, or cause to increase, in size, number or importance",
+    exampleSentence: "The company is looking to expand its business abroad.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "feature",
+    phonetic: "/ˈfiːtʃə/",
+    turkishMeaning: "özellik, nitelik",
+    turkishDefinition: "Bir şeyin dikkat çekici veya önemli bir parçası.",
+    dictionaryDefinition:
+      "(n) a noticeable or important characteristic or part",
+    exampleSentence: "The main feature of this phone is its high-quality camera.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "maintain",
+    phonetic: "/meɪnˈteɪn/",
+    turkishMeaning: "sürdürmek, korumak",
+    turkishDefinition: "Bir durumu veya varlığı bozmadan devam ettirmek.",
+    dictionaryDefinition: "(v) to continue to have, or keep in existence",
+    exampleSentence: "It's important to maintain a healthy lifestyle.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "obtain",
+    phonetic: "/əbˈteɪn/",
+    turkishMeaning: "elde etmek, temin etmek",
+    turkishDefinition: "Özellikle planlı bir çabayla bir şeye ulaşmak.",
+    dictionaryDefinition:
+      "(v) to get something, especially by a planned effort",
+    exampleSentence: "You can obtain a copy of the report from the office.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "potential",
+    phonetic: "/pəˈtenʃəl/",
+    turkishMeaning: "olası, potansiyel",
+    turkishDefinition: "Gerekli şartlar oluştuğunda gerçekleşebilecek olan.",
+    dictionaryDefinition:
+      "(adj) possible when the necessary conditions exist",
+    exampleSentence: "We need to reach more potential customers.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "potential",
+    phonetic: "/pəˈtenʃəl/",
+    turkishMeaning: "potansiyel, kabiliyet",
+    turkishDefinition: "Gelişme, başarma veya başarılı olma yeteneği.",
+    dictionaryDefinition:
+      "(n) somebody's or something's ability to develop, achieve, or succeed",
+    exampleSentence: "The young athlete has a lot of potential.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "renovate",
+    phonetic: "/ˈren.ə.veɪt/",
+    turkishMeaning: "yenilemek, restore etmek",
+    turkishDefinition: "Bir yapıyı onararak daha iyi hale getirmek.",
+    dictionaryDefinition:
+      "(v) to repair and improve something, especially a building",
+    exampleSentence: "We are planning to renovate our kitchen this summer.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "sympathetic",
+    phonetic: "/ˌsɪmpəˈθetɪk/",
+    turkishMeaning: "sempatik, halden anlayan",
+    turkishDefinition: "Birinin duygularını anlayan veya bir fikri destekleyen.",
+    dictionaryDefinition: "(adj) agreeing with or supporting",
+    exampleSentence: "She was very sympathetic to my problems.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "transform",
+    phonetic: "/trænsˈfɔːm/",
+    turkishMeaning: "dönüştürmek, başkalaştırmak",
+    turkishDefinition: "Bir şeyin görünüşünü veya karakterini tamamen değiştirmek.",
+    dictionaryDefinition:
+      "(v) to completely change appearance, form or character",
+    exampleSentence: "Technology has transformed the way we work.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "amenities",
+    phonetic: "/əˈmiːnətis/",
+    turkishMeaning: "sosyal donatılar, imkanlar",
+    turkishDefinition: "Kütüphane, havuz gibi hayatı kolaylaştıran tesisler.",
+    dictionaryDefinition:
+      "(n) facilities that people enjoy living near, such as libraries, swimming pools and playgrounds",
+    exampleSentence: "The hotel offers many amenities, including a gym and a spa.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "architectural",
+    phonetic: "/ˌɑːkɪˈtektʃərəl/",
+    turkishMeaning: "mimari",
+    turkishDefinition: "Mimarlıkla ilgili olan.",
+    dictionaryDefinition: "(adj) relating to architecture",
+    exampleSentence: "The city is famous for its architectural style.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "architecturally",
+    phonetic: "/ˌɑːkɪˈtektʃərəli/",
+    turkishMeaning: "mimari açıdan",
+    turkishDefinition: "Mimari bir bakış açısıyla veya yöntemle.",
+    dictionaryDefinition: "(adv) in an architectural way",
+    exampleSentence: "The building is architecturally very significant.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "architecture",
+    phonetic: "/ˈɑːkɪtektʃə/",
+    turkishMeaning: "mimarlık, mimari",
+    turkishDefinition: "Bina tasarlama ve inşa etme sanatı ve bilimi.",
+    dictionaryDefinition:
+      "(n) the art and practice of designing and making buildings",
+    exampleSentence: "He decided to study architecture at university.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "civilized",
+    phonetic: "/ˈsɪvəlaɪzd/",
+    turkishMeaning: "medeni, uygar",
+    turkishDefinition: "Gelişmiş sosyal sistemlere ve yaşam tarzına sahip olan.",
+    dictionaryDefinition:
+      "(adj) having a well-developed way of life and social systems",
+    exampleSentence:
+      "We need to find a civilized way to resolve our differences.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "compromise",
+    phonetic: "/ˈkɒmprəmaɪz/",
+    turkishMeaning: "uzlaşma, taviz",
+    turkishDefinition:
+      "Fikir ayrılığında her iki tarafın da istediklerinden biraz vazgeçmesiyle varılan anlaşma.",
+    dictionaryDefinition:
+      "(n) an agreement reached between two sides who have different opinions, in which each side gives up something it had wanted",
+    exampleSentence: "After hours of talk, they finally reached a compromise.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "conservation",
+    phonetic: "/ˌkɒnsəˈveɪʃən/",
+    turkishMeaning: "koruma, doğayı koruma",
+    turkishDefinition:
+      "Doğayı ve canlıları insan faaliyetlerinin zararlarından koruma.",
+    dictionaryDefinition:
+      "(n) the protection of plants animals and natural areas from the damaging effects of human activity",
+    exampleSentence: "Wildlife conservation is vital for biodiversity.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "demonstrate",
+    phonetic: "/ˈdemənstreɪt/",
+    turkishMeaning: "göstermek, kanıtlamak",
+    turkishDefinition:
+      "Bir şeyin nasıl yapıldığını göstermek veya bir şeyi ispatlamak.",
+    dictionaryDefinition: "(v) to show how to do something",
+    exampleSentence: "The teacher demonstrated how to solve the problem.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "depress",
+    phonetic: "/dɪˈpres/",
+    turkishMeaning: "moral bozmak, üzmek",
+    turkishDefinition: "Birinin kendini mutsuz veya umutsuz hissetmesine neden olmak.",
+    dictionaryDefinition: "(v) to cause someone to feel unhappy and without hope",
+    exampleSentence: "Bad news always depresses me.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "depressing",
+    phonetic: "/dɪˈpresɪŋ/",
+    turkishMeaning: "iç karartıcı, üzücü",
+    turkishDefinition: "İnsanı mutsuz ve umutsuz hissettiren.",
+    dictionaryDefinition: "(adj) making someone feel unhappy and without hope",
+    exampleSentence: "The weather was cold and depressing.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "depressingly",
+    phonetic: "/dɪˈpresɪŋli/",
+    turkishMeaning: "üzücü bir şekilde",
+    turkishDefinition: "Mutsuzluk veya umutsuzluk verecek tarzda.",
+    dictionaryDefinition:
+      "(adv) in a way that makes someone feel unhappy and without hope for the future",
+    exampleSentence: "The room was depressingly dark and lonely.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "depression",
+    phonetic: "/dɪˈpreʃən/",
+    turkishMeaning: "depresyon, ruhsal çöküntü",
+    turkishDefinition: "Çok mutsuz olma ve gelecekten umut kesme durumu.",
+    dictionaryDefinition:
+      "(n) the state of feeling very unhappy and without hope for the future",
+    exampleSentence: "She suffered from severe depression after losing her job.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "durable",
+    phonetic: "/ˈdjʊərəbəl/",
+    turkishMeaning: "dayanıklı, uzun ömürlü",
+    turkishDefinition: "Hasar görmeden uzun süre dayanabilen.",
+    dictionaryDefinition: "(adj) able to last a long time without being damaged",
+    exampleSentence: "These boots are made of durable leather.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "efficiency",
+    phonetic: "/ɪˈfɪʃənsi/",
+    turkishMeaning: "verimlilik, etkinlik",
+    turkishDefinition: "Zaman, enerji veya para israf etmeden iş yapabilme durumu.",
+    dictionaryDefinition:
+      "(n) something that is done without wasting time, energy, or money",
+    exampleSentence: "We need to improve the efficiency of our factory.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "efficient",
+    phonetic: "/ɪˈfɪʃənt/",
+    turkishMeaning: "verimli, becerikli",
+    turkishDefinition: "Organize bir şekilde, hızlı ve etkili çalışan.",
+    dictionaryDefinition:
+      "(adj) working or operating quickly and effectively in an organized way",
+    exampleSentence: "She is a very efficient worker.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "environmental",
+    phonetic: "/ɪnˌvaɪrənˈmentəl/",
+    turkishMeaning: "çevresel",
+    turkishDefinition: "Çevre ile ilgili olan.",
+    dictionaryDefinition: "(adj) relating to the environment",
+    exampleSentence: "Environmental issues should be our top priority.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "environmentally",
+    phonetic: "/ɪnˌvaɪrənˈmentəli/",
+    turkishMeaning: "çevresel olarak",
+    turkishDefinition: "Çevresel açıdan veya bakıma.",
+    dictionaryDefinition: "(adv) relating to the environment",
+    exampleSentence: "The product is environmentally friendly.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "function",
+    phonetic: "/ˈfʌŋkʃən/",
+    turkishMeaning: "işlev, fonksiyon",
+    turkishDefinition: "Bir şeyin amacı veya çalışma biçimi.",
+    dictionaryDefinition: "(n) a purpose, or the way something works",
+    exampleSentence: "The main function of this tool is to open bottles.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "green belt",
+    phonetic: "/ɡriːn belt/",
+    turkishMeaning: "yeşil kuşak",
+    turkishDefinition: "Bir şehrin çevresinde yapılaşmaya izin verilmeyen yeşil alan şeridi.",
+    dictionaryDefinition:
+      "(n phr) a strip of countryside round a city or town where building is not allowed",
+    exampleSentence: "The city is trying to preserve its green belt.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "iconic",
+    phonetic: "/aɪˈkɒn.ɪk/",
+    turkishMeaning: "ikonik, simgeleşmiş",
+    turkishDefinition: "Belirli bir zamanı veya fikri temsil eden çok meşhur şey.",
+    dictionaryDefinition:
+      "(adj) very famous or popular, especially being considered to represent particular opinions or a particular time",
+    exampleSentence: "The Eiffel Tower is an iconic landmark of Paris.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "inspiring",
+    phonetic: "/ɪnˈspaɪərɪŋ/",
+    turkishMeaning: "ilham verici",
+    turkishDefinition: "Yeni fikirler veren ve bir şeyler yapma isteği uyandıran.",
+    dictionaryDefinition:
+      "(adj) giving you new ideas and making you feel you want to do something",
+    exampleSentence: "His speech was truly inspiring.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "outskirts",
+    phonetic: "/ˈaʊtskɜːts/",
+    turkishMeaning: "şehrin dış mahalleleri, varoşlar",
+    turkishDefinition: "Bir şehrin veya kasabanın kenarında kalan kısımlar.",
+    dictionaryDefinition: "(n) the areas which form the edge of a town or city",
+    exampleSentence: "They live on the outskirts of London.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "reflect on",
+    phonetic: "/rɪˈflekt ɒn/",
+    turkishMeaning: "yansıtmak, hakkında düşündürmek",
+    turkishDefinition:
+      "İnsanların bir kişi veya durum hakkında belirli bir şekilde düşünmesine neden olan.",
+    dictionaryDefinition:
+      "(phr v) to cause people to think of someone or something in a specified way",
+    exampleSentence: "Her success reflects well on her teachers.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "relevant",
+    phonetic: "/ˈreləvənt/",
+    turkishMeaning: "ilgili, alakalı",
+    turkishDefinition: "Konuyla veya o an konuşulan şeyle bağlantılı olan.",
+    dictionaryDefinition:
+      "(adj) related to a subject or to something happening or being discussed",
+    exampleSentence: "Please provide any relevant information.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "reputation",
+    phonetic: "/ˌrepjəˈteɪʃən/",
+    turkishMeaning: "itibar, ün",
+    turkishDefinition: "İnsanların biri veya bir şey hakkındaki genel görüşü.",
+    dictionaryDefinition: "(n) the general opinion that people have about someone",
+    exampleSentence:
+      "The restaurant has an excellent reputation for its seafood.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "responsibility",
+    phonetic: "/rɪˌspɒnsɪˈbɪləti/",
+    turkishMeaning: "sorumluluk",
+    turkishDefinition: "Birinin yerine getirmesi gereken görev veya vazife.",
+    dictionaryDefinition: "(n) something that it is your job or duty to deal with",
+    exampleSentence: "It is your responsibility to finish the report on time.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "responsible",
+    phonetic: "/rɪˈspɒnsəbəl/",
+    turkishMeaning: "sorumlu",
+    turkishDefinition: "Bir şey üzerinde yetkisi ve bakım yükümlülüğü olan.",
+    dictionaryDefinition:
+      "(adj) to have control and authority over something or someone and the duty of taking care of it him or her",
+    exampleSentence: "He is responsible for the overall project.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "second-hand",
+    phonetic: "/ˈsek.əndˈhænd/",
+    turkishMeaning: "ikinci el",
+    turkishDefinition: "Yeni olmayan, daha önce başkası tarafından kullanılmış.",
+    dictionaryDefinition: "(adj) not new; having been used in the past by someone else",
+    exampleSentence: "I bought a second-hand car to save money.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "sector",
+    phonetic: "/ˈsektər/",
+    turkishMeaning: "sektör, kesim",
+    turkishDefinition: "Toplumun veya ekonominin belirli bir karakteri olan parçası.",
+    dictionaryDefinition:
+      "(n) a part of society that can be separated from other parts because of its own special character",
+    exampleSentence: "The private sector plays a big role in the economy.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "skyscrapers",
+    phonetic: "/ˈskaɪˌskreɪpərs/",
+    turkishMeaning: "gökdelenler",
+    turkishDefinition: "Şehirlerdeki çok yüksek modern binalar.",
+    dictionaryDefinition: "(n) very tall modern buildings in cities",
+    exampleSentence: "New York is famous for its skyscrapers.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "structural engineer",
+    phonetic: "/ˌstrʌktʃərəl endʒɪˈnɪər/",
+    turkishMeaning: "inşaat mühendisi (yapı)",
+    turkishDefinition: "Mimari tasarımların statik hesaplarını ve inşasını yapan kişi.",
+    dictionaryDefinition:
+      "(n phr) a person whose job it is to help build an architect's design",
+    exampleSentence: "The structural engineer checked the building's stability.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "suburban",
+    phonetic: "/səˈbɜːbən/",
+    turkishMeaning: "banliyö, şehir dışı",
+    turkishDefinition:
+      "Büyük bir şehrin kenarında, genellikle konutların olduğu yerleşimle ilgili.",
+    dictionaryDefinition:
+       "(adj) relating to an area on the edge of a large town or city where people who work in the town or city often live",
+    exampleSentence: "They live in a quiet suburban neighborhood.",
+    level: "B1",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "urban sprawl",
+    phonetic: "/ˈɜː.bən ˈsprɔːl/",
+    turkishMeaning: "çarpık kentleşme, kentsel yayılma",
+    turkishDefinition: "Bir şehrin çevresindeki alana plansız ve düzensiz bir şekilde yayılması.",
+    dictionaryDefinition: "(n phr) the spread of a city into the area surrounding it often without planning",
+    exampleSentence: "Urban sprawl is destroying the natural landscape.",
+    level: "B2",
+    tags: ["Unit 5"],
+  },
+  {
+    english: "capacity",
+    phonetic: "/kəˈpæsəti/",
+    turkishMeaning: "kapasite, hacim",
+    turkishDefinition: "Bir şeyin alabileceği veya üretebileceği miktar.",
+    dictionaryDefinition: "(n) the amount that something can produce or contain",
+    exampleSentence: "The stadium has a seating capacity of 50,000.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "challenge",
+    phonetic: "/ˈtʃælɪndʒ/",
+    turkishMeaning: "zorluk, meydan okuma",
+    turkishDefinition: "Başarılı olmak için büyük çaba gerektiren durum.",
+    dictionaryDefinition:
+      "(n) something requiring great effort to do successfully",
+    exampleSentence: "Learning a new language is always a challenge.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "consistent",
+    phonetic: "/kənˈsɪstənt/",
+    turkishMeaning: "tutarlı, istikrarlı",
+    turkishDefinition: "Her zaman benzer şekilde davranan veya gerçekleşen.",
+    dictionaryDefinition: "(adj) always acting in a similar way",
+    exampleSentence:
+      "His performance has been very consistent throughout the season.",
+    level: "B2",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "consumption",
+    phonetic: "/kənˈsʌmpʃən/",
+    turkishMeaning: "tüketim",
+    turkishDefinition: "Bir şeyin kullanılması, yenmesi veya içilmesi eylemi.",
+    dictionaryDefinition:
+      "(n) the act of using, eating or drinking something",
+    exampleSentence: "The consumption of sugar should be limited.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "cycle",
+    phonetic: "/ˈsaɪkəl/",
+    turkishMeaning: "döngü",
+    turkishDefinition: "Aynı sırayla kendini tekrarlayan olaylar dizisi.",
+    dictionaryDefinition:
+      "(n) a set of events that repeat themselves in the same order",
+    exampleSentence: "The life cycle of a butterfly is fascinating.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "decline",
+    phonetic: "/dɪˈklaɪn/",
+    turkishMeaning: "düşüş, gerileme",
+    turkishDefinition: "Bir şeyin miktarında veya kalitesindeki azalma.",
+    dictionaryDefinition: "(n) a decrease in something",
+    exampleSentence: "There has been a decline in the bird population.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "desalination",
+    phonetic: "/ˌdiː.sæl.ɪˈneɪ.ʃən/",
+    turkishMeaning: "tuzdan arındırma",
+    turkishDefinition: "Deniz suyundaki tuzu ayırma işlemi.",
+    dictionaryDefinition: "(n) the process of removing salt from sea water",
+    exampleSentence:
+      "Desalination is crucial for providing drinking water in dry regions.",
+    level: "B2",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "drawback",
+    phonetic: "/ˈdrɔːbæk/",
+    turkishMeaning: "dezavantaj, kusur",
+    turkishDefinition: "Bir durumun olumsuz veya eksik yönü.",
+    dictionaryDefinition: "(n) a disadvantage or negative part of a situation",
+    exampleSentence: "One drawback of living in a big city is the traffic.",
+    level: "B2",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "efficient",
+    phonetic: "/ɪˈfɪʃənt/",
+    turkishMeaning: "verimli, etkin",
+    turkishDefinition: "İsraf etmeden iyi sonuçlar üreten.",
+    dictionaryDefinition: "(adj) producing good results without waste",
+    exampleSentence: "We need a more efficient way to store energy.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "element",
+    phonetic: "/ˈelɪmənt/",
+    turkishMeaning: "öge, unsur",
+    turkishDefinition: "Bir bütünün parçalarından her biri.",
+    dictionaryDefinition: "(n) one part of something",
+    exampleSentence: "Trust is a vital element of any relationship.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "establish",
+    phonetic: "/ɪˈstæblɪʃ/",
+    turkishMeaning: "kurmak, tesis etmek",
+    turkishDefinition: "Uzun süre devam etmesi amaçlanan bir sistemi başlatmak.",
+    dictionaryDefinition:
+      "(v) to start a system that is intended to last a long time",
+    exampleSentence: "The company was established in 1950.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "experimental",
+    phonetic: "/ɪkˌsperɪˈmentəl/",
+    turkishMeaning: "deneysel",
+    turkishDefinition: "Henüz test edilmemiş, yeni ve deneme aşamasında olan.",
+    dictionaryDefinition: "(adj) new and not tested",
+    exampleSentence: "The doctors are trying an experimental treatment.",
+    level: "B2",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "function",
+    phonetic: "/ˈfʌŋkʃən/",
+    turkishMeaning: "işlev, görev",
+    turkishDefinition: "Bir şeyin amacı veya yerine getirdiği rol.",
+    dictionaryDefinition: "(n) a role or purpose",
+    exampleSentence: "The main function of the heart is to pump blood.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "generate",
+    phonetic: "/ˈdʒenəreɪt/",
+    turkishMeaning: "üretmek, oluşturmak",
+    turkishDefinition: "Bir şeyi (enerji, fikir vb.) ortaya çıkarmak.",
+    dictionaryDefinition: "(v) to produce",
+    exampleSentence: "Wind turbines generate clean electricity.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "generation",
+    phonetic: "/ˌdʒenəˈreɪʃən/",
+    turkishMeaning: "üretim, nesil",
+    turkishDefinition: "Enerjinin belirli bir formda üretilmesi.",
+    dictionaryDefinition:
+      "(n) the production of energy in a particular form",
+    exampleSentence: "The generation of power from coal causes pollution.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "implement",
+    phonetic: "/ˈɪm.plɪ.ment/",
+    turkishMeaning: "uygulamaya koymak",
+    turkishDefinition: "Bir planı veya sistemi fiilen kullanmaya başlamak.",
+    dictionaryDefinition: "(v) to start using a plan or system",
+    exampleSentence: "The government will implement new tax laws next year.",
+    level: "B2",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "limitation",
+    phonetic: "/ˌlɪmɪˈteɪʃən/",
+    turkishMeaning: "sınırlama, kısıtlama",
+    turkishDefinition: "Bir şeyi kısıtlayan veya engelleyen durum.",
+    dictionaryDefinition: "(n) a situation that restricts something",
+    exampleSentence: "I know my limitations and I don't try to do too much.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "mainland",
+    phonetic: "/ˈmeɪnlənd/",
+    turkishMeaning: "ana kara",
+    turkishDefinition: "Bir ülkenin adalardan ayrı, en büyük kara parçası.",
+    dictionaryDefinition:
+      "(n) the biggest or primary part of a country, not its islands",
+    exampleSentence: "We took a ferry from the island to the mainland.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "maintenance",
+    phonetic: "/ˈmeɪntənəns/",
+    turkishMeaning: "bakım, idame",
+    turkishDefinition: "Bir şeyi iyi durumda tutmak için yapılan işler.",
+    dictionaryDefinition:
+      "(n) the work needed to keep something in good condition",
+    exampleSentence: "Regular maintenance extends the life of your car.",
+    level: "B2",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "network",
+    phonetic: "/ˈnetwɜːk/",
+    turkishMeaning: "ağ, şebeke",
+    turkishDefinition: "Birlikte çalışan parçalardan oluşan sistem.",
+    dictionaryDefinition: "(n) a system of parts that work together",
+    exampleSentence: "The railway network covers the entire country.",
+    level: "B2",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "perform",
+    phonetic: "/pəˈfɔːm/",
+    turkishMeaning: "yerine getirmek, icra etmek",
+    turkishDefinition: "Bir eylemi veya işi yapmak.",
+    dictionaryDefinition: "(v) to do an action or piece of work",
+    exampleSentence: "The surgeon performed the operation successfully.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "reservoir",
+    phonetic: "/ˈrezəvwɑː/",
+    turkishMeaning: "rezervuar, su deposu",
+    turkishDefinition: "Su depolamak için kullanılan doğal veya yapay göl.",
+    dictionaryDefinition:
+      "(n) a natural or artificial lake that stores and supplies water",
+    exampleSentence: "The reservoir supplies the entire city with water.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "source",
+    phonetic: "/sɔːs/",
+    turkishMeaning: "kaynak, menşei",
+    turkishDefinition: "Bir şeyin çıktığı veya geldiği yer.",
+    dictionaryDefinition: "(n) the origin or place something comes from",
+    exampleSentence: "Books are an excellent source of information.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "sufficient",
+    phonetic: "/səˈfɪf.ənt/",
+    turkishMeaning: "yeterli, kafi",
+    turkishDefinition: "Belirli bir amaç için gerekene sahip olma durumu.",
+    dictionaryDefinition: "(adj) enough for a particular purpose",
+    exampleSentence: "We have sufficient evidence to prove his innocence.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "volume",
+    phonetic: "/ˈvɒljuːm/",
+    turkishMeaning: "hacim, miktar",
+    turkishDefinition: "Bir şeyin sayısı, miktarı veya kapladığı alan.",
+    dictionaryDefinition: "(n) the number or amount of something",
+    exampleSentence: "The volume of traffic has increased significantly.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "address",
+    phonetic: "/əˈdres/",
+    turkishMeaning: "ele almak, çözmeye çalışmak",
+    turkishDefinition: "Bir mesele veya sorunla ilgilenmek, üstünde çalışmak.",
+    dictionaryDefinition: "(v) to give attention to or to deal with a matter or problem",
+    exampleSentence: "We must address the issue of air pollution immediately.",
+    level: "B2",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "aquatic",
+    phonetic: "/əˈkwætɪk/",
+    turkishMeaning: "sucul, suda yaşayan",
+    turkishDefinition: "Suda yaşayan veya suyla bağlantılı olan.",
+    dictionaryDefinition: "(adj) living in or connected with water",
+    exampleSentence: "Dolphins are known for their aquatic agility.",
+    level: "B2",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "consult",
+    phonetic: "/kənˈsʌlt/",
+    turkishMeaning: "danışmak, başvurmak",
+    turkishDefinition: "Bilgi veya tavsiye almak için bir uzmana veya kaynağa bakmak.",
+    dictionaryDefinition:
+      "(v) to get information or advice from a person, book, etc. with special knowledge on a particular subject",
+    exampleSentence: "You should consult a lawyer before signing the contract.",
+    level: "B2",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "deliver",
+    phonetic: "/dɪˈlɪvə/",
+    turkishMeaning: "sunmak, teslim etmek",
+    turkishDefinition: "Bir şeyi sahibine ulaştırmak veya bir hizmeti yerine getirmek.",
+    dictionaryDefinition: "(v) to give",
+    exampleSentence: "The company promised to deliver the package by Friday.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "diminish",
+    phonetic: "/dɪˈmɪnɪʃ/",
+    turkishMeaning: "azalmak, azaltmak",
+    turkishDefinition: "Boyut, miktar veya önem bakımından küçülmek veya küçültmek.",
+    dictionaryDefinition: "(v) to reduce or be reduced in size or importance",
+    exampleSentence: "The intensity of the light began to diminish as the sun set.",
+    level: "B2",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "inexhaustible",
+    phonetic: "/ˌɪnɪɡˈzɔːstəbəl/",
+    turkishMeaning: "tükenmez, bitmez",
+    turkishDefinition: "O kadar çok miktarda ki kullanmakla bitmeyecek olan.",
+    dictionaryDefinition:
+      "(adj) in such large amounts that it cannot be used up",
+    exampleSentence: "The sun is an inexhaustible source of energy.",
+    level: "B2",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "initial",
+    phonetic: "/ɪˈnɪʃəl/",
+    turkishMeaning: "ilk, başlangıçtaki",
+    turkishDefinition: "Bir sürecin veya durumun en başındaki.",
+    dictionaryDefinition: "(adj) at the beginning; first",
+    exampleSentence: "My initial reaction to the news was one of shock.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "instigate",
+    phonetic: "/ˈɪnstɪɡeɪt/",
+    turkishMeaning: "başlatmak, körüklemek",
+    turkishDefinition: "Bir olayın veya durumun gerçekleşmesine neden olmak.",
+    dictionaryDefinition: "(v) to cause an event or situation to happen",
+    exampleSentence: "The government has instigated a program of economic reforms.",
+    level: "B2",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "offshore",
+    phonetic: "/ˌɒfˈʃɔː/",
+    turkishMeaning: "açık denizde, sahilden uzakta",
+    turkishDefinition: "Karadan uzak, deniz üzerinde veya suyun derinliklerinde olan.",
+    dictionaryDefinition: "(adv) away from or at a distance from the land",
+    exampleSentence: "Many offshore wind farms are being built in the North Sea.",
+    level: "B2",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "secure",
+    phonetic: "/sɪˈkjʊə/",
+    turkishMeaning: "elde etmek, güvenceye almak",
+    turkishDefinition: "Zor olsa da bir şeyi başarmak veya güvenli hale getirmek.",
+    dictionaryDefinition: "(v) to get something, sometimes with difficulty",
+    exampleSentence: "He managed to secure a job after many interviews.",
+    level: "B2",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "universal",
+    phonetic: "/ˌjuːnɪˈvɜːsəl/",
+    turkishMeaning: "evrensel, genel",
+    turkishDefinition: "Her yerde var olan veya herkesi kapsayan.",
+    dictionaryDefinition: "(adj) existing everywhere or involving everyone",
+    exampleSentence: "Music is often described as a universal language.",
+    level: "B2",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "urgent",
+    phonetic: "/ˈɜːdʒənt/",
+    turkishMeaning: "acil, ivedi",
+    turkishDefinition: "Hemen ilgilenilmesi gereken, bekleyemeyecek kadar önemli.",
+    dictionaryDefinition: "(adj) needing immediate attention",
+    exampleSentence: "There is an urgent need for clean water in the disaster area.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "utilize",
+    phonetic: "/ˈjuːtɪlaɪz/",
+    turkishMeaning: "yararlanmak, kullanmak",
+    turkishDefinition: "Bir şeyi belirli bir amaç için etkili bir şekilde kullanmak.",
+    dictionaryDefinition: "(v) to make use of something",
+    exampleSentence: "We should utilize all the available resources.",
+    level: "B2",
+    tags: ["Unit 6"],
+  },
+  {
+    english: "vital",
+    phonetic: "/ˈvaɪtəl/",
+    turkishMeaning: "hayati, çok önemli",
+    turkishDefinition: "Bir şeyin başarısı veya devamı için son derece gerekli olan.",
+    dictionaryDefinition:
+      "(adj) necessary or extremely important for the success or continued existence of something",
+    exampleSentence: "Vitamin C is vital for a healthy immune system.",
+    level: "B1",
+    tags: ["Unit 6"],
+  },
 ];

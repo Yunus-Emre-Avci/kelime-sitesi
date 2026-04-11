@@ -24,9 +24,13 @@ export const useWordStore = create<WordState>((set, get) => ({
   error: null,
 
   initdb: async () => {
-    const count = await db.words.count();
-    if (count === 0) {
-      const wordsToSeed: Word[] = seedWords.map((sw) => ({
+    const existingWords = await db.words.toArray();
+    const existingMap = new Set(existingWords.map(w => `${w.english}|${w.tags.join(',')}`));
+    
+    const missingSeedWords = seedWords.filter(sw => !existingMap.has(`${sw.english}|${sw.tags.join(',')}`));
+    
+    if (missingSeedWords.length > 0) {
+      const wordsToSeed: Word[] = missingSeedWords.map((sw) => ({
         ...sw,
         id: crypto.randomUUID(),
         createdAt: new Date(),
