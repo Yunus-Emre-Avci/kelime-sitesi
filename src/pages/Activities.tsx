@@ -370,12 +370,16 @@ const FillBlankEngine: React.FC<{ onExit: () => void, unit: string }> = ({ onExi
     }
   };
 
+  // Handle automatic state reset when question changes
+  useEffect(() => {
+    setUserInput('');
+    setIsAnswered(false);
+    setIsCorrect(false);
+  }, [currentIndex]);
+
   const next = () => {
     if (currentIndex + 1 < exercises.length) {
       setCurrentIndex(currentIndex + 1);
-      setUserInput('');
-      setIsAnswered(false);
-      setIsCorrect(false);
     } else {
       setIsFinished(true);
       updateStreak();
@@ -424,19 +428,18 @@ const FillBlankEngine: React.FC<{ onExit: () => void, unit: string }> = ({ onExi
       </div>
 
       <GlassCard className="p-12">
-        <div className="mb-8">
-           <PillBadge variant="tertiary" className="text-[10px] uppercase tracking-widest mb-4">Context</PillBadge>
-           <div className="text-lg text-muted italic mb-2">Meaning: {current.turkishMeaning}</div>
-           <h3 className="text-2xl md:text-3xl font-serif text-on-surface leading-loose">
-              "{current.exampleSentence.split(new RegExp(`(${current.english})`, 'gi')).map((part, i) => 
-                part.toLowerCase() === current.english.toLowerCase() 
-                  ? <span key={i} className="inline-block min-w-[150px] border-b-2 border-primary/50 text-transparent">_______</span> 
-                  : part
-              )}"
-           </h3>
-        </div>
-
-        <form onSubmit={handleSubmit} className="space-y-8">
+        <form key={current.id} onSubmit={handleSubmit} className="space-y-8">
+          <div className="mb-8">
+             <PillBadge variant="tertiary" className="text-[10px] uppercase tracking-widest mb-4">Context</PillBadge>
+             <div className="text-lg text-muted italic mb-2">Meaning: {current.turkishMeaning}</div>
+             <h3 className="text-2xl md:text-3xl font-serif text-on-surface leading-loose">
+                "{current.exampleSentence.split(new RegExp(`(${current.english.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi')).map((part, i) => 
+                  part.toLowerCase() === current.english.toLowerCase() 
+                    ? <span key={i} className="inline-block min-w-[150px] border-b-2 border-primary/50 text-transparent">_______</span> 
+                    : part
+                )}"
+             </h3>
+          </div>
           <div className="relative group">
             <input 
               type="text" 
