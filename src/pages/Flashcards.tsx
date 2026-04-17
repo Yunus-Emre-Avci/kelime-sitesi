@@ -53,8 +53,12 @@ export const Flashcards: React.FC = () => {
       
       if (mode === 'due') {
         filtered = words.filter(w => new Date(w.nextReviewDate) <= now);
-      } else if (mode === 'weak') {
-        filtered = words.filter(w => w.wrongCount > 3 || w.masteryLevel <= 1);
+      } else if (mode === 'weak' || mode === 'unit-weak') {
+        filtered = words.filter(w => {
+          const isWeak = w.wrongCount > 0 && w.masteryLevel < 3;
+          const matchesUnit = mode === 'unit-weak' ? w.tags.includes(unitParam || '') : true;
+          return isWeak && matchesUnit;
+        });
       } else if (mode === 'unit' && unitParam) {
         filtered = words.filter(w => w.tags.includes(unitParam));
       } else {
@@ -118,9 +122,9 @@ export const Flashcards: React.FC = () => {
           />
           <StudyModeCard 
             title="Weak Words" 
-            desc="Focus on words you struggle with most (wrongCount > 3)."
+            desc="Focus on words you struggle with (wrongCount > 0 & level < 3)."
             icon={<AlertCircle className="text-danger" />}
-            count={words.filter(w => w.wrongCount > 3 || w.masteryLevel <= 1).length}
+            count={words.filter(w => w.wrongCount > 0 && w.masteryLevel < 3).length}
             link="/flashcards?mode=weak"
             variant="warning"
           />
@@ -150,20 +154,26 @@ export const Flashcards: React.FC = () => {
               const progress = unitWords.length > 0 ? (masteredCount / unitWords.length) * 100 : 0;
               
               return (
-                <Link 
-                  key={n}
-                  to={`/flashcards?mode=unit&unit=Unit+${n}`}
-                  className="flex flex-col items-center p-3 rounded-DEFAULT bg-white/5 border border-white/10 hover:border-primary/50 hover:bg-white/10 transition-all group"
-                >
-                  <span className="text-xs font-bold text-muted group-hover:text-primary mb-1">UNIT</span>
-                  <span className="text-2xl font-bold font-display">{n}</span>
-                  <div className="w-full h-1 bg-white/10 rounded-full mt-2 overflow-hidden">
-                    <div 
-                      className="h-full bg-primary" 
-                      style={{ width: `${progress}%` }}
-                    />
-                  </div>
-                </Link>
+                <div key={n} className="relative group">
+                  <Link 
+                    to={`/flashcards?mode=unit&unit=Unit+${n}`}
+                    className="flex flex-col items-center p-3 rounded-DEFAULT bg-white/5 border border-white/10 hover:border-primary/50 hover:bg-white/10 transition-all"
+                  >
+                    <span className="text-xs font-bold text-muted group-hover:text-primary mb-1">UNIT</span>
+                    <span className="text-2xl font-bold font-display">{n}</span>
+                    <div className="w-full h-1 bg-white/10 rounded-full mt-2 overflow-hidden">
+                      <div 
+                        className="h-full bg-primary" 
+                        style={{ width: `${progress}%` }}
+                      />
+                    </div>
+                  </Link>
+                  {unitWords.filter(w => w.wrongCount > 0 && w.masteryLevel < 3).length > 0 && (
+                    <div className="absolute -top-2 -right-2 w-5 h-5 bg-danger text-[10px] font-bold rounded-full flex items-center justify-center border-2 border-bg shadow-lg animate-pulse">
+                      {unitWords.filter(w => w.wrongCount > 0 && w.masteryLevel < 3).length}
+                    </div>
+                  )}
+                </div>
               );
             })}
           </div>

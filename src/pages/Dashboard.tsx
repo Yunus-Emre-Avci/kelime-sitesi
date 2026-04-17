@@ -123,37 +123,45 @@ export const Dashboard: React.FC = () => {
             <div className="flex items-center justify-between mb-6">
               <h3 className="text-xl font-bold flex items-center gap-2">
                 <AlertCircle className="text-danger" size={20} />
-                🔥 Needs Review (Weak Words)
+                🔥 Week Words (Unit Training)
               </h3>
-              <Link to="/wordbank?filter=weak" className="text-primary text-sm hover:underline flex items-center gap-1">
-                View all <ChevronRight size={14} />
-              </Link>
+              <div className="text-xs text-muted italic">Words you've missed or are learning.</div>
             </div>
 
-            <div className="space-y-4">
-              {weakWords.map((word) => (
-                <div key={word.id} className="flex items-center justify-between p-4 rounded-DEFAULT bg-white/[0.03] border border-white/5 hover:bg-white/[0.05] transition-colors group">
-                  <div>
-                    <div className="flex items-center gap-2">
-                      <span className="font-bold text-lg">{word.english}</span>
-                      <PillBadge variant="primary" className="text-[10px] py-0">{word.level}</PillBadge>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {[1, 2, 3, 4, 5, 6, 7, 8].map(n => {
+                const unitTag = `Unit ${n}`;
+                const unitWeakWords = words.filter(w => 
+                  w.tags.includes(unitTag) && 
+                  (w.wrongCount > 0 && w.masteryLevel < 3)
+                );
+
+                if (unitWeakWords.length === 0) return null;
+
+                return (
+                  <div key={n} className="p-4 rounded-DEFAULT bg-white/[0.03] border border-white/5 hover:border-primary/30 transition-all group flex flex-col justify-between">
+                    <div className="flex justify-between items-start mb-4">
+                      <div>
+                        <div className="text-xs font-bold text-primary uppercase tracking-widest mb-1">Unit {n}</div>
+                        <div className="text-2xl font-bold">{unitWeakWords.length}</div>
+                        <div className="text-[10px] text-muted uppercase">Target Words</div>
+                      </div>
+                      <div className="p-2 bg-danger/10 rounded">
+                        <Activity size={16} className="text-danger" />
+                      </div>
                     </div>
-                    <div className="text-sm text-muted italic font-mono">{word.phonetic}</div>
+                    
+                    <Link to={`/flashcards?mode=unit-weak&unit=Unit+${n}`}>
+                      <Button size="sm" className="w-full text-xs py-1 h-8 opacity-80 group-hover:opacity-100 transition-opacity">
+                        Practice Unit {n}
+                      </Button>
+                    </Link>
                   </div>
-                  <div className="flex items-center gap-6">
-                    <div className="text-right">
-                      <div className="text-xs text-muted uppercase">Wrong</div>
-                      <div className="text-danger font-bold">{word.wrongCount}</div>
-                    </div>
-                    <Button variant="ghost" size="sm" className="opacity-0 group-hover:opacity-100 transition-opacity">
-                      Practice
-                    </Button>
-                  </div>
-                </div>
-              ))}
-              {weakWords.length === 0 && (
-                <div className="text-center py-12 text-muted italic">
-                  No weak words detected. Keep up the great work!
+                );
+              })}
+              {words.filter(w => w.wrongCount > 0 && w.masteryLevel < 3).length === 0 && (
+                <div className="col-span-2 text-center py-12 text-muted italic border border-dashed border-white/10 rounded-lg">
+                  No weak words detected in any unit. You're doing great!
                 </div>
               )}
             </div>
