@@ -55,7 +55,7 @@ export const Flashcards: React.FC = () => {
         filtered = words.filter(w => new Date(w.nextReviewDate) <= now);
       } else if (mode === 'weak' || mode === 'unit-weak') {
         filtered = words.filter(w => {
-          const isWeak = w.wrongCount > 0 && w.masteryLevel < 3;
+          const isWeak = w.wrongCount > 0 && w.masteryLevel < 2;
           const matchesUnit = mode === 'unit-weak' ? w.tags.includes(unitParam || '') : true;
           return isWeak && matchesUnit;
         });
@@ -122,9 +122,9 @@ export const Flashcards: React.FC = () => {
           />
           <StudyModeCard 
             title="Weak Words" 
-            desc="Focus on words you struggle with (wrongCount > 0 & level < 3)."
+            desc="Focus on words you struggle with (wrongCount > 0 & level < 2)."
             icon={<AlertCircle className="text-danger" />}
-            count={words.filter(w => w.wrongCount > 0 && w.masteryLevel < 3).length}
+            count={words.filter(w => w.wrongCount > 0 && w.masteryLevel < 2).length}
             link="/flashcards?mode=weak"
             variant="warning"
           />
@@ -168,9 +168,9 @@ export const Flashcards: React.FC = () => {
                       />
                     </div>
                   </Link>
-                  {unitWords.filter(w => w.wrongCount > 0 && w.masteryLevel < 3).length > 0 && (
+                  {unitWords.filter(w => w.wrongCount > 0 && w.masteryLevel < 2).length > 0 && (
                     <div className="absolute -top-2 -right-2 w-5 h-5 bg-danger text-[10px] font-bold rounded-full flex items-center justify-center border-2 border-bg shadow-lg animate-pulse">
-                      {unitWords.filter(w => w.wrongCount > 0 && w.masteryLevel < 3).length}
+                      {unitWords.filter(w => w.wrongCount > 0 && w.masteryLevel < 2).length}
                     </div>
                   )}
                 </div>

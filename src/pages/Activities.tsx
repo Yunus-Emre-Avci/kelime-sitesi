@@ -375,6 +375,7 @@ const FillBlankEngine: React.FC<{ onExit: () => void, unit: string }> = ({ onExi
       setCurrentIndex(currentIndex + 1);
       setUserInput('');
       setIsAnswered(false);
+      setIsCorrect(false);
     } else {
       setIsFinished(true);
       updateStreak();

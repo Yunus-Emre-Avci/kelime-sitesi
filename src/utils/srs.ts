@@ -35,7 +35,7 @@ export function calculateSRS(
 
   if (quality >= 3) {
     if (previousRepetition === 0) {
-      interval = 1;
+      interval = quality === 5 ? 2 : 1;
     } else if (previousRepetition === 1) {
       interval = 6;
     } else {

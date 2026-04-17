@@ -127,7 +127,7 @@ export const Dashboard: React.FC = () => {
                 const unitTag = `Unit ${n}`;
                 const unitWeakWords = words.filter(w => 
                   w.tags.includes(unitTag) && 
-                  (w.wrongCount > 0 && w.masteryLevel < 3)
+                  (w.wrongCount > 0 && w.masteryLevel < 2)
                 );
 
                 if (unitWeakWords.length === 0) return null;
@@ -153,7 +153,7 @@ export const Dashboard: React.FC = () => {
                   </div>
                 );
               })}
-              {words.filter(w => w.wrongCount > 0 && w.masteryLevel < 3).length === 0 && (
+              {words.filter(w => w.wrongCount > 0 && w.masteryLevel < 2).length === 0 && (
                 <div className="col-span-2 text-center py-12 text-muted italic border border-dashed border-white/10 rounded-lg">
                   No weak words detected in any unit. You're doing great!
                 </div>
