@@ -33,7 +33,7 @@ export function calculateSRS(
   let repetition: number;
   let easeFactor: number;
 
-  if (quality >= 3) {
+  if (quality >= 4) {
     if (previousRepetition === 0) {
       interval = quality === 5 ? 2 : 1;
     } else if (previousRepetition === 1) {

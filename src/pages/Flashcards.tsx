@@ -45,44 +45,58 @@ export const Flashcards: React.FC = () => {
   const [isFlipped, setIsFlipped] = useState(false);
   const [sessionFinished, setSessionFinished] = useState(false);
 
-  // Initialize session
+  // Use a Ref to peek at session status without triggering effects
+  const sessionStatusRef = React.useRef({ isActive });
   useEffect(() => {
-    if (mode && !isActive) {
-      const now = new Date();
-      let filtered: Word[] = [];
-      
-      if (mode === 'due') {
-        filtered = words.filter(w => new Date(w.nextReviewDate) <= now);
-      } else if (mode === 'weak' || mode === 'unit-weak') {
-        filtered = words.filter(w => {
-          const isWeak = w.wrongCount > 0 && w.masteryLevel < 2;
-          const matchesUnit = mode === 'unit-weak' ? w.tags.includes(unitParam || '') : true;
-          return isWeak && matchesUnit;
-        });
-      } else if (mode === 'unit' && unitParam) {
-        filtered = words.filter(w => w.tags.includes(unitParam));
-      } else {
-        filtered = [...words].sort(() => Math.random() - 0.5).slice(0, 20);
-      }
+    sessionStatusRef.current = { isActive };
+  }, [isActive]);
 
-      if (filtered.length > 0) {
-        startSession('flashcard', filtered);
-        setSessionFinished(false);
-      }
+  const initSession = React.useCallback((force: boolean = false) => {
+    // Only proceed if we have a mode and we're NOT active (unless forced)
+    if (!mode) return;
+    if (sessionStatusRef.current.isActive && !force) return;
+
+    const now = new Date();
+    let filtered: Word[] = [];
+    
+    if (mode === 'due') {
+      filtered = words.filter(w => new Date(w.nextReviewDate) <= now);
+    } else if (mode === 'weak' || mode === 'unit-weak') {
+      filtered = words.filter(w => {
+        const isWeak = w.wrongCount > 0 && w.masteryLevel < 2;
+        const matchesUnit = mode === 'unit-weak' ? w.tags.includes(unitParam || '') : true;
+        return isWeak && matchesUnit;
+      });
+    } else if (mode === 'unit' && unitParam) {
+      filtered = words.filter(w => w.tags.includes(unitParam));
+    } else {
+      filtered = [...words].sort(() => Math.random() - 0.5).slice(0, 20);
     }
-  }, [mode, isActive, words, startSession, unitParam]);
+
+    if (filtered.length > 0) {
+      startSession('flashcard', filtered);
+      setSessionFinished(false);
+    }
+  }, [mode, words, startSession, unitParam]);
+
+  // Initial mount or mode change initialization
+  useEffect(() => {
+    if (mode && !sessionStatusRef.current.isActive) {
+      initSession();
+    }
+  }, [mode, unitParam, initSession]); 
 
   const handleResponse = async (quality: number) => {
     const currentWord = sessionWords[currentIndex];
     if (!currentWord) return;
 
-    const isCorrect = quality >= 3;
+    const isCorrect = quality > 3;
     
     // First, flip the card back to the front to hide the current answer
     setIsFlipped(false);
     
-    // Wait for the flip-back animation (300ms is enough for a smooth transition before the word changes)
-    await new Promise(resolve => setTimeout(resolve, 300));
+    // Wait for the flip-back animation (600ms is safer for the spring settling before the word changes)
+    await new Promise(resolve => setTimeout(resolve, 600));
     
     // Update SRS
     await updateWordSRS(currentWord.id, quality);
@@ -103,7 +117,7 @@ export const Flashcards: React.FC = () => {
     }
   };
 
-  if (!mode && !isActive) {
+  if (!isActive) {
     return (
       <div className="max-w-4xl mx-auto space-y-8 animate-in fade-in slide-in-from-bottom-4">
         <header>
@@ -210,11 +224,13 @@ export const Flashcards: React.FC = () => {
           <Button variant="ghost" className="flex-1" onClick={() => {
             resetSession();
             setSessionFinished(false);
+            // Wait for store to update then trigger init
+            setTimeout(() => initSession(true), 10);
           }}>
             <RotateCcw className="mr-2" size={18} />
             Study Again
           </Button>
-          <Link to="/" className="flex-1">
+          <Link to="/" className="flex-1" onClick={() => resetSession()}>
             <Button className="w-full">
               <Home className="mr-2" size={18} />
               Back to Terminal
@@ -233,7 +249,7 @@ export const Flashcards: React.FC = () => {
          </div>
          <h2 className="text-2xl font-bold mb-2">No words to review</h2>
          <p className="text-muted mb-8">Your review queue is empty for this mode. Great job!</p>
-         <Link to="/">
+         <Link to="/" onClick={() => resetSession()}>
            <Button variant="primary">Return Home</Button>
          </Link>
        </div>
@@ -255,7 +271,7 @@ export const Flashcards: React.FC = () => {
       <button 
         onClick={() => {
           resetSession();
-          navigate('/flashcards');
+          navigate('/flashcards', { replace: true });
         }}
         className="absolute top-0 right-0 p-3 hover:bg-white/5 rounded-full transition-colors group"
         title="Exit Session"

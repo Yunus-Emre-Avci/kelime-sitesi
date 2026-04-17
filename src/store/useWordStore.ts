@@ -91,8 +91,8 @@ export const useWordStore = create<WordState>((set, get) => ({
     const updates: Partial<Word> = {
       ...result,
       lastStudied: new Date(),
-      correctCount: quality >= 3 ? word.correctCount + 1 : word.correctCount,
-      wrongCount: quality < 3 ? word.wrongCount + 1 : word.wrongCount,
+      correctCount: quality > 3 ? word.correctCount + 1 : word.correctCount,
+      wrongCount: quality <= 3 ? word.wrongCount + 1 : word.wrongCount,
     };
 
     await db.words.update(id, updates);

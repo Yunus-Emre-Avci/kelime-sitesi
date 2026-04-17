@@ -16,7 +16,7 @@ export const FlashCard: React.FC<FlashCardProps> = ({ word, isFlipped, onFlip })
       onClick={onFlip}
     >
       <motion.div
-        className="w-full h-full relative preserve-3d transition-all duration-500"
+        className="w-full h-full relative preserve-3d"
         initial={false}
         animate={{ rotateY: isFlipped ? 180 : 0 }}
         transition={{ type: 'spring', stiffness: 260, damping: 20 }}
