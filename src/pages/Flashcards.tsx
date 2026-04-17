@@ -25,7 +25,7 @@ export const Flashcards: React.FC = () => {
   const navigate = useNavigate();
   const location = useLocation();
    const query = new URLSearchParams(location.search);
-  const mode = query.get('mode') as 'due' | 'all' | 'weak' | 'unit' | null;
+  const mode = query.get('mode') as 'due' | 'all' | 'weak' | 'unit' | 'unit-weak' | null;
   const unitParam = query.get('unit');
 
   const { words, updateWordSRS } = useWordStore();

@@ -6,8 +6,7 @@ import {
   Zap, 
   Calendar, 
   TrendingUp, 
-  AlertCircle, 
-  ChevronRight,
+  AlertCircle,
   Play,
   Activity
 } from 'lucide-react';
@@ -38,12 +37,7 @@ export const Dashboard: React.FC = () => {
     return words.filter(w => new Date(w.nextReviewDate) <= now);
   }, [words]);
 
-  const weakWords = useMemo(() => {
-    return [...words]
-      .filter(w => w.wrongCount > 0)
-      .sort((a, b) => b.wrongCount - a.wrongCount)
-      .slice(0, 5);
-  }, [words]);
+
 
   return (
     <motion.div 
